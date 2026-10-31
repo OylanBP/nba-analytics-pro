@@ -4,8 +4,6 @@ on:
   push:
     branches: [development/v2-analytics]
     paths: ['scripts/update_games.py', '.github/workflows/games.yml', 'analytics*.js', 'tests/**', 'index.html']
-  schedule:
-    - cron: '0 7 * * *'
 permissions:
   contents: write
 concurrency:
@@ -20,6 +18,11 @@ jobs:
         run: node --test tests/*.test.js
       - name: 更新 ESPN 例行賽賽程
         run: python scripts/update_games.py
+      - name: 驗證桌機與手機操作
+        run: |
+          npm install --prefix "$RUNNER_TEMP/nba-browser" playwright@1.55.0
+          python -m http.server 8172 --bind 127.0.0.1 >/tmp/nba-server.log 2>&1 &
+          NODE_PATH="$RUNNER_TEMP/nba-browser/node_modules" node tests/browser.cjs
       - name: 儲存已驗證資料
         run: |
           git config user.name 'github-actions[bot]'

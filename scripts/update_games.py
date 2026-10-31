@@ -22,7 +22,14 @@ def download(url):
             time.sleep(2 ** attempt)
 
 
+# ESPN classifies the 2025 in-season cup final under regular-season schedules.
+CUP_FINALS = {"401809839"}
+
+
 def parse(event, season, teams):
+    notes = " ".join(n.get("headline", "") for c in event["competitions"] for n in c.get("notes", [])).lower()
+    if str(event["id"]) in CUP_FINALS or ("cup" in notes and ("championship" in notes or "cup final" in notes)):
+        return None
     if int(event["season"]["year"]) != season or int(event["seasonType"]["type"]) != 2:
         return None
     comp = event["competitions"][0]
@@ -51,7 +58,7 @@ def main():
     teams = {str(t["id"]) for t in json.loads((DATA / "standings.json").read_text())["teams"]}
     target = DATA / "games.json"
     previous = json.loads(target.read_text())["games"] if target.exists() else []
-    games = {g["id"]: g for g in previous if "h" in g}
+    games = {g["id"]: g for g in previous if "h" in g and g["id"] not in CUP_FINALS}
     for year in (season - 1, season):
         if year < season and sum(g["season"] == year for g in games.values()) >= 1230:
             continue
