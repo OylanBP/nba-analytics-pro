@@ -53,4 +53,157 @@ fetch('./data/standings.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(
 }).catch(e=>{status.textContent='尚未取得可用戰績：'+e.message;status.classList.add('error');body.innerHTML='<tr><td colspan="4">請先執行 GitHub Actions 的 Update NBA standings。若執行失敗，請查看 Actions 日誌。</td></tr>'});
 })();
 </script>
+
+<style>
+.team-detail {
+  margin-top: 22px;
+  padding: 24px;
+  background: #101b2e;
+  border: 1px solid #355579;
+  border-radius: 18px;
+}
+.team-detail[hidden] { display: none; }
+.team-detail h2 { margin: 0 0 12px; }
+.team-detail button {
+  padding: 9px 15px;
+  border: 1px solid #42648b;
+  border-radius: 8px;
+  background: #1b3554;
+  color: white;
+  cursor: pointer;
+}
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+.player-card {
+  background: #16243a;
+  border: 1px solid #2c4464;
+  border-radius: 12px;
+  padding: 16px;
+}
+.player-card img {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+.player-card h3 { margin: 8px 0; }
+.player-card p {
+  color: #b6c9df;
+  font-size: 13px;
+  line-height: 1.7;
+}
+#standings-body td:first-child {
+  cursor: pointer;
+}
+#standings-body tr:hover {
+  background: #192c46;
+}
+</style>
+
+<section id="team-detail" class="team-detail"
+         hidden aria-live="polite">
+  <button id="close-team" type="button">
+    ← 返回戰績
+  </button>
+  <h2 id="team-title"></h2>
+  <p id="team-message"></p>
+  <div id="roster-grid" class="roster-grid"></div>
+</section>
+
+<script>
+(() => {
+  const panel = document.getElementById("team-detail");
+  const title = document.getElementById("team-title");
+  const message = document.getElementById("team-message");
+  const grid = document.getElementById("roster-grid");
+  const table = document.getElementById("standings-body");
+
+  let rosterPromise;
+
+  const escapeHTML = value =>
+    String(value ?? "").replace(/[&<>"']/g, char => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    })[char]);
+
+  function getRosters() {
+    if (!rosterPromise) {
+      rosterPromise = fetch("./data/rosters.json", {
+        cache: "no-store"
+      }).then(response => {
+        if (!response.ok) {
+          throw new Error("球員資料尚未發布");
+        }
+        return response.json();
+      }).catch(error => {
+        rosterPromise = null;
+        throw error;
+      });
+    }
+    return rosterPromise;
+  }
+
+  table.addEventListener("click", async event => {
+    const cell = event.target.closest("td:first-child");
+    if (!cell) return;
+
+    const row = cell.closest("tr");
+    const name = row?.querySelector(".team span:last-child")
+      ?.textContent?.trim();
+
+    if (!name) return;
+
+    panel.hidden = false;
+    title.textContent = name;
+    message.textContent = "正在載入球員陣容…";
+    grid.replaceChildren();
+    panel.scrollIntoView({ behavior: "smooth" });
+
+    try {
+      const data = await getRosters();
+      const team = data.teams.find(t => t.name === name);
+
+      if (!team) {
+        throw new Error("找不到這支球隊的陣容");
+      }
+
+      message.textContent =
+        `目前收錄 ${team.players.length} 名球員`;
+
+      grid.innerHTML = team.players.map(player => `
+        <article class="player-card">
+          ${player.headshot
+            ? `<img src="${escapeHTML(player.headshot)}"
+                    alt="" loading="lazy">`
+            : ""}
+          <h3>${escapeHTML(player.name)}</h3>
+          <p>
+            背號：${escapeHTML(player.number || "未提供")}<br>
+            位置：${escapeHTML(player.position || "未提供")}<br>
+            身高：${escapeHTML(player.height || "未提供")}<br>
+            體重：${escapeHTML(player.weight || "未提供")}<br>
+            年齡：${escapeHTML(player.age ?? "未提供")}
+          </p>
+        </article>
+      `).join("");
+
+    } catch (error) {
+      message.textContent = error.message;
+    }
+  });
+
+  document.getElementById("close-team")
+    .addEventListener("click", () => {
+      panel.hidden = true;
+      document.getElementById("standings")
+        .scrollIntoView({ behavior: "smooth" });
+    });
+})();
+</script>
 </body></html>
