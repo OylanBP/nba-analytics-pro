@@ -90,7 +90,50 @@ def main():
                 stats[athlete_id] = row
             if error:
                 errors.append(error)
-    # Never overwrite good published data if the source is down.
+   
+    # Data quality checks: validate values before publishing.
+    valid_ranges = {
+        "pts": (0, 100),
+        "reb": (0, 60),
+        "ast": (0, 40),
+        "stl": (0, 20),
+        "blk": (0, 20),
+        "fg_pct": (0, 100),
+        "three_pct": (0, 100),
+        "ft_pct": (0, 100),
+    }
+
+    invalid = []
+    for athlete_id, row in stats.items():
+        for key, value in row.items():
+            if key not in valid_ranges or value is None:
+                continue
+            try:
+                number = float(value)
+            except (ValueError, TypeError):
+                invalid.append(f"{athlete_id}: {key}={value}")
+                continue
+
+            low, high = valid_ranges[key]
+            if not low <= number <= high:
+                invalid.append(f"{athlete_id}: {key}={value}")
+
+    if invalid:
+        raise ValueError(
+            f"Invalid player statistics: {invalid[:10]}"
+        )
+
+    coverage = len(stats) / len(athletes)
+    if coverage < 0.50:
+        raise RuntimeError(
+            f"Player statistics coverage too low: {coverage:.1%}"
+        )
+
+    print(
+        f"Data quality passed: {len(stats)}/{len(athletes)} "
+        f"players ({coverage:.1%} coverage)"
+    )
+ # Never overwrite good published data if the source is down.
     if len(errors) > max(30, len(athletes) // 4):
         raise RuntimeError(f"Too many ESPN failures ({len(errors)}); first: {errors[0]}")
     document = {
