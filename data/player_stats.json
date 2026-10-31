@@ -2,7 +2,7 @@
   "source": "ESPN unofficial public athlete statistics API",
   "season_year": 2027,
   "season_type": "regular",
-  "updated_at_utc": "2026-10-31T10:50:50+00:00",
+  "updated_at_utc": "2026-10-31T12:12:26+00:00",
   "players": {
     "3908845": {
       "fg_pct": "43.6",
@@ -2043,6 +2043,16 @@
       "blk": "0.2",
       "stl": "0.8",
       "pts": "7.0"
+    },
+    "3907823": {
+      "fg_pct": "100.0",
+      "three_pct": "0.0",
+      "ft_pct": "0.0",
+      "reb": "0.0",
+      "ast": "2.0",
+      "blk": "1.0",
+      "stl": "1.0",
+      "pts": "2.0"
     },
     "4687718": {
       "fg_pct": "38.9",
@@ -4305,6 +4315,6 @@
       "pts": "4.2"
     }
   },
-  "missing_current_season": 91,
+  "missing_current_season": 90,
   "fetch_errors": 1
 }

@@ -1,6 +1,6 @@
 {
   "source": "ESPN public API (unofficial)",
-  "updated_at_utc": "2026-10-31T10:50:44+00:00",
+  "updated_at_utc": "2026-10-31T12:12:09+00:00",
   "teams": [
     {
       "id": "8",
@@ -4571,7 +4571,7 @@
           "position": "G",
           "height": "6' 5\"",
           "weight": "206 lbs",
-          "age": 29,
+          "age": 30,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png"
         },
         {
