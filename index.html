@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090e1b"><meta name="description" content="NBA Analytics Pro NBA 戰績與球員數據分析">
-<title>NBA Analytics Pro | v0.7</title>
+<title>NBA Analytics Pro | v0.7.1</title>
 <style>
 :root{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color-scheme:dark;color:#edf3ff;background:#090e1b}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}header{position:sticky;top:0;z-index:5;background:#0d1526;border-bottom:1px solid #273955}.bar{max-width:1200px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{font-size:19px;font-weight:800}.brand span,.hero h1 span{color:#69bfff}.badge{font-size:12px;color:#a9c5df;border:1px solid #36516e;border-radius:30px;padding:7px 12px}main{max-width:1200px;margin:auto;padding:52px 24px 80px}.eyebrow{color:#6cc7ff;font-weight:700;letter-spacing:.12em;font-size:12px}.hero h1{font-size:clamp(38px,6vw,66px);line-height:1.15;margin:14px 0}.hero p{color:#a7b6cc;line-height:1.8}.notice{margin:25px 0 40px;padding:15px 18px;border-radius:12px;background:#16243a;border:1px solid #344762;color:#c8d9ec;font-size:14px}.panel{padding:24px;background:#101b2e;border:1px solid #2a405f;border-radius:18px;margin-top:20px}.panel h2{margin:0 0 10px}.muted{color:#a7bad1;font-size:13px;line-height:1.7}.error{color:#ffb7a9}.tabs,.tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:20px 0}.tab,.action{background:#1a2b44;color:#c3d5e9;border:1px solid #345070;border-radius:9px;padding:10px 16px}.tab[aria-selected="true"],.action:hover{background:#2864a0;color:#fff;border-color:#5abaff}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:500px}th,td{padding:13px 12px;border-bottom:1px solid #293b56;text-align:right;font-size:14px}th:first-child,td:first-child{text-align:left}th{color:#9db6d1}td:first-child{font-weight:600}.team{display:flex;align-items:center;gap:10px}.team img{width:28px;height:28px;object-fit:contain}.team-button{display:inline-flex;align-items:center;gap:10px;border:0;background:transparent;color:inherit;padding:4px;text-align:left;font-weight:600}.team-button:hover,.team-button:focus-visible{color:#79c9ff;text-decoration:underline}.team-button:focus-visible{outline:2px solid #79c9ff}.team-button img{width:28px;height:28px;object-fit:contain}tbody tr:hover{background:#192c46}.detail{margin-top:22px;border-color:#42648b}.detail[hidden]{display:none}.detail-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}.detail-head h2{margin:0}.tools label{font-size:13px;color:#b7cbe3}.tools select,.tools input{background:#1b3554;color:#fff;border:1px solid #42648b;border-radius:8px;padding:9px;max-width:100%}.tools input{min-width:180px}.roster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:20px}.player-card{background:#16243a;border:1px solid #2c4464;border-radius:12px;padding:16px}.player-card img{width:76px;height:76px;object-fit:contain}.player-card h3{margin:8px 0}.player-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.player-stats div{background:#0d1a2d;border-radius:8px;padding:9px 5px;text-align:center}.player-stats strong{display:block;color:#79c9ff;font-size:17px}.player-stats small{font-size:11px;color:#a7bad3}.player-card p{color:#b6c9df;font-size:13px;line-height:1.7}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-top:50px}.section-head h2{font-size:24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#121d31;border:1px solid #283a57;border-radius:18px;padding:24px}.card h3{font-size:19px}.card p{font-size:14px;line-height:1.7;color:#a8bad1}.chip{display:inline-block;margin-top:12px;font-size:12px;color:#7ecbff;background:#193451;border-radius:20px;padding:5px 10px}footer{border-top:1px solid #27344a;padding:28px 20px;text-align:center;color:#8091ab;font-size:13px}@media(max-width:600px){main{padding:36px 16px 60px}.bar{padding:16px}.brand{font-size:16px}.panel{padding:16px}.roster-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
 
@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
-<header><div class="bar"><div class="brand">🏀 NBA <span>Analytics Pro</span></div><div class="badge">數據測試版 v0.7</div></div></header>
+<header><div class="bar"><div class="brand">🏀 NBA <span>Analytics Pro</span></div><div class="badge">數據測試版 v0.7.1</div></div></header>
 <main>
 <section class="hero"><div class="eyebrow">NBA DATA INTELLIGENCE</div><h1>看懂比賽背後的<br><span>每一個數字。</span></h1><p>從聯盟戰績、球隊陣容到球員統計，打造專屬籃球迷的 NBA 分析平台。</p><div class="notice">📌 v0.7：點擊球隊可查看球員陣容、場均數據，並搜尋姓名、篩選位置及排序。新增雙球隊戰績與主力球員比較。資料為定時公開快照，並非即時比分。</div></section>
 <section class="panel" id="standings" aria-labelledby="standings-title"><h2 id="standings-title">🏆 NBA 東西區戰績</h2><div id="data-status" class="muted" role="status" aria-live="polite">正在讀取戰績資料…</div><div class="tabs" role="group" aria-label="分區"><button class="tab" data-conf="East" type="button" aria-selected="true">東區</button><button class="tab" data-conf="West" type="button" aria-selected="false">西區</button></div><div class="table-wrap"><table><thead><tr><th>排名 / 球隊（點擊查看球員）</th><th>勝</th><th>敗</th><th>勝率</th></tr></thead><tbody id="standings-body"><tr><td colspan="4">正在載入…</td></tr></tbody></table></div><p class="muted">資料來源：ESPN 公開資料（非官方合作）。排名按勝率及勝場排序，可能與官方同戰績排名規則不同。</p></section>
@@ -42,10 +42,43 @@ function renderPlayers(){if(!activeTeam)return;const q=search.value.trim().toLoc
 [search,position,sort].forEach(el=>el.addEventListener(el===search?'input':'change',renderPlayers));
 body.addEventListener('click',async e=>{const btn=e.target.closest('button[data-id]');if(!btn)return;const id=btn.dataset.id;const team=standings.find(t=>String(t.id)===id);if(!team)return;const req=++requestId;panel.hidden=false;$('team-title').textContent=team.name;$('team-message').textContent='正在載入球員陣容與場均數據…';$('filter-count').textContent='';grid.replaceChildren();activeTeam=null;activeStats={};search.value='';position.value='all';sort.value='pts';panel.scrollIntoView({behavior:'smooth',block:'start'});try{const rosters=await getRosters();if(req!==requestId)return;const roster=rosters.teams?.find(t=>String(t.id)===id)||rosters.teams?.find(t=>t.name===team.name);if(!roster)throw Error('找不到這支球隊的陣容');activeTeam=roster;let note='';try{const stats=await getStats();if(req!==requestId)return;activeStats=stats.players||{};note=`｜${stats.season_year??''} 賽季場均數據｜更新：${formatDate(stats.updated_at_utc)}（台灣時間）`}catch(err){note='｜球員統計暫時無法讀取，仍可查看陣容'}$('team-message').textContent=`目前收錄 ${(roster.players||[]).length} 名球員${note}。— 表示無可用數據。`;renderPlayers()}catch(err){if(req===requestId)$('team-message').textContent=err.message}});
 
+const teamNamesZh = {
+  "Atlanta Hawks": "亞特蘭大老鷹",
+  "Boston Celtics": "波士頓塞爾提克",
+  "Brooklyn Nets": "布魯克林籃網",
+  "Charlotte Hornets": "夏洛特黃蜂",
+  "Chicago Bulls": "芝加哥公牛",
+  "Cleveland Cavaliers": "克里夫蘭騎士",
+  "Dallas Mavericks": "達拉斯獨行俠",
+  "Denver Nuggets": "丹佛金塊",
+  "Detroit Pistons": "底特律活塞",
+  "Golden State Warriors": "金州勇士",
+  "Houston Rockets": "休士頓火箭",
+  "Indiana Pacers": "印第安納溜馬",
+  "LA Clippers": "洛杉磯快艇",
+  "Los Angeles Clippers": "洛杉磯快艇",
+  "Los Angeles Lakers": "洛杉磯湖人",
+  "Memphis Grizzlies": "曼菲斯灰熊",
+  "Miami Heat": "邁阿密熱火",
+  "Milwaukee Bucks": "密爾瓦基公鹿",
+  "Minnesota Timberwolves": "明尼蘇達灰狼",
+  "New Orleans Pelicans": "紐奧良鵜鶘",
+  "New York Knicks": "紐約尼克",
+  "Oklahoma City Thunder": "奧克拉荷馬雷霆",
+  "Orlando Magic": "奧蘭多魔術",
+  "Philadelphia 76ers": "費城76人",
+  "Phoenix Suns": "鳳凰城太陽",
+  "Portland Trail Blazers": "波特蘭拓荒者",
+  "Sacramento Kings": "沙加緬度國王",
+  "San Antonio Spurs": "聖安東尼奧馬刺",
+  "Toronto Raptors": "多倫多暴龍",
+  "Utah Jazz": "猶他爵士",
+  "Washington Wizards": "華盛頓巫師"
+};
 function setupCompare(){
  const a=$('compare-a'),b=$('compare-b');
  const ordered=[...standings].sort((x,y)=>x.name.localeCompare(y.name));
- const options=ordered.map(t=>`<option value="${escapeHTML(t.id)}">${escapeHTML(t.name)}</option>`).join('');
+ const options=ordered.map(t=>`<option value="${escapeHTML(t.id)}">${escapeHTML(teamNamesZh[t.name] ? `${teamNamesZh[t.name]}（${t.name}）` : t.name)}</option>`).join('');
  a.innerHTML=options;b.innerHTML=options;
  if(ordered.length>1){a.value=String(ordered[0].id);b.value=String(ordered[1].id)}
  a.addEventListener('change',renderCompare);b.addEventListener('change',renderCompare);
