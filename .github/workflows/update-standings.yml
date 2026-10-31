@@ -32,11 +32,16 @@ jobs:
       - name: Update player stats
         run: python scripts/update_player_stats.py
 
+      - name: 更新比賽歷史與驗證分析
+        run: |
+          node --test tests/*.test.js
+          python scripts/update_games.py
+
       - name: Commit updated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/standings.json data/rosters.json data/player_stats.json
+          git add data/games.json data/standings.json data/rosters.json data/player_stats.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update NBA standings, rosters and player stats'
             git push
