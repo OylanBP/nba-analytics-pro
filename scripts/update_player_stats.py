@@ -17,15 +17,34 @@ OUTPUT = ROOT / "data" / "player_stats.json"
 URL = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/{}/stats"
 NOW = dt.datetime.now(dt.timezone.utc)
 SEASON_YEAR = NOW.year + 1 if NOW.month >= 10 else NOW.year
-CODES = {"PTS": "pts", "REB": "reb", "AST": "ast", "STL": "stl", "BLK": "blk",
-         "FG%": "fg_pct", "3P%": "three_pct", "FT%": "ft_pct"}
+
+CODES = {
+    "GP": "gp",
+    "PTS": "pts",
+    "REB": "reb",
+    "AST": "ast",
+    "STL": "stl",
+    "BLK": "blk",
+    "FG%": "fg_pct",
+    "3P%": "three_pct",
+    "FT%": "ft_pct",
+}
+
 SHOOTING = {"FG": ("fgm", "fga", "fg_pct"),
             "3PT": ("three_pm", "three_pa", "three_pct"),
             "FT": ("ftm", "fta", "ft_pct")}
-RANGES = {"pts": (0, 100), "reb": (0, 60), "ast": (0, 40),
-          "stl": (0, 20), "blk": (0, 20), "fg_pct": (0, 100),
-          "three_pct": (0, 100), "ft_pct": (0, 100)}
 
+RANGES = {
+    "gp": (0, 100),
+    "pts": (0, 100),
+    "reb": (0, 60),
+    "ast": (0, 40),
+    "stl": (0, 20),
+    "blk": (0, 20),
+    "fg_pct": (0, 100),
+    "three_pct": (0, 100),
+    "ft_pct": (0, 100),
+}
 
 def fetch(athlete_id):
     request = urllib.request.Request(URL.format(athlete_id), headers={
