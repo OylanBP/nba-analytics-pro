@@ -103,7 +103,16 @@ fetch('./data/standings.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(
 }
 </style>
 
-<section id="team-detail" class="team-detail"
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const panel = document.getElementById("team-detail");
+  const standings = document.getElementById("standings");
+
+  if (panel && standings) {
+    standings.insertAdjacentElement("afterend", panel);
+  }
+});
+</script><section id="team-detail" class="team-detail"
          hidden aria-live="polite">
   <button id="close-team" type="button">
     ← 返回戰績
@@ -149,8 +158,8 @@ fetch('./data/standings.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(
     return rosterPromise;
   }
 
-  table.addEventListener("click", async event => {
-    const cell = event.target.closest("td:first-child");
+  document.addEventListener("click", async event => {
+    const cell = event.target.closest("#standings-body td:first-child");
     if (!cell) return;
 
     const row = cell.closest("tr");
