@@ -1,10 +1,10 @@
 
-name: Update NBA standings and rosters
+name: Update NBA standings, rosters and player stats
 
 on:
   workflow_dispatch:
   schedule:
-    # 台灣時間每天 15:00
+    # 台灣時間每天 15:00（UTC 07:00）
     - cron: '0 7 * * *'
 
 permissions:
@@ -29,12 +29,15 @@ jobs:
       - name: Update rosters
         run: python scripts/update_rosters.py
 
+      - name: Update player stats
+        run: python scripts/update_player_stats.py
+
       - name: Commit updated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/standings.json data/rosters.json
+          git add data/standings.json data/rosters.json data/player_stats.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update NBA standings and rosters'
+            git commit -m 'Update NBA standings, rosters and player stats'
             git push
           fi
