@@ -33,6 +33,8 @@ jobs:
           if ! test -f data/model/champion.json || test "$(date -u +%d)" -le 7; then
             python scripts/model_lifecycle.py --mode train
           fi
+      - name: Run rolling out-of-sample backtest and calibration
+        run: python scripts/rolling_backtest.py
       - name: Export approved predictions
         run: python scripts/predict_games.py
       - name: Commit model artifacts
@@ -40,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/model/games_history.json data/model/evaluation.json
+          git add data/model/games_history.json data/model/evaluation.json data/model/rolling_backtest.json
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
           if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
           if ! git diff --cached --quiet; then
