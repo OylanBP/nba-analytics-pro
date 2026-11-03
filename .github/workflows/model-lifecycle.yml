@@ -16,35 +16,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check for verified historical game dataset
-        id: dataset
-        shell: bash
-        run: |
-          if test -s data/model/games_history.json; then
-            echo "ready=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::No verified pregame history. Skipping model updates safely."
-          fi
-      - name: Evaluate existing and candidate models weekly
-        if: steps.dataset.outputs.ready == 'true'
+      - name: Build real pregame training history
+        run: python scripts/build_model_history.py
+      - name: Evaluate challenger against champion
         run: python scripts/model_lifecycle.py --mode evaluate
-      - name: Retrain candidate on first Monday of month only
-        if: steps.dataset.outputs.ready == 'true'
+      - name: Retrain on first Monday of month
         shell: bash
         run: |
           if test "$(date -u +%d)" -le 7; then
             python scripts/model_lifecycle.py --mode train
           fi
-      - name: Commit evaluated outputs when changed
-        if: steps.dataset.outputs.ready == 'true'
+      - name: Commit model artifacts
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/model/evaluation.json
+          git add data/model/games_history.json data/model/evaluation.json
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Update guarded NBA model evaluation"
+            git commit -m "Update verified NBA model history and evaluation"
             git push
           fi
