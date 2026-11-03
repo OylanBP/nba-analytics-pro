@@ -1,6 +1,10 @@
 name: Archive official NBA injury reports
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/archive-injuries.yml'
   schedule:
     - cron: '7,37 * * * *'
 permissions:
