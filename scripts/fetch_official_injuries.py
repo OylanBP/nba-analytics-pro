@@ -85,8 +85,11 @@ def parse_pdf(data, url, teams):
                 if not status_match:
                     continue
                 before = line[:status_match.start()]
-                name = re.sub(r"^.*?"+re.escape(active_team["name"].replace(" ", "")), "", before, flags=re.I).strip()
-                if not name:
+                team_name = active_team["name"]
+                # Match the real team name with flexible whitespace.
+                pattern = r"^.*?" + r"\\s*".join(map(re.escape, team_name.split()))
+                name = re.sub(pattern, "", before, count=1, flags=re.I).strip(" -|")
+                if not name or not submitted or "NOT YET SUBMITTED" in name.upper():
                     continue
                 records.append({"game_date": active_date, "matchup": active_matchup,
                                 "team_id": str(active_team["id"]), "name": name,
@@ -113,7 +116,8 @@ def main():
         snapshots = json.loads(OUT.read_text())
     else:
         snapshots = []
-    known = {s["source_url"] for s in snapshots}
+    known = {s["source_url"] for s in snapshots if s.get("players")}
+
     added = 0
     for url in urls[:3]:
         if url in known:
@@ -130,6 +134,7 @@ def main():
         except Exception as exc:
             print("Rejected unreadable official report:", type(exc).__name__, str(exc))
             continue
+        snapshots = [old for old in snapshots if old["source_url"] != url]
         snapshots.append(snapshot)
         added += 1
     if not added and not any(s["source_url"] in urls[:3] for s in snapshots):
