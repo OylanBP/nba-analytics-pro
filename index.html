@@ -294,6 +294,13 @@ startAnalytics({getRosters,getStats,teamNamesZh});
  const status=document.getElementById('trained-model-status');
  const body=document.getElementById('trained-model-rows');
  if(!status||!body)return;
+ const refreshNote=document.createElement('p');
+ refreshNote.className='muted';
+ status.insertAdjacentElement('beforebegin',refreshNote);
+ let busy=false;
+ async function refresh(){
+ if(busy || document.hidden)return;
+ busy=true;
  try{
   const [p,r]=await Promise.all([fetch('data/model/predictions.json?cache='+Date.now(),{cache:'no-store'}),fetch('data/standings.json?cache='+Date.now(),{cache:'no-store'})]);
   if(!p.ok)throw Error('尚未產生通過驗證的訓練模型預測');
@@ -314,7 +321,11 @@ startAnalytics({getRosters,getStats,teamNamesZh});
     note.textContent='歷史時間切分測試 '+evaluation.test+' 場。勝負命中（原模型 → 傷兵模型）：'+evaluation.baseline.correct+' → '+evaluation.adjusted.correct+' 場；機率誤差（布里爾分數，越低越好）：'+evaluation.baseline.brier.toFixed(3)+' → '+evaluation.adjusted.brier.toFixed(3)+'。';
     info.appendChild(note);
   }
-  status.insertAdjacentElement('afterend',info);
+  const previous=status.nextElementSibling;
+  if(previous?.classList.contains('injury-model-note')) previous.replaceWith(info);
+  else status.insertAdjacentElement('afterend',info);
+  body.replaceChildren();
+  refreshNote.textContent='頁面每分鐘檢查新版勝率，最近讀取：'+fmtTime(Date.now())+'（台灣時間）';
   if(!games.length){body.innerHTML='<tr><td colspan="4">目前沒有可用的未來賽程預測。</td></tr>';return}
   for(const g of games){
    const tr=document.createElement('tr');
@@ -338,7 +349,12 @@ startAnalytics({getRosters,getStats,teamNamesZh});
    detail.appendChild(cell);
    body.appendChild(detail);
   }
- }catch(e){status.textContent='模型尚未就緒：'+e.message}
+ }catch(e){refreshNote.textContent='更新讀取失敗，稍後將自動重試。';if(!body.children.length)status.textContent='模型尚未就緒：'+e.message}
+ finally{busy=false}
+ }
+ refresh();
+ setInterval(refresh,60000);
+ document.addEventListener('visibilitychange',refresh);
 })();
 </script>
 </body>

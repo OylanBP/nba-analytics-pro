@@ -51,3 +51,21 @@ test('player and team selectors respond to input', async ({ page }) => {
   await page.locator('#pc-team-a').selectOption({ index: 1 });
   await expect.poll(async () => page.locator('#pc-player-a option').count(), { timeout: 30000 }).toBeGreaterThan(1);
 });
+
+test('open forecast refreshes without duplicate games or notes', async ({page})=>{
+  let reads=0;
+  await page.clock.install();
+  await page.route('**/data/model/predictions.json?*',route=>{
+    reads++;
+    return route.fulfill({json:{predictions:[{id:'fixture',home:'1',away:'2',
+      date:new Date(Date.now()+86400000).toISOString(),home_win_probability:reads===1?.60:.65,
+      away_win_probability:reads===1?.40:.35}]}});
+  });
+  await page.goto(base+'/#forecast',{waitUntil:'domcontentloaded'});
+  const rows=page.locator('#trained-model-rows tr');
+  await expect(rows.first()).toContainText('60.0%');
+  await page.clock.fastForward(60001);
+  await expect(rows.first()).toContainText('65.0%');
+  await expect(rows).toHaveCount(2);
+  await expect(page.locator('.injury-model-note')).toHaveCount(1);
+});

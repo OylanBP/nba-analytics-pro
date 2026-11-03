@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/archive-injuries.yml'
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '2-59/5 * * * *'
 permissions:
   contents: write
 concurrency:
