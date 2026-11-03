@@ -14,6 +14,9 @@ MIN_LABELED_GAMES=200
 
 def audit(snapshots, games):
     from datetime import datetime
+    from zoneinfo import ZoneInfo
+    teams=json.loads((ROOT/"data/standings.json").read_text())["teams"]
+    abbrev={str(t["id"]):t["abbreviation"] for t in teams}
     completed={str(g["id"]):g for g in games if type(g.get("h")) is int and type(g.get("a")) is int}
     matched=set()
     invalid=0
@@ -26,11 +29,15 @@ def audit(snapshots, games):
             if not coverage.get("submitted",True):
                 continue
             for game_id,g in completed.items():
-                if str(g.get("date",""))[:10]!=coverage.get("game_date"):
+                tip=datetime.fromisoformat(g["date"].replace("Z","+00:00"))
+                local_day=tip.astimezone(ZoneInfo("America/New_York")).date().isoformat()
+                if local_day!=coverage.get("game_date"):
+                    continue
+                matchup=abbrev.get(str(g["away"]),"")+"@"+abbrev.get(str(g["home"]),"")
+                if matchup!=coverage.get("matchup"):
                     continue
                 if str(coverage.get("team_id")) not in (str(g.get("home")),str(g.get("away"))):
                     continue
-                tip=datetime.fromisoformat(g["date"].replace("Z","+00:00"))
                 if observed>=tip:
                     invalid+=1
                     continue
