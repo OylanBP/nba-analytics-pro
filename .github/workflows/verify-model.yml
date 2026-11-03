@@ -21,6 +21,8 @@ jobs:
         run: python scripts/build_model_history.py
       - name: Train candidate and evaluate
         run: python scripts/model_lifecycle.py --mode train
+      - name: Verify expanding-window model calibration
+        run: python scripts/rolling_backtest.py
       - name: Generate model probabilities
         run: python scripts/predict_games.py
       - name: Verify output consistency
