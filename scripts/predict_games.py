@@ -4,6 +4,7 @@ import datetime as dt
 import json
 import math
 import pathlib
+from zoneinfo import ZoneInfo
 from injury_archive import injury_at
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
@@ -21,6 +22,8 @@ def main():
     now=dt.datetime.now(dt.timezone.utc)
     upcoming=[g for g in games if "h" not in g and dt.datetime.fromisoformat(g["date"].replace("Z","+00:00"))>now]
     done=[g for g in games if "h" in g and "a" in g]
+    teams=json.loads((DATA/"standings.json").read_text())["teams"]
+    abbrev={str(t["id"]):t["abbreviation"] for t in teams}
     results=[]
     for g in sorted(upcoming,key=lambda g:g["date"])[:120]:
         before=g["date"][:10]
@@ -42,7 +45,9 @@ def main():
         ap,ar=features(g["away"])
         z=weights[0]+sum(a*b for a,b in zip(weights[1:],[hp,ap,hr/7,ar/7]))
         p=1/(1+math.exp(-max(-35,min(35,z))))
-        results.append({"id":g["id"],"date":g["date"],"home":g["home"],"away":g["away"],"home_win_probability":round(p,4),"away_win_probability":round(1-p,4),"injuries":{"home":injury_at(now.isoformat(),g["home"]),"away":injury_at(now.isoformat(),g["away"])},"injuries_in_model":False})
+        matchup = f'{abbrev[str(g["away"])]}@{abbrev[str(g["home"])]}'
+        game_date = dt.datetime.fromisoformat(g["date"].replace("Z","+00:00")).astimezone(ZoneInfo("America/New_York")).date().isoformat()
+        results.append({"id":g["id"],"date":g["date"],"home":g["home"],"away":g["away"],"home_win_probability":round(p,4),"away_win_probability":round(1-p,4),"injuries":{"home":injury_at(now.isoformat(),g["home"],matchup=matchup,game_date=game_date),"away":injury_at(now.isoformat(),g["away"],matchup=matchup,game_date=game_date)},"injuries_in_model":False})
     output={"generated_utc":now.isoformat(),"model_trained_utc":model["trained_utc"],"source":"approved model and archived ESPN games","predictions":results,"limitations":"Baseline win percentage and rest only. Injury snapshots are informational and excluded from probabilities until verified historical pregame coverage and retraining exist."}
     dest=DATA/"model/predictions.json"
     dest.parent.mkdir(parents=True,exist_ok=True)
