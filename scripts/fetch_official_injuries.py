@@ -61,38 +61,39 @@ def parse_pdf(data, url, teams):
     covered = set()
     with pdfplumber.open(io.BytesIO(data)) as pdf:
         for page in pdf.pages:
-            for table in page.extract_tables() or []:
-                for cells in table:
-                    values = [" ".join(str(c or "").split()) for c in cells]
-                    line = " ".join(values)
-                    match = DATE.search(line)
-                    if match:
-                        active_date = dt.datetime.strptime(match.group(1), "%m/%d/%Y").date().isoformat()
-                    matchup = MATCHUP.search(line)
-                    if matchup:
-                        active_matchup = matchup.group(0)
-                        active_team = None
-                    for name, info in teams.items():
-                        if name.lower() in line.lower() and active_matchup:
-                            active_team = info
-                            covered.add((active_date, active_matchup, str(info["id"])))
-                            break
-                    if not active_team or not active_matchup or not active_date:
-                        continue
-                    status = next((v for v in values if v in STATUS), None)
-                    if not status:
-                        continue
-                    # NBA table typically places player name immediately before status.
-                    index = values.index(status)
-                    player = values[index-1].strip() if index else ""
-                    if not player or player.lower() in ("player name", "team/player"):
-                        continue
-                    records.append({"game_date": active_date, "matchup": active_matchup,
-                                    "team_id": str(active_team["id"]), "name": player,
-                                    "status": status, "reason": " ".join(values[index+1:])})
+            for line in (page.extract_text() or "").splitlines():
+                date_match = DATE.search(line)
+                if date_match:
+                    active_date = dt.datetime.strptime(date_match.group(1), "%m/%d/%Y").date().isoformat()
+                matchup = MATCHUP.search(line)
+                if matchup:
+                    active_matchup = matchup.group(0)
+                    active_team = None
+                if not active_matchup or not active_date:
+                    continue
+                compact = re.sub(r"\s+", "", line).lower()
+                for name, info in teams.items():
+                    token = re.sub(r"\s+", "", name).lower()
+                    if token in compact:
+                        active_team = info
+                        break
+                if not active_team:
+                    continue
+                submitted = "NOTYETSUBMITTED" not in compact
+                covered.add((active_date, active_matchup, str(active_team["id"]), submitted))
+                status_match = re.search(r"\b(Out|Doubtful|Questionable|Probable|Available)\b", line)
+                if not status_match:
+                    continue
+                before = line[:status_match.start()]
+                name = re.sub(r"^.*?"+re.escape(active_team["name"].replace(" ", "")), "", before, flags=re.I).strip()
+                if not name:
+                    continue
+                records.append({"game_date": active_date, "matchup": active_matchup,
+                                "team_id": str(active_team["id"]), "name": name,
+                                "status": status_match.group(1), "reason": line[status_match.end():].strip()})
     return {"observed_utc": when.isoformat(), "source_url": url,
-            "covered_games": [{"game_date": d, "matchup": m, "team_id": t}
-                              for d,m,t in sorted(covered) if d and m],
+            "covered_games": [{"game_date": d, "matchup": m, "team_id": t, "submitted": submitted}
+                              for d,m,t,submitted in sorted(covered) if d and m],
             "players": records}
 
 def main():
