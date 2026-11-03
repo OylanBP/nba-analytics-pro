@@ -24,7 +24,7 @@ jobs:
       - name: Verify expanding-window model calibration
         run: python scripts/rolling_backtest.py
       - name: Install NBA PDF parser
-        run: python -m pip install 'pdfplumber==0.11.7'
+        run: sudo apt-get install -y poppler-utils
       - name: Verify live NBA injury report ingestion
         run: python scripts/fetch_official_injuries.py
       - name: Build enhanced pregame Elo and recent form

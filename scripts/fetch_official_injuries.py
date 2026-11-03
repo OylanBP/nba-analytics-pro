@@ -50,55 +50,50 @@ def published_utc(url):
     ).astimezone(dt.timezone.utc)
 
 def parse_pdf(data, url, teams):
-    import pdfplumber
-    when = published_utc(url)
-    # NBA reports contain rows: Game Date | Game | Team | Player | Status | Reason.
-    # The report is a full snapshot, but only reported teams are marked covered.
-    records = []
-    active_date = None
-    active_matchup = None
-    active_team = None
-    covered = set()
-    with pdfplumber.open(io.BytesIO(data)) as pdf:
-        for page in pdf.pages:
-            for line in (page.extract_text() or "").splitlines():
-                date_match = DATE.search(line)
-                if date_match:
-                    active_date = dt.datetime.strptime(date_match.group(1), "%m/%d/%Y").date().isoformat()
-                matchup = MATCHUP.search(line)
-                if matchup:
-                    active_matchup = matchup.group(0)
-                    active_team = None
-                if not active_matchup or not active_date:
-                    continue
-                compact = re.sub(r"\s+", "", line).lower()
-                for name, info in teams.items():
-                    token = re.sub(r"\s+", "", name).lower()
-                    if token in compact:
-                        active_team = info
-                        break
-                if not active_team:
-                    continue
-                submitted = "NOTYETSUBMITTED" not in compact
-                covered.add((active_date, active_matchup, str(active_team["id"]), submitted))
-                status_match = re.search(r"\b(Out|Doubtful|Questionable|Probable|Available)\b", line)
-                if not status_match:
-                    continue
-                before = line[:status_match.start()]
-                team_name = active_team["name"]
-                # Match the real team name with flexible whitespace.
-                pattern = r"^.*?" + r"\\s*".join(map(re.escape, team_name.split()))
-                name = re.sub(pattern, "", before, count=1, flags=re.I).strip(" -|")
-                if not name or not submitted or "NOT YET SUBMITTED" in name.upper():
-                    continue
-                records.append({"game_date": active_date, "matchup": active_matchup,
-                                "team_id": str(active_team["id"]), "name": name,
-                                "status": status_match.group(1), "reason": line[status_match.end():].strip()})
-    return {"observed_utc": when.isoformat(), "source_url": url,
-            "covered_games": [{"game_date": d, "matchup": m, "team_id": t, "submitted": submitted}
-                              for d,m,t,submitted in sorted(covered) if d and m],
-            "players": records}
+    import subprocess
+    result = subprocess.run(["pdftotext", "-layout", "-", "-"], input=data,
+                            capture_output=True, check=True, timeout=30)
+    raw = result.stdout.decode("utf8")
+    stamp = published_utc(url)
+    expected = stamp.astimezone(ZoneInfo("America/New_York")).strftime("%m/%d/%y %I:%M %p")
+    if not re.search(r"Injury Report:\s*" + re.escape(expected), raw, re.I):
+        raise ValueError("PDF header and publication time disagree")
+    return parse_lines(raw, url, teams)
 
+
+def parse_lines(raw, url, teams):
+    records, covered = {}, {}
+    day = matchup = team = None
+    names = {k.lower(): str(v["id"]) for k,v in teams.items()}
+    if "la clippers" in names:
+        names["los angeles clippers"] = names["la clippers"]
+    for line in raw.splitlines():
+        if "Injury Report:" in line or "Current Status" in line:
+            continue
+        cells = re.split(r"\s{2,}", line.strip())
+        for cell in cells:
+            if DATE.fullmatch(cell):
+                day = dt.datetime.strptime(cell, "%m/%d/%Y").date().isoformat()
+                matchup = team = None
+            elif MATCHUP.fullmatch(cell):
+                matchup, team = cell, None
+            elif cell.lower() in names:
+                team = names[cell.lower()]
+        if not (team and matchup and day):
+            continue
+        key = (day, matchup, team)
+        if "NOT YET SUBMITTED" in line.upper():
+            covered[key] = False
+            continue
+        for i, cell in enumerate(cells):
+            if cell in STATUS and i and "," in cells[i-1]:
+                name = cells[i-1]
+                covered[key] = True
+                records[key+(name,)] = dict(game_date=day, matchup=matchup, team_id=team,
+                                             name=name,status=cell,reason=" ".join(cells[i+1:]))
+    return dict(parser_version=2, observed_utc=published_utc(url).isoformat(), source_url=url,
+                covered_games=[dict(game_date=d,matchup=m,team_id=t,submitted=v)
+                               for (d,m,t),v in covered.items()], players=list(records.values()))
 def main():
     from injury_archive import validate_snapshot
     html = fetch(PAGE).decode("utf-8", errors="replace")
@@ -116,7 +111,8 @@ def main():
         snapshots = json.loads(OUT.read_text())
     else:
         snapshots = []
-    known = {s["source_url"] for s in snapshots if s.get("players")}
+    snapshots = [s for s in snapshots if s.get("parser_version") == 2]
+    known = {s["source_url"] for s in snapshots}
 
     added = 0
     for url in urls[:3]:
@@ -125,10 +121,6 @@ def main():
         try:
             snapshot = parse_pdf(fetch(url), url, teams)
             if not snapshot["covered_games"]:
-                import pdfplumber
-                with pdfplumber.open(io.BytesIO(fetch(url))) as debug_pdf:
-                    print("NBA PDF extraction sample:", repr((debug_pdf.pages[0].extract_text() or "")[:2200]))
-                    print("NBA PDF first table:", repr((debug_pdf.pages[0].extract_tables() or [])[:1])[:2200])
                 raise ValueError("No verified team/game rows parsed")
             validate_snapshot(snapshot)
         except Exception as exc:

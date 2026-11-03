@@ -16,18 +16,20 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: nba-model-lifecycle
+  group: nba-injury-ingestion
   cancel-in-progress: false
 jobs:
   evaluate-and-train:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Install NBA PDF parser
-        run: python -m pip install 'pdfplumber==0.11.7'
+        run: sudo apt-get install -y poppler-utils
       - name: Fetch official NBA injury snapshots
         run: python scripts/fetch_official_injuries.py
       - name: Build real pregame training history

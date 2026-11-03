@@ -1,0 +1,29 @@
+{
+  "approved": true,
+  "paired": 752,
+  "statuses": [
+    "Out",
+    "Doubtful",
+    "Questionable",
+    "Probable"
+  ],
+  "train": 524,
+  "test": 228,
+  "test_from": "2026-03-24",
+  "baseline": {
+    "brier": 0.1862630037228012,
+    "log_loss": 0.5549297598718402,
+    "correct": 164
+  },
+  "adjusted": {
+    "brier": 0.17435924812063808,
+    "log_loss": 0.5224782184752321,
+    "correct": 175
+  },
+  "weights": [
+    0.10319313985812283,
+    0.12407714735266388,
+    0.05495123826110512,
+    0.05863266752724873
+  ]
+}

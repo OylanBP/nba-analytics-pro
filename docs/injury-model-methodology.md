@@ -1,43 +1,11 @@
-# Injury-aware NBA prediction: evidence requirements
+# 賽前傷兵勝率修正
 
-The production baseline is a logistic regression using pregame win percentage and rest.
-**Injury reports are NOT yet model inputs.** This branch adds strict injury archive
-validation and rolling out-of-sample backtests, not a claimed injury-aware model.
+資料來自 NBA 官方賽前 PDF。程式比對檔名和報告內的美東發布時間，以比賽日期、對戰組合及球隊辨識球員狀態。標註「NOT YET SUBMITTED」的隊伍顯示未確認。即時名單只使用最近 48 小時內已發布的報告。
 
-## Historical injury evidence
+歷史回補採美東下午五點版本，只收錄報告發布時尚未開賽、雙方都有可解析姓名和狀態的比賽。來源網址、發布時間及兩隊人數差見 data/injuries/labeled_games.json。資料涵蓋範圍受報告留存及開賽時間影響。
 
-A past injury report is usable only when it has a reliable source, publication or
-capture timestamp, player identity, team identity, and official availability status
-known **before that game's tipoff**. Current injury pages cannot be used to reconstruct
-past game statuses. Missing reports must be marked unknown, not interpreted as healthy.
+每場使用客隊減主隊的缺席、極可能缺席、出賽存疑、預計出賽人數差。訓練時以 Elo 與近期表現模型的對數勝算為基礎，估計四個修正係數。同狀態球員權重相同，包含官方列為缺席的非傷病原因。
 
-An optional archive at `data/injuries/snapshots.json` is a JSON array with entries:
-```json
-[
-  {
-    "observed_utc": "2026-10-20T15:00:00Z",
-    "source_url": "https://example.org/actual-original-report",
-    "players": [
-      {"team_id": "1", "name": "Actual player name", "status": "Out"}
-    ]
-  }
-]
-```
-This is a schema illustration, **not actual evidence**. Do not commit invented
-entries. The supported statuses are Out, Doubtful, Questionable, Probable, Available.
-Snapshots older than 48 hours are treated as unknown.
+至少取得 200 場雙方配對資料才訓練，依日期約分為前 70% 訓練、後 30% 測試，同日不拆分。評估的基礎模型亦只用測試期之前的賽果估計。兩模型比較相同測試場次，布里爾分數與對數損失均下降才啟用修正。data/model/availability.json 記錄樣本、分割日期、兩組分數及係數。單次時間切分的改善仍需持續以後續賽季檢驗。
 
-## Before using injuries to adjust probabilities
-
-1. Identify a lawful, stable, timestamped historical injury-report archive and
-   validate source coverage and team/player IDs.
-2. Link archived reports to each game's actual pre-tipoff cutoff; track unknown
-   coverage separately from confirmed availability.
-3. Add injury-availability features using only archived pre-tipoff information.
-   Player impact requires pregame-known minutes/role estimates, not final box scores.
-4. Compare injury-aware challenger against the same rolling chronological splits,
-   baseline logistic regression, Brier score, log loss and calibration.
-5. Publish a challenger only after objective out-of-sample improvement and
-   sufficient injury coverage. Otherwise retain baseline and display unknown.
-
-**No injury effect or performance improvement is asserted by this change.**
+網站逐場顯示賽前報告時間與已知名單。雙方皆有可核實報告時，以通過評估的係數調整原始機率，同時顯示調整前後數字。缺資料時沿用原始機率。

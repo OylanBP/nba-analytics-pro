@@ -52,12 +52,14 @@ def injury_at(game_utc, team_id, snapshots=None, matchup=None, game_date=None):
         covered = snapshot.get("covered_games", [])
         if not any(str(c.get("team_id")) == str(team_id) and
                    c.get("matchup") == matchup and
-                   c.get("game_date") == game_date and c.get("submitted", True) for c in covered):
+                   c.get("game_date") == game_date for c in covered):
             continue
         candidates.append((observed, snapshot))
     if not candidates:
         return {"status": "unknown", "players": [], "observed_utc": None}
     observed, latest = max(candidates, key=lambda row: row[0])
+    if not any(c.get("submitted", True) and str(c["team_id"]) == str(team_id) and c["matchup"] == matchup and c["game_date"] == game_date for c in latest["covered_games"]):
+        return {"status":"unknown", "players":[], "observed_utc":latest["observed_utc"], "source_url":latest["source_url"]}
     players = [p for p in latest.get("players", [])
                if str(p["team_id"]) == str(team_id) and
                p.get("matchup") == matchup and p.get("game_date") == game_date]
