@@ -33,6 +33,8 @@ jobs:
         run: python scripts/enhanced_model.py
       - name: Test guarded Elo promotion
         run: python scripts/promote_enhanced.py
+      - name: Audit real historical injury labels
+        run: python scripts/audit_injury_training.py
       - name: Generate model probabilities
         run: python scripts/predict_games.py
       - name: Verify output consistency
