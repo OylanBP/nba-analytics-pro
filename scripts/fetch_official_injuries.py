@@ -10,6 +10,7 @@ import json
 import pathlib
 import re
 import urllib.request
+from urllib.parse import urljoin
 from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
 
@@ -28,8 +29,10 @@ class ReportLinks(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == "a":
             href = dict(attrs).get("href", "")
-            if PDF_PATTERN.search(href) and "ak-static.cms.nba.com" in href:
-                self.urls.append(href)
+            if PDF_PATTERN.search(href):
+                url = urljoin(PAGE, href)
+                if url.startswith("https://ak-static.cms.nba.com/"):
+                    self.urls.append(url)
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 NBAAnalyticsPro/3.0"})
