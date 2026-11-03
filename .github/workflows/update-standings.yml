@@ -37,11 +37,15 @@ jobs:
           node --test tests/*.test.js
           python scripts/update_games.py
 
+      - name: Generate approved model predictions when available
+        run: python scripts/predict_games.py
+
       - name: Commit updated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/games.json data/standings.json data/rosters.json data/player_stats.json
+          if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Update NBA standings, rosters and player stats'
             git push
