@@ -14,10 +14,11 @@ class InjuryArchiveTests(unittest.TestCase):
     def test_historical_snapshot_is_not_inferred_from_future(self):
         snapshot = {"observed_utc": "2026-10-02T12:00:00Z",
                     "source_url": "https://example.org/archived-report",
-                    "players": [{"team_id": "1", "name": "Test Player", "status": "Out"}]}
-        self.assertEqual(injury_at("2026-10-01T20:00:00Z", "1", [snapshot])["status"], "unknown")
-        self.assertEqual(injury_at("2026-10-03T12:00:00Z", "1", [snapshot])["players"][0]["status"], "Out")
-        self.assertEqual(injury_at("2026-10-06T12:00:00Z", "1", [snapshot])["status"], "unknown")
+                    "covered_games":[{"team_id":"1","matchup":"BOS@NYK","game_date":"2026-10-03"}],
+                    "players": [{"team_id": "1", "name": "Test Player", "status": "Out", "matchup":"BOS@NYK", "game_date":"2026-10-03"}]}
+        self.assertEqual(injury_at("2026-10-01T20:00:00Z", "1", [snapshot], matchup="BOS@NYK", game_date="2026-10-03")["status"], "unknown")
+        self.assertEqual(injury_at("2026-10-03T12:00:00Z", "1", [snapshot], matchup="BOS@NYK", game_date="2026-10-03")["players"][0]["status"], "Out")
+        self.assertEqual(injury_at("2026-10-06T12:00:00Z", "1", [snapshot], matchup="BOS@NYK", game_date="2026-10-03")["status"], "unknown")
 
     def test_invalid_status_rejected(self):
         with self.assertRaises(ValueError):
