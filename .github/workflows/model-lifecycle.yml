@@ -23,9 +23,11 @@ jobs:
       - name: Retrain on first Monday of month
         shell: bash
         run: |
-          if test "$(date -u +%d)" -le 7; then
+          if ! test -f data/model/champion.json || test "$(date -u +%d)" -le 7; then
             python scripts/model_lifecycle.py --mode train
           fi
+      - name: Export approved predictions
+        run: python scripts/predict_games.py
       - name: Commit model artifacts
         shell: bash
         run: |
@@ -33,6 +35,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/model/games_history.json data/model/evaluation.json
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
+          if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Update verified NBA model history and evaluation"
             git push
