@@ -1,0 +1,130 @@
+{
+  "generated_utc": "2026-11-03T07:27:51.710932+00:00",
+  "method": "expanding-window out-of-sample, baseline logistic regression",
+  "folds": [
+    {
+      "train_games": 600,
+      "test_games": 120,
+      "test_start": "2026-01-15",
+      "test_end": "2026-01-31",
+      "brier": 0.235352,
+      "log_loss": 0.663333,
+      "accuracy": 0.608333,
+      "n": 120
+    },
+    {
+      "train_games": 720,
+      "test_games": 120,
+      "test_start": "2026-01-31",
+      "test_end": "2026-02-22",
+      "brier": 0.235553,
+      "log_loss": 0.663634,
+      "accuracy": 0.591667,
+      "n": 120
+    },
+    {
+      "train_games": 840,
+      "test_games": 120,
+      "test_start": "2026-02-22",
+      "test_end": "2026-03-09",
+      "brier": 0.224542,
+      "log_loss": 0.641255,
+      "accuracy": 0.641667,
+      "n": 120
+    },
+    {
+      "train_games": 960,
+      "test_games": 120,
+      "test_start": "2026-03-09",
+      "test_end": "2026-03-25",
+      "brier": 0.208253,
+      "log_loss": 0.608225,
+      "accuracy": 0.766667,
+      "n": 120
+    },
+    {
+      "train_games": 1080,
+      "test_games": 120,
+      "test_start": "2026-03-25",
+      "test_end": "2026-04-10",
+      "brier": 0.198966,
+      "log_loss": 0.58891,
+      "accuracy": 0.833333,
+      "n": 120
+    },
+    {
+      "train_games": 1200,
+      "test_games": 120,
+      "test_start": "2026-04-10",
+      "test_end": "2026-11-01",
+      "brier": 0.218983,
+      "log_loss": 0.629465,
+      "accuracy": 0.675,
+      "n": 120
+    },
+    {
+      "train_games": 1320,
+      "test_games": 2,
+      "test_start": "2026-11-02",
+      "test_end": "2026-11-02",
+      "brier": 0.14241,
+      "log_loss": 0.472323,
+      "accuracy": 1.0,
+      "n": 2
+    }
+  ],
+  "evaluated_games": 722,
+  "brier": 0.220059,
+  "accuracy": 0.686981,
+  "calibration": [
+    {
+      "probability_bin": "10-20%",
+      "games": 7,
+      "mean_prediction": 0.1957,
+      "actual_win_rate": 0.1429
+    },
+    {
+      "probability_bin": "20-30%",
+      "games": 4,
+      "mean_prediction": 0.278,
+      "actual_win_rate": 0.25
+    },
+    {
+      "probability_bin": "30-40%",
+      "games": 22,
+      "mean_prediction": 0.3746,
+      "actual_win_rate": 0.1818
+    },
+    {
+      "probability_bin": "40-50%",
+      "games": 162,
+      "mean_prediction": 0.4626,
+      "actual_win_rate": 0.2593
+    },
+    {
+      "probability_bin": "50-60%",
+      "games": 325,
+      "mean_prediction": 0.5526,
+      "actual_win_rate": 0.5785
+    },
+    {
+      "probability_bin": "60-70%",
+      "games": 176,
+      "mean_prediction": 0.6384,
+      "actual_win_rate": 0.8068
+    },
+    {
+      "probability_bin": "70-80%",
+      "games": 23,
+      "mean_prediction": 0.7295,
+      "actual_win_rate": 0.7391
+    },
+    {
+      "probability_bin": "80-90%",
+      "games": 3,
+      "mean_prediction": 0.8629,
+      "actual_win_rate": 0.6667
+    }
+  ],
+  "injury_coverage": "not available historically; excluded rather than backfilled"
+}

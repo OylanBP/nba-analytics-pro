@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-03T06:36:57.024066+00:00",
+  "generated_utc": "2026-11-03T07:27:51.759335+00:00",
   "model_trained_utc": "2026-11-03T06:36:56.993720+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
@@ -9,7 +9,20 @@
       "home": "8",
       "away": "20",
       "home_win_probability": 0.5646,
-      "away_win_probability": 0.4354
+      "away_win_probability": 0.4354,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909923",
@@ -17,7 +30,20 @@
       "home": "27",
       "away": "1",
       "home_win_probability": 0.5941,
-      "away_win_probability": 0.4059
+      "away_win_probability": 0.4059,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909924",
@@ -25,7 +51,20 @@
       "home": "2",
       "away": "15",
       "home_win_probability": 0.776,
-      "away_win_probability": 0.224
+      "away_win_probability": 0.224,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909925",
@@ -33,7 +72,20 @@
       "home": "17",
       "away": "30",
       "home_win_probability": 0.4608,
-      "away_win_probability": 0.5392
+      "away_win_probability": 0.5392,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909926",
@@ -41,7 +93,20 @@
       "home": "18",
       "away": "4",
       "home_win_probability": 0.6281,
-      "away_win_probability": 0.3719
+      "away_win_probability": 0.3719,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909927",
@@ -49,7 +114,20 @@
       "home": "29",
       "away": "11",
       "home_win_probability": 0.7896,
-      "away_win_probability": 0.2104
+      "away_win_probability": 0.2104,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909928",
@@ -57,7 +135,20 @@
       "home": "3",
       "away": "26",
       "home_win_probability": 0.6222,
-      "away_win_probability": 0.3778
+      "away_win_probability": 0.3778,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909929",
@@ -65,7 +156,20 @@
       "home": "25",
       "away": "5",
       "home_win_probability": 0.5615,
-      "away_win_probability": 0.4385
+      "away_win_probability": 0.4385,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909930",
@@ -73,7 +177,20 @@
       "home": "10",
       "away": "16",
       "home_win_probability": 0.6639,
-      "away_win_probability": 0.3361
+      "away_win_probability": 0.3361,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909931",
@@ -81,7 +198,20 @@
       "home": "7",
       "away": "28",
       "home_win_probability": 0.5967,
-      "away_win_probability": 0.4033
+      "away_win_probability": 0.4033,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909932",
@@ -89,7 +219,20 @@
       "home": "21",
       "away": "22",
       "home_win_probability": 0.3623,
-      "away_win_probability": 0.6377
+      "away_win_probability": 0.6377,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909933",
@@ -97,7 +240,20 @@
       "home": "24",
       "away": "6",
       "home_win_probability": 0.5645,
-      "away_win_probability": 0.4355
+      "away_win_probability": 0.4355,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909934",
@@ -105,7 +261,20 @@
       "home": "23",
       "away": "13",
       "home_win_probability": 0.2973,
-      "away_win_probability": 0.7027
+      "away_win_probability": 0.7027,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909935",
@@ -113,7 +282,20 @@
       "home": "12",
       "away": "14",
       "home_win_probability": 0.4927,
-      "away_win_probability": 0.5073
+      "away_win_probability": 0.5073,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909936",
@@ -121,7 +303,20 @@
       "home": "21",
       "away": "19",
       "home_win_probability": 0.5343,
-      "away_win_probability": 0.4657
+      "away_win_probability": 0.4657,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909937",
@@ -129,7 +324,20 @@
       "home": "9",
       "away": "14",
       "home_win_probability": 0.6498,
-      "away_win_probability": 0.3502
+      "away_win_probability": 0.3502,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909287",
@@ -137,7 +345,20 @@
       "home": "1",
       "away": "27",
       "home_win_probability": 0.5536,
-      "away_win_probability": 0.4464
+      "away_win_probability": 0.4464,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909288",
@@ -145,7 +366,20 @@
       "home": "30",
       "away": "2",
       "home_win_probability": 0.425,
-      "away_win_probability": 0.575
+      "away_win_probability": 0.575,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909289",
@@ -153,7 +387,20 @@
       "home": "5",
       "away": "20",
       "home_win_probability": 0.507,
-      "away_win_probability": 0.493
+      "away_win_probability": 0.493,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909290",
@@ -161,7 +408,20 @@
       "home": "6",
       "away": "26",
       "home_win_probability": 0.743,
-      "away_win_probability": 0.257
+      "away_win_probability": 0.257,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909291",
@@ -169,7 +429,20 @@
       "home": "29",
       "away": "25",
       "home_win_probability": 0.692,
-      "away_win_probability": 0.308
+      "away_win_probability": 0.308,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909292",
@@ -177,7 +450,20 @@
       "home": "15",
       "away": "28",
       "home_win_probability": 0.441,
-      "away_win_probability": 0.559
+      "away_win_probability": 0.559,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909293",
@@ -185,7 +471,20 @@
       "home": "3",
       "away": "16",
       "home_win_probability": 0.4847,
-      "away_win_probability": 0.5153
+      "away_win_probability": 0.5153,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909294",
@@ -193,7 +492,20 @@
       "home": "13",
       "away": "22",
       "home_win_probability": 0.5431,
-      "away_win_probability": 0.4569
+      "away_win_probability": 0.4569,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909295",
@@ -201,7 +513,20 @@
       "home": "23",
       "away": "24",
       "home_win_probability": 0.3258,
-      "away_win_probability": 0.6742
+      "away_win_probability": 0.6742,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909938",
@@ -209,7 +534,20 @@
       "home": "11",
       "away": "7",
       "home_win_probability": 0.4558,
-      "away_win_probability": 0.5442
+      "away_win_probability": 0.5442,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909939",
@@ -217,7 +555,20 @@
       "home": "1",
       "away": "17",
       "home_win_probability": 0.6701,
-      "away_win_probability": 0.3299
+      "away_win_probability": 0.3299,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909940",
@@ -225,7 +576,20 @@
       "home": "5",
       "away": "18",
       "home_win_probability": 0.6984,
-      "away_win_probability": 0.3016
+      "away_win_probability": 0.3016,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909941",
@@ -233,7 +597,20 @@
       "home": "25",
       "away": "27",
       "home_win_probability": 0.6441,
-      "away_win_probability": 0.3559
+      "away_win_probability": 0.3559,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909942",
@@ -241,7 +618,20 @@
       "home": "9",
       "away": "19",
       "home_win_probability": 0.6584,
-      "away_win_probability": 0.3416
+      "away_win_probability": 0.3416,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909943",
@@ -249,7 +639,20 @@
       "home": "21",
       "away": "10",
       "home_win_probability": 0.3574,
-      "away_win_probability": 0.6426
+      "away_win_probability": 0.6426,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909944",
@@ -257,7 +660,20 @@
       "home": "22",
       "away": "24",
       "home_win_probability": 0.6319,
-      "away_win_probability": 0.3681
+      "away_win_probability": 0.3681,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909945",
@@ -265,7 +681,20 @@
       "home": "4",
       "away": "20",
       "home_win_probability": 0.3341,
-      "away_win_probability": 0.6659
+      "away_win_probability": 0.6659,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909946",
@@ -273,7 +702,20 @@
       "home": "8",
       "away": "13",
       "home_win_probability": 0.6276,
-      "away_win_probability": 0.3724
+      "away_win_probability": 0.3724,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909947",
@@ -281,7 +723,20 @@
       "home": "16",
       "away": "26",
       "home_win_probability": 0.7217,
-      "away_win_probability": 0.2783
+      "away_win_probability": 0.2783,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909948",
@@ -289,7 +744,20 @@
       "home": "6",
       "away": "17",
       "home_win_probability": 0.7502,
-      "away_win_probability": 0.2498
+      "away_win_probability": 0.2498,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909949",
@@ -297,7 +765,20 @@
       "home": "15",
       "away": "2",
       "home_win_probability": 0.3391,
-      "away_win_probability": 0.6609
+      "away_win_probability": 0.6609,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909950",
@@ -305,7 +786,20 @@
       "home": "12",
       "away": "3",
       "home_win_probability": 0.5178,
-      "away_win_probability": 0.4822
+      "away_win_probability": 0.4822,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909951",
@@ -313,7 +807,20 @@
       "home": "23",
       "away": "14",
       "home_win_probability": 0.4571,
-      "away_win_probability": 0.5429
+      "away_win_probability": 0.5429,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909952",
@@ -321,7 +828,20 @@
       "home": "1",
       "away": "13",
       "home_win_probability": 0.4843,
-      "away_win_probability": 0.5157
+      "away_win_probability": 0.5157,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909953",
@@ -329,7 +849,20 @@
       "home": "30",
       "away": "5",
       "home_win_probability": 0.5049,
-      "away_win_probability": 0.4951
+      "away_win_probability": 0.4951,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909954",
@@ -337,7 +870,20 @@
       "home": "8",
       "away": "27",
       "home_win_probability": 0.7162,
-      "away_win_probability": 0.2838
+      "away_win_probability": 0.2838,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909955",
@@ -345,7 +891,20 @@
       "home": "28",
       "away": "29",
       "home_win_probability": 0.4039,
-      "away_win_probability": 0.5961
+      "away_win_probability": 0.5961,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909956",
@@ -353,7 +912,20 @@
       "home": "6",
       "away": "11",
       "home_win_probability": 0.7209,
-      "away_win_probability": 0.2791
+      "away_win_probability": 0.2791,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909957",
@@ -361,7 +933,20 @@
       "home": "10",
       "away": "7",
       "home_win_probability": 0.6849,
-      "away_win_probability": 0.3151
+      "away_win_probability": 0.3151,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909958",
@@ -369,7 +954,20 @@
       "home": "21",
       "away": "24",
       "home_win_probability": 0.4366,
-      "away_win_probability": 0.5634
+      "away_win_probability": 0.5634,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909959",
@@ -377,7 +975,20 @@
       "home": "9",
       "away": "3",
       "home_win_probability": 0.6723,
-      "away_win_probability": 0.3277
+      "away_win_probability": 0.3277,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909960",
@@ -385,7 +996,20 @@
       "home": "18",
       "away": "15",
       "home_win_probability": 0.6571,
-      "away_win_probability": 0.3429
+      "away_win_probability": 0.3429,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909961",
@@ -393,7 +1017,20 @@
       "home": "20",
       "away": "2",
       "home_win_probability": 0.6123,
-      "away_win_probability": 0.3877
+      "away_win_probability": 0.3877,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909962",
@@ -401,7 +1038,20 @@
       "home": "21",
       "away": "12",
       "home_win_probability": 0.6218,
-      "away_win_probability": 0.3782
+      "away_win_probability": 0.3782,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909963",
@@ -409,7 +1059,20 @@
       "home": "26",
       "away": "14",
       "home_win_probability": 0.5368,
-      "away_win_probability": 0.4632
+      "away_win_probability": 0.4632,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909964",
@@ -417,7 +1080,20 @@
       "home": "23",
       "away": "19",
       "home_win_probability": 0.4665,
-      "away_win_probability": 0.5335
+      "away_win_probability": 0.5335,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909965",
@@ -425,7 +1101,20 @@
       "home": "22",
       "away": "25",
       "home_win_probability": 0.6492,
-      "away_win_probability": 0.3508
+      "away_win_probability": 0.3508,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909966",
@@ -433,7 +1122,20 @@
       "home": "11",
       "away": "27",
       "home_win_probability": 0.5271,
-      "away_win_probability": 0.4729
+      "away_win_probability": 0.4729,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909967",
@@ -441,7 +1143,20 @@
       "home": "18",
       "away": "5",
       "home_win_probability": 0.4841,
-      "away_win_probability": 0.5159
+      "away_win_probability": 0.5159,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909968",
@@ -449,7 +1164,20 @@
       "home": "28",
       "away": "2",
       "home_win_probability": 0.4769,
-      "away_win_probability": 0.5231
+      "away_win_probability": 0.5231,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909969",
@@ -457,7 +1185,20 @@
       "home": "4",
       "away": "24",
       "home_win_probability": 0.4207,
-      "away_win_probability": 0.5793
+      "away_win_probability": 0.5793,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909970",
@@ -465,7 +1206,20 @@
       "home": "29",
       "away": "7",
       "home_win_probability": 0.74,
-      "away_win_probability": 0.26
+      "away_win_probability": 0.26,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909971",
@@ -473,7 +1227,20 @@
       "home": "15",
       "away": "13",
       "home_win_probability": 0.3946,
-      "away_win_probability": 0.6054
+      "away_win_probability": 0.6054,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909972",
@@ -481,7 +1248,20 @@
       "home": "3",
       "away": "17",
       "home_win_probability": 0.6599,
-      "away_win_probability": 0.3401
+      "away_win_probability": 0.3401,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909973",
@@ -489,7 +1269,20 @@
       "home": "26",
       "away": "19",
       "home_win_probability": 0.54,
-      "away_win_probability": 0.46
+      "away_win_probability": 0.46,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909974",
@@ -497,7 +1290,20 @@
       "home": "10",
       "away": "9",
       "home_win_probability": 0.6994,
-      "away_win_probability": 0.3006
+      "away_win_probability": 0.3006,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909975",
@@ -505,7 +1311,20 @@
       "home": "22",
       "away": "25",
       "home_win_probability": 0.6549,
-      "away_win_probability": 0.3451
+      "away_win_probability": 0.3451,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909976",
@@ -513,7 +1332,20 @@
       "home": "20",
       "away": "28",
       "home_win_probability": 0.7287,
-      "away_win_probability": 0.2713
+      "away_win_probability": 0.2713,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909977",
@@ -521,7 +1353,20 @@
       "home": "27",
       "away": "8",
       "home_win_probability": 0.499,
-      "away_win_probability": 0.501
+      "away_win_probability": 0.501,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909978",
@@ -529,7 +1374,20 @@
       "home": "16",
       "away": "6",
       "home_win_probability": 0.5779,
-      "away_win_probability": 0.4221
+      "away_win_probability": 0.4221,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909979",
@@ -537,7 +1395,20 @@
       "home": "21",
       "away": "30",
       "home_win_probability": 0.5461,
-      "away_win_probability": 0.4539
+      "away_win_probability": 0.4539,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909296",
@@ -545,7 +1416,20 @@
       "home": "11",
       "away": "18",
       "home_win_probability": 0.5999,
-      "away_win_probability": 0.4001
+      "away_win_probability": 0.4001,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909297",
@@ -553,7 +1437,20 @@
       "home": "19",
       "away": "15",
       "home_win_probability": 0.6682,
-      "away_win_probability": 0.3318
+      "away_win_probability": 0.3318,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909298",
@@ -561,7 +1458,20 @@
       "home": "14",
       "away": "5",
       "home_win_probability": 0.4935,
-      "away_win_probability": 0.5065
+      "away_win_probability": 0.5065,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909299",
@@ -569,7 +1479,20 @@
       "home": "4",
       "away": "1",
       "home_win_probability": 0.5237,
-      "away_win_probability": 0.4763
+      "away_win_probability": 0.4763,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909300",
@@ -577,7 +1500,20 @@
       "home": "3",
       "away": "29",
       "home_win_probability": 0.3731,
-      "away_win_probability": 0.6269
+      "away_win_probability": 0.6269,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909301",
@@ -585,7 +1521,20 @@
       "home": "10",
       "away": "26",
       "home_win_probability": 0.8202,
-      "away_win_probability": 0.1798
+      "away_win_probability": 0.1798,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909302",
@@ -593,7 +1542,20 @@
       "home": "24",
       "away": "9",
       "home_win_probability": 0.6461,
-      "away_win_probability": 0.3539
+      "away_win_probability": 0.3539,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909303",
@@ -601,7 +1563,20 @@
       "home": "23",
       "away": "22",
       "home_win_probability": 0.3238,
-      "away_win_probability": 0.6762
+      "away_win_probability": 0.6762,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909304",
@@ -609,7 +1584,20 @@
       "home": "12",
       "away": "25",
       "home_win_probability": 0.4236,
-      "away_win_probability": 0.5764
+      "away_win_probability": 0.5764,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909980",
@@ -617,7 +1605,20 @@
       "home": "3",
       "away": "7",
       "home_win_probability": 0.5274,
-      "away_win_probability": 0.4726
+      "away_win_probability": 0.4726,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909981",
@@ -625,7 +1626,20 @@
       "home": "5",
       "away": "6",
       "home_win_probability": 0.625,
-      "away_win_probability": 0.375
+      "away_win_probability": 0.375,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909982",
@@ -633,7 +1647,20 @@
       "home": "14",
       "away": "8",
       "home_win_probability": 0.4415,
-      "away_win_probability": 0.5585
+      "away_win_probability": 0.5585,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909983",
@@ -641,7 +1668,20 @@
       "home": "29",
       "away": "17",
       "home_win_probability": 0.852,
-      "away_win_probability": 0.148
+      "away_win_probability": 0.148,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909984",
@@ -649,7 +1689,20 @@
       "home": "16",
       "away": "4",
       "home_win_probability": 0.7509,
-      "away_win_probability": 0.2491
+      "away_win_probability": 0.2491,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909985",
@@ -657,7 +1710,20 @@
       "home": "20",
       "away": "11",
       "home_win_probability": 0.7969,
-      "away_win_probability": 0.2031
+      "away_win_probability": 0.2031,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909986",
@@ -665,7 +1731,20 @@
       "home": "21",
       "away": "13",
       "home_win_probability": 0.4473,
-      "away_win_probability": 0.5527
+      "away_win_probability": 0.5527,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909987",
@@ -673,7 +1752,20 @@
       "home": "12",
       "away": "30",
       "home_win_probability": 0.5203,
-      "away_win_probability": 0.4797
+      "away_win_probability": 0.4797,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909988",
@@ -681,7 +1773,20 @@
       "home": "26",
       "away": "24",
       "home_win_probability": 0.436,
-      "away_win_probability": 0.564
+      "away_win_probability": 0.564,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909989",
@@ -689,7 +1794,20 @@
       "home": "2",
       "away": "6",
       "home_win_probability": 0.6828,
-      "away_win_probability": 0.3172
+      "away_win_probability": 0.3172,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909990",
@@ -697,7 +1815,20 @@
       "home": "28",
       "away": "18",
       "home_win_probability": 0.6758,
-      "away_win_probability": 0.3242
+      "away_win_probability": 0.3242,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909991",
@@ -705,7 +1836,20 @@
       "home": "27",
       "away": "10",
       "home_win_probability": 0.4964,
-      "away_win_probability": 0.5036
+      "away_win_probability": 0.5036,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909992",
@@ -713,7 +1857,20 @@
       "home": "15",
       "away": "1",
       "home_win_probability": 0.5267,
-      "away_win_probability": 0.4733
+      "away_win_probability": 0.4733,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909993",
@@ -721,7 +1878,20 @@
       "home": "23",
       "away": "25",
       "home_win_probability": 0.3773,
-      "away_win_probability": 0.6227
+      "away_win_probability": 0.6227,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909994",
@@ -729,7 +1899,20 @@
       "home": "2",
       "away": "19",
       "home_win_probability": 0.7812,
-      "away_win_probability": 0.2188
+      "away_win_probability": 0.2188,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909995",
@@ -737,7 +1920,20 @@
       "home": "5",
       "away": "4",
       "home_win_probability": 0.7795,
-      "away_win_probability": 0.2205
+      "away_win_probability": 0.2205,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909996",
@@ -745,7 +1941,20 @@
       "home": "27",
       "away": "29",
       "home_win_probability": 0.4439,
-      "away_win_probability": 0.5561
+      "away_win_probability": 0.5561,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909997",
@@ -753,7 +1962,20 @@
       "home": "17",
       "away": "20",
       "home_win_probability": 0.3713,
-      "away_win_probability": 0.6287
+      "away_win_probability": 0.6287,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909998",
@@ -761,7 +1983,20 @@
       "home": "14",
       "away": "10",
       "home_win_probability": 0.4328,
-      "away_win_probability": 0.5672
+      "away_win_probability": 0.5672,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909999",
@@ -769,7 +2004,20 @@
       "home": "16",
       "away": "22",
       "home_win_probability": 0.5449,
-      "away_win_probability": 0.4551
+      "away_win_probability": 0.4551,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910000",
@@ -777,7 +2025,20 @@
       "home": "3",
       "away": "9",
       "home_win_probability": 0.5379,
-      "away_win_probability": 0.4621
+      "away_win_probability": 0.4621,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910001",
@@ -785,7 +2046,20 @@
       "home": "7",
       "away": "21",
       "home_win_probability": 0.7383,
-      "away_win_probability": 0.2617
+      "away_win_probability": 0.2617,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910002",
@@ -793,7 +2067,20 @@
       "home": "28",
       "away": "18",
       "home_win_probability": 0.6814,
-      "away_win_probability": 0.3186
+      "away_win_probability": 0.3186,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910003",
@@ -801,7 +2088,20 @@
       "home": "16",
       "away": "22",
       "home_win_probability": 0.5449,
-      "away_win_probability": 0.4551
+      "away_win_probability": 0.4551,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910004",
@@ -809,7 +2109,20 @@
       "home": "24",
       "away": "8",
       "home_win_probability": 0.5688,
-      "away_win_probability": 0.4312
+      "away_win_probability": 0.4312,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910005",
@@ -817,7 +2130,20 @@
       "home": "13",
       "away": "30",
       "home_win_probability": 0.7209,
-      "away_win_probability": 0.2791
+      "away_win_probability": 0.2791,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910006",
@@ -825,7 +2151,20 @@
       "home": "12",
       "away": "26",
       "home_win_probability": 0.6211,
-      "away_win_probability": 0.3789
+      "away_win_probability": 0.3789,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910007",
@@ -833,7 +2172,20 @@
       "home": "5",
       "away": "29",
       "home_win_probability": 0.5077,
-      "away_win_probability": 0.4923
+      "away_win_probability": 0.4923,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910008",
@@ -841,7 +2193,20 @@
       "home": "11",
       "away": "10",
       "home_win_probability": 0.4149,
-      "away_win_probability": 0.5851
+      "away_win_probability": 0.5851,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910009",
@@ -849,7 +2214,20 @@
       "home": "14",
       "away": "15",
       "home_win_probability": 0.6793,
-      "away_win_probability": 0.3207
+      "away_win_probability": 0.3207,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910010",
@@ -857,7 +2235,20 @@
       "home": "19",
       "away": "20",
       "home_win_probability": 0.4328,
-      "away_win_probability": 0.5672
+      "away_win_probability": 0.5672,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910011",
@@ -865,7 +2256,20 @@
       "home": "17",
       "away": "4",
       "home_win_probability": 0.6211,
-      "away_win_probability": 0.3789
+      "away_win_probability": 0.3789,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910012",
@@ -873,7 +2277,20 @@
       "home": "28",
       "away": "27",
       "home_win_probability": 0.6257,
-      "away_win_probability": 0.3743
+      "away_win_probability": 0.3743,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910013",
@@ -881,7 +2298,20 @@
       "home": "3",
       "away": "8",
       "home_win_probability": 0.4415,
-      "away_win_probability": 0.5585
+      "away_win_probability": 0.5585,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910014",
@@ -889,7 +2319,20 @@
       "home": "25",
       "away": "1",
       "home_win_probability": 0.7059,
-      "away_win_probability": 0.2941
+      "away_win_probability": 0.2941,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910015",
@@ -897,7 +2340,20 @@
       "home": "7",
       "away": "2",
       "home_win_probability": 0.5436,
-      "away_win_probability": 0.4564
+      "away_win_probability": 0.4564,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910016",
@@ -905,7 +2361,20 @@
       "home": "6",
       "away": "9",
       "home_win_probability": 0.6602,
-      "away_win_probability": 0.3398
+      "away_win_probability": 0.3398,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910017",
@@ -913,7 +2382,20 @@
       "home": "13",
       "away": "26",
       "home_win_probability": 0.7918,
-      "away_win_probability": 0.2082
+      "away_win_probability": 0.2082,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910018",
@@ -921,7 +2403,20 @@
       "home": "23",
       "away": "21",
       "home_win_probability": 0.5287,
-      "away_win_probability": 0.4713
+      "away_win_probability": 0.4713,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910019",
@@ -929,7 +2424,20 @@
       "home": "29",
       "away": "9",
       "home_win_probability": 0.7644,
-      "away_win_probability": 0.2356
+      "away_win_probability": 0.2356,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910020",
@@ -937,7 +2445,20 @@
       "home": "15",
       "away": "22",
       "home_win_probability": 0.3912,
-      "away_win_probability": 0.6088
+      "away_win_probability": 0.6088,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910021",
@@ -945,7 +2466,20 @@
       "home": "16",
       "away": "18",
       "home_win_probability": 0.7047,
-      "away_win_probability": 0.2953
+      "away_win_probability": 0.2953,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401910022",
@@ -953,7 +2487,20 @@
       "home": "24",
       "away": "12",
       "home_win_probability": 0.7795,
-      "away_win_probability": 0.2205
+      "away_win_probability": 0.2205,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     },
     {
       "id": "401909305",
@@ -961,8 +2508,21 @@
       "home": "1",
       "away": "30",
       "home_win_probability": 0.6247,
-      "away_win_probability": 0.3753
+      "away_win_probability": 0.3753,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false
     }
   ],
-  "limitations": "Win percentage and rest only; no injuries or roster updates."
+  "limitations": "Baseline win percentage and rest only. Injury snapshots are informational and excluded from probabilities until verified historical pregame coverage and retraining exist."
 }
