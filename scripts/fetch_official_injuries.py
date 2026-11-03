@@ -117,23 +117,24 @@ def main():
     else:
         snapshots = []
     known = {s["source_url"] for s in snapshots if s.get("players")}
-    snapshots = [s for s in snapshots if s.get("players")]
+
     added = 0
     for url in urls[:3]:
         if url in known:
             continue
         try:
             snapshot = parse_pdf(fetch(url), url, teams)
-            if not snapshot["covered_games"] or not snapshot["players"]:
+            if not snapshot["covered_games"]:
                 import pdfplumber
                 with pdfplumber.open(io.BytesIO(fetch(url))) as debug_pdf:
                     print("NBA PDF extraction sample:", repr((debug_pdf.pages[0].extract_text() or "")[:2200]))
                     print("NBA PDF first table:", repr((debug_pdf.pages[0].extract_tables() or [])[:1])[:2200])
-                raise ValueError("No verified player injury rows parsed")
+                raise ValueError("No verified team/game rows parsed")
             validate_snapshot(snapshot)
         except Exception as exc:
             print("Rejected unreadable official report:", type(exc).__name__, str(exc))
             continue
+        snapshots = [old for old in snapshots if old["source_url"] != url]
         snapshots.append(snapshot)
         added += 1
     if not added and not any(s["source_url"] in urls[:3] for s in snapshots):
