@@ -34,18 +34,33 @@ def load_snapshots():
         validate_snapshot(item)
     return data
 
-def injury_at(game_utc, team_id, snapshots=None):
-    """Latest known snapshot strictly before tipoff; return unknown if absent/stale."""
+def injury_at(game_utc, team_id, snapshots=None, matchup=None, game_date=None):
+    """Latest verifiable pre-tipoff report for this matchup/team; otherwise unknown.
+
+    The report must explicitly cover the game's team, matchup and local NBA game
+    date. Missing or not-yet-submitted reports are never treated as healthy.
+    """
     game = parse_time(game_utc)
     candidates = []
     for snapshot in (load_snapshots() if snapshots is None else snapshots):
         observed = validate_snapshot(snapshot)
-        if observed <= game and game - observed <= dt.timedelta(hours=48):
-            candidates.append((observed, snapshot))
+        if not (observed <= game and game - observed <= dt.timedelta(hours=48)):
+            continue
+        if not matchup or not game_date:
+            # Legacy archives lack game-specific provenance and cannot be trusted.
+            continue
+        covered = snapshot.get("covered_games", [])
+        if not any(str(c.get("team_id")) == str(team_id) and
+                   c.get("matchup") == matchup and
+                   c.get("game_date") == game_date for c in covered):
+            continue
+        candidates.append((observed, snapshot))
     if not candidates:
         return {"status": "unknown", "players": [], "observed_utc": None}
     observed, latest = max(candidates, key=lambda row: row[0])
-    players = [p for p in latest.get("players", []) if str(p["team_id"]) == str(team_id)]
+    players = [p for p in latest.get("players", [])
+               if str(p["team_id"]) == str(team_id) and
+               p.get("matchup") == matchup and p.get("game_date") == game_date]
     return {"status": "verified", "players": players, "observed_utc": latest["observed_utc"],
             "source_url": latest["source_url"]}
 
