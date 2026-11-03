@@ -76,8 +76,8 @@ def update(cache=None):
         for game_id,box in pool.map(get,pending):
             if box:
                 archive[game_id]=box
-    if not archive:
-        raise ValueError("No verified box scores")
+    if not archive or sum("h" in g and g["id"] not in archive for g in games) > max(3, len(pending) // 10):
+        raise ValueError("Box score coverage is incomplete; retaining the published archive")
     data=json.dumps(archive,sort_keys=True,separators=(",",":")).encode()
     BOX.write_bytes(gzip.compress(data,mtime=0))
     print("Verified ESPN box scores:",len(archive))

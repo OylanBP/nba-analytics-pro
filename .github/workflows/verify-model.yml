@@ -35,6 +35,20 @@ jobs:
         run: python scripts/promote_enhanced.py
       - name: Audit real historical injury labels
         run: python scripts/audit_injury_training.py
+      - name: Reproduce player-role selection on chronological games
+        run: |
+          python scripts/availability.py
+          python - <<'CHECK'
+          import json
+          from pathlib import Path
+          model=json.loads(Path('data/model/availability.json').read_text())
+          role=model['player_role']
+          assert model['train']+model['test']==model['paired']
+          assert role['covered_test_games']>=40
+          assert len(role['weights'])==12
+          expected=all(role['metrics'][k]<min(model['baseline'][k],model['adjusted'][k]) for k in ('brier','log_loss'))
+          assert role['approved']==expected
+          CHECK
       - name: Generate model probabilities
         run: python scripts/predict_games.py
       - name: Verify output consistency

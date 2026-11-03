@@ -42,7 +42,10 @@ jobs:
         run: |
           node --test tests/*.test.js
           python scripts/update_games.py
-          python scripts/player_roles.py
+
+      - name: 更新已完賽球員紀錄（來源暫停時沿用上次驗證資料）
+        continue-on-error: true
+        run: python scripts/player_roles.py
 
       - name: Bootstrap first verified model when missing
         shell: bash
