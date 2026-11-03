@@ -1,6 +1,10 @@
 name: Backfill official historical NBA injuries
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/backfill-injuries.yml'
 permissions:
   contents: write
 concurrency:
