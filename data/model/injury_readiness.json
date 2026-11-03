@@ -1,0 +1,10 @@
+{
+  "snapshots": 4,
+  "player_rows": 0,
+  "historical_completed_games": 1322,
+  "matched_labeled_games": 0,
+  "invalid_post_tipoff_rows": 0,
+  "minimum_labeled_games": 200,
+  "ready_to_train": false,
+  "reason": "Need historical pre-tipoff player availability joined to completed game outcomes; no fabricated injury coefficients."
+}
