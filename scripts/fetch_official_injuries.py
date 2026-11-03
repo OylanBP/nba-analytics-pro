@@ -85,8 +85,11 @@ def parse_pdf(data, url, teams):
                 if not status_match:
                     continue
                 before = line[:status_match.start()]
-                name = re.sub(r"^.*?"+re.escape(active_team["name"].replace(" ", "")), "", before, flags=re.I).strip()
-                if not name:
+                team_name = active_team["name"]
+                # Match the real team name with flexible whitespace.
+                pattern = r"^.*?" + r"\\s*".join(map(re.escape, team_name.split()))
+                name = re.sub(pattern, "", before, count=1, flags=re.I).strip(" -|")
+                if not name or not submitted or "NOT YET SUBMITTED" in name.upper():
                     continue
                 records.append({"game_date": active_date, "matchup": active_matchup,
                                 "team_id": str(active_team["id"]), "name": name,
@@ -113,19 +116,20 @@ def main():
         snapshots = json.loads(OUT.read_text())
     else:
         snapshots = []
-    known = {s["source_url"] for s in snapshots}
+    known = {s["source_url"] for s in snapshots if s.get("players")}
+    snapshots = [s for s in snapshots if s.get("players")]
     added = 0
     for url in urls[:3]:
         if url in known:
             continue
         try:
             snapshot = parse_pdf(fetch(url), url, teams)
-            if not snapshot["covered_games"]:
+            if not snapshot["covered_games"] or not snapshot["players"]:
                 import pdfplumber
                 with pdfplumber.open(io.BytesIO(fetch(url))) as debug_pdf:
                     print("NBA PDF extraction sample:", repr((debug_pdf.pages[0].extract_text() or "")[:2200]))
                     print("NBA PDF first table:", repr((debug_pdf.pages[0].extract_tables() or [])[:1])[:2200])
-                raise ValueError("No verified team/game rows parsed")
+                raise ValueError("No verified player injury rows parsed")
             validate_snapshot(snapshot)
         except Exception as exc:
             print("Rejected unreadable official report:", type(exc).__name__, str(exc))
