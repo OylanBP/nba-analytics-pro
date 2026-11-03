@@ -23,6 +23,10 @@ jobs:
         run: python scripts/model_lifecycle.py --mode train
       - name: Verify expanding-window model calibration
         run: python scripts/rolling_backtest.py
+      - name: Build enhanced Elo and form history
+        run: python scripts/enhanced_features.py
+      - name: Evaluate enhanced challenger against baseline
+        run: python scripts/enhanced_model.py
       - name: Generate model probabilities
         run: python scripts/predict_games.py
       - name: Verify output consistency
