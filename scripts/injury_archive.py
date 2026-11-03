@@ -52,7 +52,7 @@ def injury_at(game_utc, team_id, snapshots=None, matchup=None, game_date=None):
         covered = snapshot.get("covered_games", [])
         if not any(str(c.get("team_id")) == str(team_id) and
                    c.get("matchup") == matchup and
-                   c.get("game_date") == game_date for c in covered):
+                   c.get("game_date") == game_date and c.get("submitted", True) for c in covered):
             continue
         candidates.append((observed, snapshot))
     if not candidates:
