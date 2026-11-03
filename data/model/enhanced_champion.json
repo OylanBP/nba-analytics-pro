@@ -1,0 +1,34 @@
+{
+  "features": [
+    "home_win_pct_before",
+    "away_win_pct_before",
+    "home_rest_days",
+    "away_rest_days",
+    "home_elo",
+    "away_elo",
+    "home_last10_win_pct",
+    "away_last10_win_pct",
+    "home_last10_margin",
+    "away_last10_margin"
+  ],
+  "weights": [
+    0.15469339020451145,
+    0.5286446669418325,
+    -0.4277159975271788,
+    0.07024824045842618,
+    0.025008746423476568,
+    0.829608431973492,
+    -0.9624293180021443,
+    0.31022485980753,
+    -0.2637846301306119,
+    0.7748640215587266,
+    -0.7321007737569282
+  ],
+  "trained_utc": "2026-11-03T08:50:29.380094+00:00",
+  "training_games": 1322,
+  "rolling_brier": 0.196533,
+  "baseline_rolling_brier": 0.217937,
+  "rolling_log_loss": 0.578655,
+  "injuries_in_model": false,
+  "model_type": "logistic_regression_elo_recent_form"
+}
