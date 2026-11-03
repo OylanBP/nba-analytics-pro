@@ -120,6 +120,10 @@ def main():
         try:
             snapshot = parse_pdf(fetch(url), url, teams)
             if not snapshot["covered_games"]:
+                import pdfplumber
+                with pdfplumber.open(io.BytesIO(fetch(url))) as debug_pdf:
+                    print("NBA PDF extraction sample:", repr((debug_pdf.pages[0].extract_text() or "")[:2200]))
+                    print("NBA PDF first table:", repr((debug_pdf.pages[0].extract_tables() or [])[:1])[:2200])
                 raise ValueError("No verified team/game rows parsed")
             validate_snapshot(snapshot)
         except Exception as exc:
