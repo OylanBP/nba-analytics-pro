@@ -77,6 +77,11 @@ def main():
     output["availability_evaluation"]={k:effect[k] for k in ("approved","paired","train","test","test_from","baseline","adjusted") if k in effect}
     dest=DATA/"model/predictions.json"
     dest.parent.mkdir(parents=True,exist_ok=True)
+    if dest.exists():
+        previous=json.loads(dest.read_text())
+        if {k:v for k,v in previous.items() if k!="generated_utc"} == {k:v for k,v in output.items() if k!="generated_utc"}:
+            print("Prediction inputs and results unchanged.")
+            return
     dest.write_text(json.dumps(output,indent=2)+"\n")
     print("Exported",len(results),"future predictions.")
 if __name__=="__main__":
