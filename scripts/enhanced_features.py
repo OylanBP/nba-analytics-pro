@@ -15,7 +15,7 @@ FEATURES = ("home_win_pct_before", "away_win_pct_before",
             "away_last10_win_pct", "home_last10_margin",
             "away_last10_margin")
 
-def build(games):
+def build(games, include_upcoming=False):
     dates = defaultdict(list)
     for game in games:
         if all(k in game for k in ("id", "date", "season", "home", "away")):
@@ -56,6 +56,8 @@ def build(games):
                 "home_last10_margin": hm, "away_last10_margin": am}
         for g in group:
             row = frozen.get(str(g["id"]))
+            if row and include_upcoming and ("h" not in g or "a" not in g):
+                rows.append(row)
             if row and type(g.get("h")) is int and type(g.get("a")) is int and g["h"] != g["a"]:
                 rows.append({**row, "home_win": int(g["h"] > g["a"])})
         for g in group:
