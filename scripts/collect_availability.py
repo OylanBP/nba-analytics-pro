@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from availability import DATA,HISTORY,game_key,difference
 from fetch_official_injuries import fetch,parse_pdf
+from player_roles import role_history, role_features, load_boxes
 from injury_archive import injury_at,parse_time
 
 BASE='https://ak-static.cms.nba.com/referee/injury/Injury-Report_'
@@ -18,6 +19,7 @@ def main():
     teams=json.loads((DATA/'standings.json').read_text())['teams']
     names={t['name']:t for t in teams}
     teams={str(t['id']):t['abbreviation'] for t in teams}
+    history=role_history(games,load_boxes())
     by_day={}
     for g in games:
         if 'h' in g and 'a' in g:
@@ -41,9 +43,11 @@ def main():
                 continue
             def team(side):
                 return injury_at(g['date'],g[side],[snapshot],matchup=match,game_date=day)
-            x=difference(team('home'),team('away'))
+            reports={side:team(side) for side in ('home','away')}
+            x=difference(reports['home'],reports['away'])
             if x is not None:
-                found.append(dict(id=str(g['id']),counts=x,source_url=url,observed_utc=snapshot['observed_utc']))
+                roles,matches=role_features(reports,g,history)
+                found.append(dict(id=str(g['id']),counts=x,roles=roles,matched_players=matches,source_url=url,observed_utc=snapshot['observed_utc']))
         return found
     with ThreadPoolExecutor(max_workers=4) as pool:
         for batch in pool.map(extract,sorted(by_day)):

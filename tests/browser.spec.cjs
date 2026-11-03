@@ -69,3 +69,19 @@ test('open forecast refreshes without duplicate games or notes', async ({page})=
   await expect(rows).toHaveCount(2);
   await expect(page.locator('.injury-model-note')).toHaveCount(1);
 });
+
+test('v3 labels the role model and shows the player sample behind an adjustment', async ({page})=>{
+  await page.route('**/data/model/predictions.json?*',route=>route.fulfill({json:{
+    predictions:[{id:'fixture',home:'1',away:'2',date:new Date(Date.now()+86400000).toISOString(),
+      baseline_home_probability:.50,home_win_probability:.55,away_win_probability:.45,
+      injuries_in_model:true,player_roles_in_model:true, injuries:{
+        away:{status:'verified',players:[{name:'測試球員',status:'Out',role:{games:10,minutes:32,points:21}}]},
+        home:{status:'verified',players:[]}}}]
+  }}));
+  await page.goto(base+'/#forecast',{waitUntil:'domcontentloaded'});
+  await expect(page).toHaveTitle(/v3\.0/);
+  const details=page.locator('#trained-model-rows .injury-detail').first();
+  await expect(details).toContainText('近 10 場平均 32 分鐘、21 分');
+  await expect(details).toContainText('依球員角色調整');
+  await expect(details).toContainText('50.0% → 55.0%');
+});
