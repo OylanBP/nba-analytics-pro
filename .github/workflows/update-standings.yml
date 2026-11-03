@@ -37,6 +37,14 @@ jobs:
           node --test tests/*.test.js
           python scripts/update_games.py
 
+      - name: Bootstrap first verified model when missing
+        shell: bash
+        run: |
+          if ! test -s data/model/champion.json; then
+            python scripts/build_model_history.py
+            python scripts/model_lifecycle.py --mode train
+          fi
+
       - name: Generate approved model predictions when available
         run: python scripts/predict_games.py
 
@@ -46,6 +54,9 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/games.json data/standings.json data/rosters.json data/player_stats.json
           if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
+          if test -f data/model/champion.json; then git add data/model/champion.json; fi
+          if test -f data/model/evaluation.json; then git add data/model/evaluation.json; fi
+          if test -f data/model/games_history.json; then git add data/model/games_history.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Update NBA standings, rosters and player stats'
             git push
