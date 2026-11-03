@@ -46,7 +46,7 @@ def read_games():
             raise ValueError("Outcome must be binary.")
         if row["home_team"] == row["away_team"]:
             raise ValueError("Team cannot play itself.")
-        key = (str(date), row["home_team"], row["away_team"])
+        key = str(row["id"]) if row.get("id") else (str(date), row["home_team"], row["away_team"])
         if key in seen:
             raise ValueError("Duplicate game: "+str(key))
         seen.add(key)
