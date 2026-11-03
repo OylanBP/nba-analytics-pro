@@ -12,22 +12,20 @@ permissions:
 jobs:
   browser:
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
       - name: Install Playwright and Chromium
         run: |
           npm install --no-save --package-lock=false @playwright/test@1.56.1
-          npx playwright install --with-deps chromium
       - name: Serve site
         run: |
-          python -m http.server 8765 --bind 127.0.0.1 > /tmp/nba-http.log 2>&1 &
+          npx --yes http-server . -p 8765 -a 127.0.0.1 -c-1 > /tmp/nba-http.log 2>&1 &
           echo $! > /tmp/nba-http.pid
           for i in $(seq 1 30); do curl -fsS http://127.0.0.1:8765/ > /dev/null && exit 0; sleep 1; done
           exit 1
