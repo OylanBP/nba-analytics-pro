@@ -1,0 +1,968 @@
+{
+  "generated_utc": "2026-11-03T06:36:57.024066+00:00",
+  "model_trained_utc": "2026-11-03T06:36:56.993720+00:00",
+  "source": "approved model and archived ESPN games",
+  "predictions": [
+    {
+      "id": "401909922",
+      "date": "2026-11-05T00:00Z",
+      "home": "8",
+      "away": "20",
+      "home_win_probability": 0.5646,
+      "away_win_probability": 0.4354
+    },
+    {
+      "id": "401909923",
+      "date": "2026-11-05T00:00Z",
+      "home": "27",
+      "away": "1",
+      "home_win_probability": 0.5941,
+      "away_win_probability": 0.4059
+    },
+    {
+      "id": "401909924",
+      "date": "2026-11-05T00:30Z",
+      "home": "2",
+      "away": "15",
+      "home_win_probability": 0.776,
+      "away_win_probability": 0.224
+    },
+    {
+      "id": "401909925",
+      "date": "2026-11-05T00:30Z",
+      "home": "17",
+      "away": "30",
+      "home_win_probability": 0.4608,
+      "away_win_probability": 0.5392
+    },
+    {
+      "id": "401909926",
+      "date": "2026-11-05T00:30Z",
+      "home": "18",
+      "away": "4",
+      "home_win_probability": 0.6281,
+      "away_win_probability": 0.3719
+    },
+    {
+      "id": "401909927",
+      "date": "2026-11-05T01:00Z",
+      "home": "29",
+      "away": "11",
+      "home_win_probability": 0.7896,
+      "away_win_probability": 0.2104
+    },
+    {
+      "id": "401909928",
+      "date": "2026-11-05T01:00Z",
+      "home": "3",
+      "away": "26",
+      "home_win_probability": 0.6222,
+      "away_win_probability": 0.3778
+    },
+    {
+      "id": "401909929",
+      "date": "2026-11-05T01:00Z",
+      "home": "25",
+      "away": "5",
+      "home_win_probability": 0.5615,
+      "away_win_probability": 0.4385
+    },
+    {
+      "id": "401909930",
+      "date": "2026-11-05T01:30Z",
+      "home": "10",
+      "away": "16",
+      "home_win_probability": 0.6639,
+      "away_win_probability": 0.3361
+    },
+    {
+      "id": "401909931",
+      "date": "2026-11-05T02:00Z",
+      "home": "7",
+      "away": "28",
+      "home_win_probability": 0.5967,
+      "away_win_probability": 0.4033
+    },
+    {
+      "id": "401909932",
+      "date": "2026-11-05T02:00Z",
+      "home": "21",
+      "away": "22",
+      "home_win_probability": 0.3623,
+      "away_win_probability": 0.6377
+    },
+    {
+      "id": "401909933",
+      "date": "2026-11-05T02:30Z",
+      "home": "24",
+      "away": "6",
+      "home_win_probability": 0.5645,
+      "away_win_probability": 0.4355
+    },
+    {
+      "id": "401909934",
+      "date": "2026-11-05T03:00Z",
+      "home": "23",
+      "away": "13",
+      "home_win_probability": 0.2973,
+      "away_win_probability": 0.7027
+    },
+    {
+      "id": "401909935",
+      "date": "2026-11-05T03:30Z",
+      "home": "12",
+      "away": "14",
+      "home_win_probability": 0.4927,
+      "away_win_probability": 0.5073
+    },
+    {
+      "id": "401909936",
+      "date": "2026-11-06T02:00Z",
+      "home": "21",
+      "away": "19",
+      "home_win_probability": 0.5343,
+      "away_win_probability": 0.4657
+    },
+    {
+      "id": "401909937",
+      "date": "2026-11-06T03:00Z",
+      "home": "9",
+      "away": "14",
+      "home_win_probability": 0.6498,
+      "away_win_probability": 0.3502
+    },
+    {
+      "id": "401909287",
+      "date": "2026-11-07T00:00Z",
+      "home": "1",
+      "away": "27",
+      "home_win_probability": 0.5536,
+      "away_win_probability": 0.4464
+    },
+    {
+      "id": "401909288",
+      "date": "2026-11-07T00:00Z",
+      "home": "30",
+      "away": "2",
+      "home_win_probability": 0.425,
+      "away_win_probability": 0.575
+    },
+    {
+      "id": "401909289",
+      "date": "2026-11-07T00:30Z",
+      "home": "5",
+      "away": "20",
+      "home_win_probability": 0.507,
+      "away_win_probability": 0.493
+    },
+    {
+      "id": "401909290",
+      "date": "2026-11-07T01:00Z",
+      "home": "6",
+      "away": "26",
+      "home_win_probability": 0.743,
+      "away_win_probability": 0.257
+    },
+    {
+      "id": "401909291",
+      "date": "2026-11-07T01:00Z",
+      "home": "29",
+      "away": "25",
+      "home_win_probability": 0.692,
+      "away_win_probability": 0.308
+    },
+    {
+      "id": "401909292",
+      "date": "2026-11-07T01:00Z",
+      "home": "15",
+      "away": "28",
+      "home_win_probability": 0.441,
+      "away_win_probability": 0.559
+    },
+    {
+      "id": "401909293",
+      "date": "2026-11-07T01:00Z",
+      "home": "3",
+      "away": "16",
+      "home_win_probability": 0.4847,
+      "away_win_probability": 0.5153
+    },
+    {
+      "id": "401909294",
+      "date": "2026-11-07T03:00Z",
+      "home": "13",
+      "away": "22",
+      "home_win_probability": 0.5431,
+      "away_win_probability": 0.4569
+    },
+    {
+      "id": "401909295",
+      "date": "2026-11-07T03:00Z",
+      "home": "23",
+      "away": "24",
+      "home_win_probability": 0.3258,
+      "away_win_probability": 0.6742
+    },
+    {
+      "id": "401909938",
+      "date": "2026-11-07T22:00Z",
+      "home": "11",
+      "away": "7",
+      "home_win_probability": 0.4558,
+      "away_win_probability": 0.5442
+    },
+    {
+      "id": "401909939",
+      "date": "2026-11-08T00:30Z",
+      "home": "1",
+      "away": "17",
+      "home_win_probability": 0.6701,
+      "away_win_probability": 0.3299
+    },
+    {
+      "id": "401909940",
+      "date": "2026-11-08T01:00Z",
+      "home": "5",
+      "away": "18",
+      "home_win_probability": 0.6984,
+      "away_win_probability": 0.3016
+    },
+    {
+      "id": "401909941",
+      "date": "2026-11-08T01:00Z",
+      "home": "25",
+      "away": "27",
+      "home_win_probability": 0.6441,
+      "away_win_probability": 0.3559
+    },
+    {
+      "id": "401909942",
+      "date": "2026-11-08T01:30Z",
+      "home": "9",
+      "away": "19",
+      "home_win_probability": 0.6584,
+      "away_win_probability": 0.3416
+    },
+    {
+      "id": "401909943",
+      "date": "2026-11-08T02:00Z",
+      "home": "21",
+      "away": "10",
+      "home_win_probability": 0.3574,
+      "away_win_probability": 0.6426
+    },
+    {
+      "id": "401909944",
+      "date": "2026-11-08T03:00Z",
+      "home": "22",
+      "away": "24",
+      "home_win_probability": 0.6319,
+      "away_win_probability": 0.3681
+    },
+    {
+      "id": "401909945",
+      "date": "2026-11-08T20:30Z",
+      "home": "4",
+      "away": "20",
+      "home_win_probability": 0.3341,
+      "away_win_probability": 0.6659
+    },
+    {
+      "id": "401909946",
+      "date": "2026-11-08T23:00Z",
+      "home": "8",
+      "away": "13",
+      "home_win_probability": 0.6276,
+      "away_win_probability": 0.3724
+    },
+    {
+      "id": "401909947",
+      "date": "2026-11-09T00:00Z",
+      "home": "16",
+      "away": "26",
+      "home_win_probability": 0.7217,
+      "away_win_probability": 0.2783
+    },
+    {
+      "id": "401909948",
+      "date": "2026-11-09T00:30Z",
+      "home": "6",
+      "away": "17",
+      "home_win_probability": 0.7502,
+      "away_win_probability": 0.2498
+    },
+    {
+      "id": "401909949",
+      "date": "2026-11-09T01:00Z",
+      "home": "15",
+      "away": "2",
+      "home_win_probability": 0.3391,
+      "away_win_probability": 0.6609
+    },
+    {
+      "id": "401909950",
+      "date": "2026-11-09T02:00Z",
+      "home": "12",
+      "away": "3",
+      "home_win_probability": 0.5178,
+      "away_win_probability": 0.4822
+    },
+    {
+      "id": "401909951",
+      "date": "2026-11-09T02:00Z",
+      "home": "23",
+      "away": "14",
+      "home_win_probability": 0.4571,
+      "away_win_probability": 0.5429
+    },
+    {
+      "id": "401909952",
+      "date": "2026-11-10T00:00Z",
+      "home": "1",
+      "away": "13",
+      "home_win_probability": 0.4843,
+      "away_win_probability": 0.5157
+    },
+    {
+      "id": "401909953",
+      "date": "2026-11-10T00:00Z",
+      "home": "30",
+      "away": "5",
+      "home_win_probability": 0.5049,
+      "away_win_probability": 0.4951
+    },
+    {
+      "id": "401909954",
+      "date": "2026-11-10T00:00Z",
+      "home": "8",
+      "away": "27",
+      "home_win_probability": 0.7162,
+      "away_win_probability": 0.2838
+    },
+    {
+      "id": "401909955",
+      "date": "2026-11-10T00:30Z",
+      "home": "28",
+      "away": "29",
+      "home_win_probability": 0.4039,
+      "away_win_probability": 0.5961
+    },
+    {
+      "id": "401909956",
+      "date": "2026-11-10T01:00Z",
+      "home": "6",
+      "away": "11",
+      "home_win_probability": 0.7209,
+      "away_win_probability": 0.2791
+    },
+    {
+      "id": "401909957",
+      "date": "2026-11-10T01:30Z",
+      "home": "10",
+      "away": "7",
+      "home_win_probability": 0.6849,
+      "away_win_probability": 0.3151
+    },
+    {
+      "id": "401909958",
+      "date": "2026-11-10T02:00Z",
+      "home": "21",
+      "away": "24",
+      "home_win_probability": 0.4366,
+      "away_win_probability": 0.5634
+    },
+    {
+      "id": "401909959",
+      "date": "2026-11-10T03:00Z",
+      "home": "9",
+      "away": "3",
+      "home_win_probability": 0.6723,
+      "away_win_probability": 0.3277
+    },
+    {
+      "id": "401909960",
+      "date": "2026-11-11T00:30Z",
+      "home": "18",
+      "away": "15",
+      "home_win_probability": 0.6571,
+      "away_win_probability": 0.3429
+    },
+    {
+      "id": "401909961",
+      "date": "2026-11-11T01:00Z",
+      "home": "20",
+      "away": "2",
+      "home_win_probability": 0.6123,
+      "away_win_probability": 0.3877
+    },
+    {
+      "id": "401909962",
+      "date": "2026-11-11T02:00Z",
+      "home": "21",
+      "away": "12",
+      "home_win_probability": 0.6218,
+      "away_win_probability": 0.3782
+    },
+    {
+      "id": "401909963",
+      "date": "2026-11-11T02:00Z",
+      "home": "26",
+      "away": "14",
+      "home_win_probability": 0.5368,
+      "away_win_probability": 0.4632
+    },
+    {
+      "id": "401909964",
+      "date": "2026-11-11T03:00Z",
+      "home": "23",
+      "away": "19",
+      "home_win_probability": 0.4665,
+      "away_win_probability": 0.5335
+    },
+    {
+      "id": "401909965",
+      "date": "2026-11-11T04:00Z",
+      "home": "22",
+      "away": "25",
+      "home_win_probability": 0.6492,
+      "away_win_probability": 0.3508
+    },
+    {
+      "id": "401909966",
+      "date": "2026-11-12T00:00Z",
+      "home": "11",
+      "away": "27",
+      "home_win_probability": 0.5271,
+      "away_win_probability": 0.4729
+    },
+    {
+      "id": "401909967",
+      "date": "2026-11-12T00:00Z",
+      "home": "18",
+      "away": "5",
+      "home_win_probability": 0.4841,
+      "away_win_probability": 0.5159
+    },
+    {
+      "id": "401909968",
+      "date": "2026-11-12T00:00Z",
+      "home": "28",
+      "away": "2",
+      "home_win_probability": 0.4769,
+      "away_win_probability": 0.5231
+    },
+    {
+      "id": "401909969",
+      "date": "2026-11-12T01:00Z",
+      "home": "4",
+      "away": "24",
+      "home_win_probability": 0.4207,
+      "away_win_probability": 0.5793
+    },
+    {
+      "id": "401909970",
+      "date": "2026-11-12T01:00Z",
+      "home": "29",
+      "away": "7",
+      "home_win_probability": 0.74,
+      "away_win_probability": 0.26
+    },
+    {
+      "id": "401909971",
+      "date": "2026-11-12T01:00Z",
+      "home": "15",
+      "away": "13",
+      "home_win_probability": 0.3946,
+      "away_win_probability": 0.6054
+    },
+    {
+      "id": "401909972",
+      "date": "2026-11-12T01:00Z",
+      "home": "3",
+      "away": "17",
+      "home_win_probability": 0.6599,
+      "away_win_probability": 0.3401
+    },
+    {
+      "id": "401909973",
+      "date": "2026-11-12T02:00Z",
+      "home": "26",
+      "away": "19",
+      "home_win_probability": 0.54,
+      "away_win_probability": 0.46
+    },
+    {
+      "id": "401909974",
+      "date": "2026-11-12T02:30Z",
+      "home": "10",
+      "away": "9",
+      "home_win_probability": 0.6994,
+      "away_win_probability": 0.3006
+    },
+    {
+      "id": "401909975",
+      "date": "2026-11-12T03:00Z",
+      "home": "22",
+      "away": "25",
+      "home_win_probability": 0.6549,
+      "away_win_probability": 0.3451
+    },
+    {
+      "id": "401909976",
+      "date": "2026-11-13T00:00Z",
+      "home": "20",
+      "away": "28",
+      "home_win_probability": 0.7287,
+      "away_win_probability": 0.2713
+    },
+    {
+      "id": "401909977",
+      "date": "2026-11-13T00:00Z",
+      "home": "27",
+      "away": "8",
+      "home_win_probability": 0.499,
+      "away_win_probability": 0.501
+    },
+    {
+      "id": "401909978",
+      "date": "2026-11-13T01:00Z",
+      "home": "16",
+      "away": "6",
+      "home_win_probability": 0.5779,
+      "away_win_probability": 0.4221
+    },
+    {
+      "id": "401909979",
+      "date": "2026-11-13T02:00Z",
+      "home": "21",
+      "away": "30",
+      "home_win_probability": 0.5461,
+      "away_win_probability": 0.4539
+    },
+    {
+      "id": "401909296",
+      "date": "2026-11-14T00:00Z",
+      "home": "11",
+      "away": "18",
+      "home_win_probability": 0.5999,
+      "away_win_probability": 0.4001
+    },
+    {
+      "id": "401909297",
+      "date": "2026-11-14T00:00Z",
+      "home": "19",
+      "away": "15",
+      "home_win_probability": 0.6682,
+      "away_win_probability": 0.3318
+    },
+    {
+      "id": "401909298",
+      "date": "2026-11-14T01:00Z",
+      "home": "14",
+      "away": "5",
+      "home_win_probability": 0.4935,
+      "away_win_probability": 0.5065
+    },
+    {
+      "id": "401909299",
+      "date": "2026-11-14T01:00Z",
+      "home": "4",
+      "away": "1",
+      "home_win_probability": 0.5237,
+      "away_win_probability": 0.4763
+    },
+    {
+      "id": "401909300",
+      "date": "2026-11-14T01:00Z",
+      "home": "3",
+      "away": "29",
+      "home_win_probability": 0.3731,
+      "away_win_probability": 0.6269
+    },
+    {
+      "id": "401909301",
+      "date": "2026-11-14T01:30Z",
+      "home": "10",
+      "away": "26",
+      "home_win_probability": 0.8202,
+      "away_win_probability": 0.1798
+    },
+    {
+      "id": "401909302",
+      "date": "2026-11-14T02:30Z",
+      "home": "24",
+      "away": "9",
+      "home_win_probability": 0.6461,
+      "away_win_probability": 0.3539
+    },
+    {
+      "id": "401909303",
+      "date": "2026-11-14T03:00Z",
+      "home": "23",
+      "away": "22",
+      "home_win_probability": 0.3238,
+      "away_win_probability": 0.6762
+    },
+    {
+      "id": "401909304",
+      "date": "2026-11-14T03:30Z",
+      "home": "12",
+      "away": "25",
+      "home_win_probability": 0.4236,
+      "away_win_probability": 0.5764
+    },
+    {
+      "id": "401909980",
+      "date": "2026-11-15T00:00Z",
+      "home": "3",
+      "away": "7",
+      "home_win_probability": 0.5274,
+      "away_win_probability": 0.4726
+    },
+    {
+      "id": "401909981",
+      "date": "2026-11-15T00:30Z",
+      "home": "5",
+      "away": "6",
+      "home_win_probability": 0.625,
+      "away_win_probability": 0.375
+    },
+    {
+      "id": "401909982",
+      "date": "2026-11-15T01:00Z",
+      "home": "14",
+      "away": "8",
+      "home_win_probability": 0.4415,
+      "away_win_probability": 0.5585
+    },
+    {
+      "id": "401909983",
+      "date": "2026-11-15T01:00Z",
+      "home": "29",
+      "away": "17",
+      "home_win_probability": 0.852,
+      "away_win_probability": 0.148
+    },
+    {
+      "id": "401909984",
+      "date": "2026-11-15T01:00Z",
+      "home": "16",
+      "away": "4",
+      "home_win_probability": 0.7509,
+      "away_win_probability": 0.2491
+    },
+    {
+      "id": "401909985",
+      "date": "2026-11-15T18:00Z",
+      "home": "20",
+      "away": "11",
+      "home_win_probability": 0.7969,
+      "away_win_probability": 0.2031
+    },
+    {
+      "id": "401909986",
+      "date": "2026-11-15T21:00Z",
+      "home": "21",
+      "away": "13",
+      "home_win_probability": 0.4473,
+      "away_win_probability": 0.5527
+    },
+    {
+      "id": "401909987",
+      "date": "2026-11-15T21:30Z",
+      "home": "12",
+      "away": "30",
+      "home_win_probability": 0.5203,
+      "away_win_probability": 0.4797
+    },
+    {
+      "id": "401909988",
+      "date": "2026-11-15T22:00Z",
+      "home": "26",
+      "away": "24",
+      "home_win_probability": 0.436,
+      "away_win_probability": 0.564
+    },
+    {
+      "id": "401909989",
+      "date": "2026-11-15T23:00Z",
+      "home": "2",
+      "away": "6",
+      "home_win_probability": 0.6828,
+      "away_win_probability": 0.3172
+    },
+    {
+      "id": "401909990",
+      "date": "2026-11-15T23:00Z",
+      "home": "28",
+      "away": "18",
+      "home_win_probability": 0.6758,
+      "away_win_probability": 0.3242
+    },
+    {
+      "id": "401909991",
+      "date": "2026-11-16T00:00Z",
+      "home": "27",
+      "away": "10",
+      "home_win_probability": 0.4964,
+      "away_win_probability": 0.5036
+    },
+    {
+      "id": "401909992",
+      "date": "2026-11-16T01:00Z",
+      "home": "15",
+      "away": "1",
+      "home_win_probability": 0.5267,
+      "away_win_probability": 0.4733
+    },
+    {
+      "id": "401909993",
+      "date": "2026-11-16T02:00Z",
+      "home": "23",
+      "away": "25",
+      "home_win_probability": 0.3773,
+      "away_win_probability": 0.6227
+    },
+    {
+      "id": "401909994",
+      "date": "2026-11-17T00:00Z",
+      "home": "2",
+      "away": "19",
+      "home_win_probability": 0.7812,
+      "away_win_probability": 0.2188
+    },
+    {
+      "id": "401909995",
+      "date": "2026-11-17T00:00Z",
+      "home": "5",
+      "away": "4",
+      "home_win_probability": 0.7795,
+      "away_win_probability": 0.2205
+    },
+    {
+      "id": "401909996",
+      "date": "2026-11-17T00:00Z",
+      "home": "27",
+      "away": "29",
+      "home_win_probability": 0.4439,
+      "away_win_probability": 0.5561
+    },
+    {
+      "id": "401909997",
+      "date": "2026-11-17T00:30Z",
+      "home": "17",
+      "away": "20",
+      "home_win_probability": 0.3713,
+      "away_win_probability": 0.6287
+    },
+    {
+      "id": "401909998",
+      "date": "2026-11-17T00:30Z",
+      "home": "14",
+      "away": "10",
+      "home_win_probability": 0.4328,
+      "away_win_probability": 0.5672
+    },
+    {
+      "id": "401909999",
+      "date": "2026-11-17T01:00Z",
+      "home": "16",
+      "away": "22",
+      "home_win_probability": 0.5449,
+      "away_win_probability": 0.4551
+    },
+    {
+      "id": "401910000",
+      "date": "2026-11-17T01:00Z",
+      "home": "3",
+      "away": "9",
+      "home_win_probability": 0.5379,
+      "away_win_probability": 0.4621
+    },
+    {
+      "id": "401910001",
+      "date": "2026-11-17T02:00Z",
+      "home": "7",
+      "away": "21",
+      "home_win_probability": 0.7383,
+      "away_win_probability": 0.2617
+    },
+    {
+      "id": "401910002",
+      "date": "2026-11-18T00:30Z",
+      "home": "28",
+      "away": "18",
+      "home_win_probability": 0.6814,
+      "away_win_probability": 0.3186
+    },
+    {
+      "id": "401910003",
+      "date": "2026-11-18T01:00Z",
+      "home": "16",
+      "away": "22",
+      "home_win_probability": 0.5449,
+      "away_win_probability": 0.4551
+    },
+    {
+      "id": "401910004",
+      "date": "2026-11-18T01:00Z",
+      "home": "24",
+      "away": "8",
+      "home_win_probability": 0.5688,
+      "away_win_probability": 0.4312
+    },
+    {
+      "id": "401910005",
+      "date": "2026-11-18T03:00Z",
+      "home": "13",
+      "away": "30",
+      "home_win_probability": 0.7209,
+      "away_win_probability": 0.2791
+    },
+    {
+      "id": "401910006",
+      "date": "2026-11-18T04:00Z",
+      "home": "12",
+      "away": "26",
+      "home_win_probability": 0.6211,
+      "away_win_probability": 0.3789
+    },
+    {
+      "id": "401910007",
+      "date": "2026-11-19T00:00Z",
+      "home": "5",
+      "away": "29",
+      "home_win_probability": 0.5077,
+      "away_win_probability": 0.4923
+    },
+    {
+      "id": "401910008",
+      "date": "2026-11-19T00:00Z",
+      "home": "11",
+      "away": "10",
+      "home_win_probability": 0.4149,
+      "away_win_probability": 0.5851
+    },
+    {
+      "id": "401910009",
+      "date": "2026-11-19T00:00Z",
+      "home": "14",
+      "away": "15",
+      "home_win_probability": 0.6793,
+      "away_win_probability": 0.3207
+    },
+    {
+      "id": "401910010",
+      "date": "2026-11-19T00:00Z",
+      "home": "19",
+      "away": "20",
+      "home_win_probability": 0.4328,
+      "away_win_probability": 0.5672
+    },
+    {
+      "id": "401910011",
+      "date": "2026-11-19T00:30Z",
+      "home": "17",
+      "away": "4",
+      "home_win_probability": 0.6211,
+      "away_win_probability": 0.3789
+    },
+    {
+      "id": "401910012",
+      "date": "2026-11-19T00:30Z",
+      "home": "28",
+      "away": "27",
+      "home_win_probability": 0.6257,
+      "away_win_probability": 0.3743
+    },
+    {
+      "id": "401910013",
+      "date": "2026-11-19T01:00Z",
+      "home": "3",
+      "away": "8",
+      "home_win_probability": 0.4415,
+      "away_win_probability": 0.5585
+    },
+    {
+      "id": "401910014",
+      "date": "2026-11-19T01:00Z",
+      "home": "25",
+      "away": "1",
+      "home_win_probability": 0.7059,
+      "away_win_probability": 0.2941
+    },
+    {
+      "id": "401910015",
+      "date": "2026-11-19T02:00Z",
+      "home": "7",
+      "away": "2",
+      "home_win_probability": 0.5436,
+      "away_win_probability": 0.4564
+    },
+    {
+      "id": "401910016",
+      "date": "2026-11-19T02:30Z",
+      "home": "6",
+      "away": "9",
+      "home_win_probability": 0.6602,
+      "away_win_probability": 0.3398
+    },
+    {
+      "id": "401910017",
+      "date": "2026-11-19T03:00Z",
+      "home": "13",
+      "away": "26",
+      "home_win_probability": 0.7918,
+      "away_win_probability": 0.2082
+    },
+    {
+      "id": "401910018",
+      "date": "2026-11-19T03:00Z",
+      "home": "23",
+      "away": "21",
+      "home_win_probability": 0.5287,
+      "away_win_probability": 0.4713
+    },
+    {
+      "id": "401910019",
+      "date": "2026-11-20T01:00Z",
+      "home": "29",
+      "away": "9",
+      "home_win_probability": 0.7644,
+      "away_win_probability": 0.2356
+    },
+    {
+      "id": "401910020",
+      "date": "2026-11-20T01:00Z",
+      "home": "15",
+      "away": "22",
+      "home_win_probability": 0.3912,
+      "away_win_probability": 0.6088
+    },
+    {
+      "id": "401910021",
+      "date": "2026-11-20T01:00Z",
+      "home": "16",
+      "away": "18",
+      "home_win_probability": 0.7047,
+      "away_win_probability": 0.2953
+    },
+    {
+      "id": "401910022",
+      "date": "2026-11-20T01:00Z",
+      "home": "24",
+      "away": "12",
+      "home_win_probability": 0.7795,
+      "away_win_probability": 0.2205
+    },
+    {
+      "id": "401909305",
+      "date": "2026-11-21T00:00Z",
+      "home": "1",
+      "away": "30",
+      "home_win_probability": 0.6247,
+      "away_win_probability": 0.3753
+    }
+  ],
+  "limitations": "Win percentage and rest only; no injuries or roster updates."
+}

@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-11-03T06:36:56.993720+00:00",
+  "source": "real completed games with pregame features",
+  "train_games": 1058,
+  "holdout_games": 264,
+  "challenger": {
+    "brier": 0.20976,
+    "log_loss": 0.610734,
+    "accuracy": 0.757576,
+    "n": 264
+  },
+  "champion": null,
+  "challenger_passed_gate": true,
+  "note": "Chronological holdout; rolling out-of-sample backtesting required before production predictions."
+}

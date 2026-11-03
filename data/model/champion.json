@@ -1,0 +1,18 @@
+{
+  "features": [
+    "home_win_pct_before",
+    "away_win_pct_before",
+    "home_rest_days",
+    "away_rest_days"
+  ],
+  "weights": [
+    0.1325985045434175,
+    1.5370606019242046,
+    -1.4784776281893346,
+    0.09031487441312978,
+    0.08562663925486039
+  ],
+  "trained_utc": "2026-11-03T06:36:56.993720+00:00",
+  "training_games": 1058,
+  "holdout_brier": 0.20976
+}
