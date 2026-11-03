@@ -7,6 +7,9 @@ on:
       - 'scripts/model_lifecycle.py'
       - 'scripts/build_model_history.py'
       - 'scripts/predict_games.py'
+      - 'scripts/enhanced_features.py'
+      - 'scripts/enhanced_model.py'
+      - 'scripts/promote_enhanced.py'
       - '.github/workflows/model-lifecycle.yml'
   schedule:
     - cron: '20 7 * * 1'
@@ -23,6 +26,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install NBA PDF parser
+        run: python -m pip install 'pdfplumber==0.11.7'
+      - name: Fetch official NBA injury snapshots
+        run: python scripts/fetch_official_injuries.py
       - name: Build real pregame training history
         run: python scripts/build_model_history.py
       - name: Evaluate challenger against champion
@@ -48,6 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if test -f data/injuries/snapshots.json; then git add data/injuries/snapshots.json; fi
           git add data/model/games_history.json data/model/evaluation.json data/model/rolling_backtest.json data/model/enhanced_history.json data/model/enhanced_evaluation.json
           if test -f data/model/enhanced_champion.json; then git add data/model/enhanced_champion.json; fi
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
