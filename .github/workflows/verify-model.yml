@@ -1,0 +1,42 @@
+name: Verify NBA v2 model pipeline
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run JavaScript regression tests
+        run: node --test tests/*.test.js
+      - name: Run model unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Build historical pregame features
+        run: python scripts/build_model_history.py
+      - name: Train candidate and evaluate
+        run: python scripts/model_lifecycle.py --mode train
+      - name: Generate model probabilities
+        run: python scripts/predict_games.py
+      - name: Verify output consistency
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('data/model')
+          history=json.loads((root/'games_history.json').read_text())
+          champion=json.loads((root/'champion.json').read_text())
+          report=json.loads((root/'evaluation.json').read_text())
+          prediction=json.loads((root/'predictions.json').read_text())
+          assert len(history)>=200
+          assert len(champion['weights'])==5
+          assert report['holdout_games']>=40
+          for g in prediction['predictions']:
+              assert abs(g['home_win_probability']+g['away_win_probability']-1)<0.0002
+          print('Verified history:',len(history),'future predictions:',len(prediction['predictions']))
+          PY
