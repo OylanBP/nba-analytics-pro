@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-03T09:08:41.086744+00:00",
-  "model_trained_utc": "2026-11-03T06:36:56.993720+00:00",
+  "generated_utc": "2026-11-03T10:01:13.671057+00:00",
+  "model_trained_utc": "2026-11-03T08:50:29.380094+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
     {
@@ -10,18 +10,19 @@
       "away": "20",
       "home_win_probability": 0.6459,
       "away_win_probability": 0.3541,
+      "baseline_home_probability": 0.6459,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -34,16 +35,19 @@
       "away": "1",
       "home_win_probability": 0.4992,
       "away_win_probability": 0.5008,
+      "baseline_home_probability": 0.4992,
       "injuries": {
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -56,18 +60,19 @@
       "away": "15",
       "home_win_probability": 0.8926,
       "away_win_probability": 0.1074,
+      "baseline_home_probability": 0.8926,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -80,18 +85,19 @@
       "away": "30",
       "home_win_probability": 0.4191,
       "away_win_probability": 0.5809,
+      "baseline_home_probability": 0.4191,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -104,16 +110,19 @@
       "away": "4",
       "home_win_probability": 0.7856,
       "away_win_probability": 0.2144,
+      "baseline_home_probability": 0.7856,
       "injuries": {
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -126,18 +135,19 @@
       "away": "11",
       "home_win_probability": 0.8547,
       "away_win_probability": 0.1453,
+      "baseline_home_probability": 0.8547,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -150,16 +160,19 @@
       "away": "26",
       "home_win_probability": 0.7341,
       "away_win_probability": 0.2659,
+      "baseline_home_probability": 0.7341,
       "injuries": {
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -172,18 +185,19 @@
       "away": "5",
       "home_win_probability": 0.5465,
       "away_win_probability": 0.4535,
+      "baseline_home_probability": 0.5465,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -196,18 +210,19 @@
       "away": "16",
       "home_win_probability": 0.6632,
       "away_win_probability": 0.3368,
+      "baseline_home_probability": 0.6632,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -220,18 +235,19 @@
       "away": "28",
       "home_win_probability": 0.5437,
       "away_win_probability": 0.4563,
+      "baseline_home_probability": 0.5437,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -244,18 +260,19 @@
       "away": "22",
       "home_win_probability": 0.2437,
       "away_win_probability": 0.7563,
+      "baseline_home_probability": 0.2437,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -268,16 +285,19 @@
       "away": "6",
       "home_win_probability": 0.703,
       "away_win_probability": 0.297,
+      "baseline_home_probability": 0.703,
       "injuries": {
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -290,18 +310,19 @@
       "away": "13",
       "home_win_probability": 0.1531,
       "away_win_probability": 0.8469,
+      "baseline_home_probability": 0.1531,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -314,18 +335,19 @@
       "away": "14",
       "home_win_probability": 0.4855,
       "away_win_probability": 0.5145,
+      "baseline_home_probability": 0.4855,
       "injuries": {
         "home": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         },
         "away": {
-          "status": "verified",
+          "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-03T09:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_00AM.pdf"
+          "observed_utc": "2026-11-03T09:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-03_04_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -338,6 +360,7 @@
       "away": "19",
       "home_win_probability": 0.5013,
       "away_win_probability": 0.4987,
+      "baseline_home_probability": 0.5013,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -360,6 +383,7 @@
       "away": "14",
       "home_win_probability": 0.6605,
       "away_win_probability": 0.3395,
+      "baseline_home_probability": 0.6605,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -382,6 +406,7 @@
       "away": "27",
       "home_win_probability": 0.6535,
       "away_win_probability": 0.3465,
+      "baseline_home_probability": 0.6535,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -404,6 +429,7 @@
       "away": "2",
       "home_win_probability": 0.2937,
       "away_win_probability": 0.7063,
+      "baseline_home_probability": 0.2937,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -426,6 +452,7 @@
       "away": "20",
       "home_win_probability": 0.5594,
       "away_win_probability": 0.4406,
+      "baseline_home_probability": 0.5594,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -448,6 +475,7 @@
       "away": "26",
       "home_win_probability": 0.8054,
       "away_win_probability": 0.1946,
+      "baseline_home_probability": 0.8054,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -470,6 +498,7 @@
       "away": "25",
       "home_win_probability": 0.6829,
       "away_win_probability": 0.3171,
+      "baseline_home_probability": 0.6829,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -492,6 +521,7 @@
       "away": "28",
       "home_win_probability": 0.265,
       "away_win_probability": 0.735,
+      "baseline_home_probability": 0.265,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -514,6 +544,7 @@
       "away": "16",
       "home_win_probability": 0.3771,
       "away_win_probability": 0.6229,
+      "baseline_home_probability": 0.3771,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -536,6 +567,7 @@
       "away": "22",
       "home_win_probability": 0.532,
       "away_win_probability": 0.468,
+      "baseline_home_probability": 0.532,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -558,6 +590,7 @@
       "away": "24",
       "home_win_probability": 0.138,
       "away_win_probability": 0.862,
+      "baseline_home_probability": 0.138,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -580,6 +613,7 @@
       "away": "7",
       "home_win_probability": 0.3673,
       "away_win_probability": 0.6327,
+      "baseline_home_probability": 0.3673,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -602,6 +636,7 @@
       "away": "17",
       "home_win_probability": 0.7722,
       "away_win_probability": 0.2278,
+      "baseline_home_probability": 0.7722,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -624,6 +659,7 @@
       "away": "18",
       "home_win_probability": 0.6958,
       "away_win_probability": 0.3042,
+      "baseline_home_probability": 0.6958,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -646,6 +682,7 @@
       "away": "27",
       "home_win_probability": 0.7296,
       "away_win_probability": 0.2704,
+      "baseline_home_probability": 0.7296,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -668,6 +705,7 @@
       "away": "19",
       "home_win_probability": 0.6977,
       "away_win_probability": 0.3023,
+      "baseline_home_probability": 0.6977,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -690,6 +728,7 @@
       "away": "10",
       "home_win_probability": 0.2115,
       "away_win_probability": 0.7885,
+      "baseline_home_probability": 0.2115,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -712,6 +751,7 @@
       "away": "24",
       "home_win_probability": 0.599,
       "away_win_probability": 0.401,
+      "baseline_home_probability": 0.599,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -734,6 +774,7 @@
       "away": "20",
       "home_win_probability": 0.2092,
       "away_win_probability": 0.7908,
+      "baseline_home_probability": 0.2092,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -756,6 +797,7 @@
       "away": "13",
       "home_win_probability": 0.6566,
       "away_win_probability": 0.3434,
+      "baseline_home_probability": 0.6566,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -778,6 +820,7 @@
       "away": "26",
       "home_win_probability": 0.8685,
       "away_win_probability": 0.1315,
+      "baseline_home_probability": 0.8685,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -800,6 +843,7 @@
       "away": "17",
       "home_win_probability": 0.7917,
       "away_win_probability": 0.2083,
+      "baseline_home_probability": 0.7917,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -822,6 +866,7 @@
       "away": "2",
       "home_win_probability": 0.1766,
       "away_win_probability": 0.8234,
+      "baseline_home_probability": 0.1766,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -844,6 +889,7 @@
       "away": "3",
       "home_win_probability": 0.4929,
       "away_win_probability": 0.5071,
+      "baseline_home_probability": 0.4929,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -866,6 +912,7 @@
       "away": "14",
       "home_win_probability": 0.3002,
       "away_win_probability": 0.6998,
+      "baseline_home_probability": 0.3002,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -888,6 +935,7 @@
       "away": "13",
       "home_win_probability": 0.4623,
       "away_win_probability": 0.5377,
+      "baseline_home_probability": 0.4623,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -910,6 +958,7 @@
       "away": "5",
       "home_win_probability": 0.39,
       "away_win_probability": 0.61,
+      "baseline_home_probability": 0.39,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -932,6 +981,7 @@
       "away": "27",
       "home_win_probability": 0.8179,
       "away_win_probability": 0.1821,
+      "baseline_home_probability": 0.8179,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -954,6 +1004,7 @@
       "away": "29",
       "home_win_probability": 0.4739,
       "away_win_probability": 0.5261,
+      "baseline_home_probability": 0.4739,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -976,6 +1027,7 @@
       "away": "11",
       "home_win_probability": 0.7512,
       "away_win_probability": 0.2488,
+      "baseline_home_probability": 0.7512,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -998,6 +1050,7 @@
       "away": "7",
       "home_win_probability": 0.7481,
       "away_win_probability": 0.2519,
+      "baseline_home_probability": 0.7481,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1020,6 +1073,7 @@
       "away": "24",
       "home_win_probability": 0.2606,
       "away_win_probability": 0.7394,
+      "baseline_home_probability": 0.2606,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1042,6 +1096,7 @@
       "away": "3",
       "home_win_probability": 0.6671,
       "away_win_probability": 0.3329,
+      "baseline_home_probability": 0.6671,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1064,6 +1119,7 @@
       "away": "15",
       "home_win_probability": 0.7788,
       "away_win_probability": 0.2212,
+      "baseline_home_probability": 0.7788,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1086,6 +1142,7 @@
       "away": "2",
       "home_win_probability": 0.5204,
       "away_win_probability": 0.4796,
+      "baseline_home_probability": 0.5204,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1108,6 +1165,7 @@
       "away": "12",
       "home_win_probability": 0.5453,
       "away_win_probability": 0.4547,
+      "baseline_home_probability": 0.5453,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1130,6 +1188,7 @@
       "away": "14",
       "home_win_probability": 0.4115,
       "away_win_probability": 0.5885,
+      "baseline_home_probability": 0.4115,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1152,6 +1211,7 @@
       "away": "19",
       "home_win_probability": 0.3373,
       "away_win_probability": 0.6627,
+      "baseline_home_probability": 0.3373,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1174,6 +1234,7 @@
       "away": "25",
       "home_win_probability": 0.6715,
       "away_win_probability": 0.3285,
+      "baseline_home_probability": 0.6715,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1196,6 +1257,7 @@
       "away": "27",
       "home_win_probability": 0.5102,
       "away_win_probability": 0.4898,
+      "baseline_home_probability": 0.5102,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1218,6 +1280,7 @@
       "away": "5",
       "home_win_probability": 0.4607,
       "away_win_probability": 0.5393,
+      "baseline_home_probability": 0.4607,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1240,6 +1303,7 @@
       "away": "2",
       "home_win_probability": 0.4543,
       "away_win_probability": 0.5457,
+      "baseline_home_probability": 0.4543,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1262,6 +1326,7 @@
       "away": "24",
       "home_win_probability": 0.195,
       "away_win_probability": 0.805,
+      "baseline_home_probability": 0.195,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1284,6 +1349,7 @@
       "away": "7",
       "home_win_probability": 0.7352,
       "away_win_probability": 0.2648,
+      "baseline_home_probability": 0.7352,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1306,6 +1372,7 @@
       "away": "13",
       "home_win_probability": 0.2366,
       "away_win_probability": 0.7634,
+      "baseline_home_probability": 0.2366,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1328,6 +1395,7 @@
       "away": "17",
       "home_win_probability": 0.7308,
       "away_win_probability": 0.2692,
+      "baseline_home_probability": 0.7308,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1350,6 +1418,7 @@
       "away": "19",
       "home_win_probability": 0.45,
       "away_win_probability": 0.55,
+      "baseline_home_probability": 0.45,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1372,6 +1441,7 @@
       "away": "9",
       "home_win_probability": 0.7762,
       "away_win_probability": 0.2238,
+      "baseline_home_probability": 0.7762,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1394,6 +1464,7 @@
       "away": "25",
       "home_win_probability": 0.6745,
       "away_win_probability": 0.3255,
+      "baseline_home_probability": 0.6745,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1416,6 +1487,7 @@
       "away": "28",
       "home_win_probability": 0.6583,
       "away_win_probability": 0.3417,
+      "baseline_home_probability": 0.6583,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1438,6 +1510,7 @@
       "away": "8",
       "home_win_probability": 0.3398,
       "away_win_probability": 0.6602,
+      "baseline_home_probability": 0.3398,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1460,6 +1533,7 @@
       "away": "6",
       "home_win_probability": 0.7062,
       "away_win_probability": 0.2938,
+      "baseline_home_probability": 0.7062,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1482,6 +1556,7 @@
       "away": "30",
       "home_win_probability": 0.4923,
       "away_win_probability": 0.5077,
+      "baseline_home_probability": 0.4923,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1504,6 +1579,7 @@
       "away": "18",
       "home_win_probability": 0.4527,
       "away_win_probability": 0.5473,
+      "baseline_home_probability": 0.4527,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1526,6 +1602,7 @@
       "away": "15",
       "home_win_probability": 0.7071,
       "away_win_probability": 0.2929,
+      "baseline_home_probability": 0.7071,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1548,6 +1625,7 @@
       "away": "5",
       "home_win_probability": 0.4087,
       "away_win_probability": 0.5913,
+      "baseline_home_probability": 0.4087,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1570,6 +1648,7 @@
       "away": "1",
       "home_win_probability": 0.3188,
       "away_win_probability": 0.6812,
+      "baseline_home_probability": 0.3188,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1592,6 +1671,7 @@
       "away": "29",
       "home_win_probability": 0.3554,
       "away_win_probability": 0.6446,
+      "baseline_home_probability": 0.3554,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1614,6 +1694,7 @@
       "away": "26",
       "home_win_probability": 0.9125,
       "away_win_probability": 0.0875,
+      "baseline_home_probability": 0.9125,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1636,6 +1717,7 @@
       "away": "9",
       "home_win_probability": 0.7262,
       "away_win_probability": 0.2738,
+      "baseline_home_probability": 0.7262,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1658,6 +1740,7 @@
       "away": "22",
       "home_win_probability": 0.147,
       "away_win_probability": 0.853,
+      "baseline_home_probability": 0.147,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1680,6 +1763,7 @@
       "away": "25",
       "home_win_probability": 0.3495,
       "away_win_probability": 0.6505,
+      "baseline_home_probability": 0.3495,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1702,6 +1786,7 @@
       "away": "7",
       "home_win_probability": 0.4875,
       "away_win_probability": 0.5125,
+      "baseline_home_probability": 0.4875,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1724,6 +1809,7 @@
       "away": "6",
       "home_win_probability": 0.6901,
       "away_win_probability": 0.3099,
+      "baseline_home_probability": 0.6901,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1746,6 +1832,7 @@
       "away": "8",
       "home_win_probability": 0.3299,
       "away_win_probability": 0.6701,
+      "baseline_home_probability": 0.3299,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1768,6 +1855,7 @@
       "away": "17",
       "home_win_probability": 0.8958,
       "away_win_probability": 0.1042,
+      "baseline_home_probability": 0.8958,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1790,6 +1878,7 @@
       "away": "4",
       "home_win_probability": 0.8877,
       "away_win_probability": 0.1123,
+      "baseline_home_probability": 0.8877,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1812,6 +1901,7 @@
       "away": "11",
       "home_win_probability": 0.8347,
       "away_win_probability": 0.1653,
+      "baseline_home_probability": 0.8347,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1834,6 +1924,7 @@
       "away": "13",
       "home_win_probability": 0.3045,
       "away_win_probability": 0.6955,
+      "baseline_home_probability": 0.3045,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1856,6 +1947,7 @@
       "away": "30",
       "home_win_probability": 0.5227,
       "away_win_probability": 0.4773,
+      "baseline_home_probability": 0.5227,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1878,6 +1970,7 @@
       "away": "24",
       "home_win_probability": 0.2206,
       "away_win_probability": 0.7794,
+      "baseline_home_probability": 0.2206,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1900,6 +1993,7 @@
       "away": "6",
       "home_win_probability": 0.7701,
       "away_win_probability": 0.2299,
+      "baseline_home_probability": 0.7701,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1922,6 +2016,7 @@
       "away": "18",
       "home_win_probability": 0.6792,
       "away_win_probability": 0.3208,
+      "baseline_home_probability": 0.6792,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1944,6 +2039,7 @@
       "away": "10",
       "home_win_probability": 0.3207,
       "away_win_probability": 0.6793,
+      "baseline_home_probability": 0.3207,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1966,6 +2062,7 @@
       "away": "1",
       "home_win_probability": 0.3457,
       "away_win_probability": 0.6543,
+      "baseline_home_probability": 0.3457,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1988,6 +2085,7 @@
       "away": "25",
       "home_win_probability": 0.192,
       "away_win_probability": 0.808,
+      "baseline_home_probability": 0.192,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2010,6 +2108,7 @@
       "away": "19",
       "home_win_probability": 0.8493,
       "away_win_probability": 0.1507,
+      "baseline_home_probability": 0.8493,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2032,6 +2131,7 @@
       "away": "4",
       "home_win_probability": 0.878,
       "away_win_probability": 0.122,
+      "baseline_home_probability": 0.878,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2054,6 +2154,7 @@
       "away": "29",
       "home_win_probability": 0.3594,
       "away_win_probability": 0.6406,
+      "baseline_home_probability": 0.3594,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2076,6 +2177,7 @@
       "away": "20",
       "home_win_probability": 0.2672,
       "away_win_probability": 0.7328,
+      "baseline_home_probability": 0.2672,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2098,6 +2200,7 @@
       "away": "10",
       "home_win_probability": 0.3083,
       "away_win_probability": 0.6917,
+      "baseline_home_probability": 0.3083,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2120,6 +2223,7 @@
       "away": "22",
       "home_win_probability": 0.5738,
       "away_win_probability": 0.4262,
+      "baseline_home_probability": 0.5738,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2142,6 +2246,7 @@
       "away": "9",
       "home_win_probability": 0.5212,
       "away_win_probability": 0.4788,
+      "baseline_home_probability": 0.5212,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2164,6 +2269,7 @@
       "away": "21",
       "home_win_probability": 0.7816,
       "away_win_probability": 0.2184,
+      "baseline_home_probability": 0.7816,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2186,6 +2292,7 @@
       "away": "18",
       "home_win_probability": 0.6836,
       "away_win_probability": 0.3164,
+      "baseline_home_probability": 0.6836,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2208,6 +2315,7 @@
       "away": "22",
       "home_win_probability": 0.5738,
       "away_win_probability": 0.4262,
+      "baseline_home_probability": 0.5738,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2230,6 +2338,7 @@
       "away": "8",
       "home_win_probability": 0.5671,
       "away_win_probability": 0.4329,
+      "baseline_home_probability": 0.5671,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2252,6 +2361,7 @@
       "away": "30",
       "home_win_probability": 0.7773,
       "away_win_probability": 0.2227,
+      "baseline_home_probability": 0.7773,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2274,6 +2384,7 @@
       "away": "26",
       "home_win_probability": 0.69,
       "away_win_probability": 0.31,
+      "baseline_home_probability": 0.69,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2296,6 +2407,7 @@
       "away": "29",
       "home_win_probability": 0.5364,
       "away_win_probability": 0.4636,
+      "baseline_home_probability": 0.5364,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2318,6 +2430,7 @@
       "away": "10",
       "home_win_probability": 0.2449,
       "away_win_probability": 0.7551,
+      "baseline_home_probability": 0.2449,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2340,6 +2453,7 @@
       "away": "15",
       "home_win_probability": 0.7461,
       "away_win_probability": 0.2539,
+      "baseline_home_probability": 0.7461,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2362,6 +2476,7 @@
       "away": "20",
       "home_win_probability": 0.356,
       "away_win_probability": 0.644,
+      "baseline_home_probability": 0.356,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2384,6 +2499,7 @@
       "away": "4",
       "home_win_probability": 0.6472,
       "away_win_probability": 0.3528,
+      "baseline_home_probability": 0.6472,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2406,6 +2522,7 @@
       "away": "27",
       "home_win_probability": 0.7366,
       "away_win_probability": 0.2634,
+      "baseline_home_probability": 0.7366,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2428,6 +2545,7 @@
       "away": "8",
       "home_win_probability": 0.3428,
       "away_win_probability": 0.6572,
+      "baseline_home_probability": 0.3428,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2450,6 +2568,7 @@
       "away": "1",
       "home_win_probability": 0.68,
       "away_win_probability": 0.32,
+      "baseline_home_probability": 0.68,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2472,6 +2591,7 @@
       "away": "2",
       "home_win_probability": 0.4424,
       "away_win_probability": 0.5576,
+      "baseline_home_probability": 0.4424,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2494,6 +2614,7 @@
       "away": "9",
       "home_win_probability": 0.6135,
       "away_win_probability": 0.3865,
+      "baseline_home_probability": 0.6135,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2516,6 +2637,7 @@
       "away": "26",
       "home_win_probability": 0.8743,
       "away_win_probability": 0.1257,
+      "baseline_home_probability": 0.8743,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2538,6 +2660,7 @@
       "away": "21",
       "home_win_probability": 0.4057,
       "away_win_probability": 0.5943,
+      "baseline_home_probability": 0.4057,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2560,6 +2683,7 @@
       "away": "9",
       "home_win_probability": 0.7698,
       "away_win_probability": 0.2302,
+      "baseline_home_probability": 0.7698,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2582,6 +2706,7 @@
       "away": "22",
       "home_win_probability": 0.2157,
       "away_win_probability": 0.7843,
+      "baseline_home_probability": 0.2157,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2604,6 +2729,7 @@
       "away": "18",
       "home_win_probability": 0.7375,
       "away_win_probability": 0.2625,
+      "baseline_home_probability": 0.7375,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2626,6 +2752,7 @@
       "away": "12",
       "home_win_probability": 0.8362,
       "away_win_probability": 0.1638,
+      "baseline_home_probability": 0.8362,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2648,6 +2775,7 @@
       "away": "30",
       "home_win_probability": 0.6768,
       "away_win_probability": 0.3232,
+      "baseline_home_probability": 0.6768,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2664,5 +2792,22 @@
       "model_name": "elo_recent_form"
     }
   ],
-  "limitations": "Uses rolling-validated Elo and recent form when approved, otherwise baseline. Injury reports are informational; no injury probability adjustment without verified historical pregame coverage."
+  "limitations": "Uses rolling-validated Elo and recent form when approved, otherwise baseline. Availability adjustment requires verified reports for both teams and a successful chronological evaluation.",
+  "availability_evaluation": {
+    "approved": true,
+    "paired": 752,
+    "train": 524,
+    "test": 228,
+    "test_from": "2026-03-24",
+    "baseline": {
+      "brier": 0.1862630037228012,
+      "log_loss": 0.5549297598718402,
+      "correct": 164
+    },
+    "adjusted": {
+      "brier": 0.17435924812063808,
+      "log_loss": 0.5224782184752321,
+      "correct": 175
+    }
+  }
 }

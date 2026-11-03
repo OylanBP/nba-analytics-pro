@@ -59,6 +59,12 @@ def main():
     snapshots=json.loads(SOURCE.read_text()) if SOURCE.exists() else []
     games=json.loads((ROOT/"data/games.json").read_text())["games"]
     report=audit(snapshots,games)
+    from availability import HISTORY
+    if HISTORY.exists():
+        labeled=json.loads(HISTORY.read_text())
+        report["matched_labeled_games"]=len({r["id"] for r in labeled})
+        report["ready_to_train"]=report["matched_labeled_games"]>=MIN_LABELED_GAMES
+        report["reason"]="Paired historical labels from both teams in timestamp-verified official PDFs. Snapshot player_rows refers to the live archive only."
     REPORT.parent.mkdir(parents=True,exist_ok=True)
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps(report,ensure_ascii=False))

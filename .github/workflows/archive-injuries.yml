@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install official PDF parser
-        run: python -m pip install 'pdfplumber==0.11.7'
+        run: sudo apt-get install -y poppler-utils
       - name: Fetch and validate NBA official pregame reports
         run: python scripts/fetch_official_injuries.py
       - name: Audit historical injury-training readiness
