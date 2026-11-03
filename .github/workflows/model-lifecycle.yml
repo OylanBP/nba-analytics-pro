@@ -1,6 +1,13 @@
 name: NBA model lifecycle (guarded)
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/model_lifecycle.py'
+      - 'scripts/build_model_history.py'
+      - 'scripts/predict_games.py'
+      - '.github/workflows/model-lifecycle.yml'
   schedule:
     - cron: '20 7 * * 1'
 permissions:
