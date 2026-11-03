@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090e1b"><meta name="description" content="NBA Analytics Pro NBA 戰績與球員數據分析">
-<title>NBA Analytics Pro｜v2.0</title>
+<title>NBA Analytics Pro｜v3.0</title>
 <style>
 :root{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color-scheme:dark;color:#edf3ff;background:#090e1b}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}header{position:sticky;top:0;z-index:5;background:#0d1526;border-bottom:1px solid #273955}.bar{max-width:1200px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{font-size:19px;font-weight:800}.brand span,.hero h1 span{color:#69bfff}.badge{font-size:12px;color:#a9c5df;border:1px solid #36516e;border-radius:30px;padding:7px 12px}main{max-width:1200px;margin:auto;padding:52px 24px 80px}.eyebrow{color:#6cc7ff;font-weight:700;letter-spacing:.12em;font-size:12px}.hero h1{font-size:clamp(38px,6vw,66px);line-height:1.15;margin:14px 0}.hero p{color:#a7b6cc;line-height:1.8}.notice{margin:25px 0 40px;padding:15px 18px;border-radius:12px;background:#16243a;border:1px solid #344762;color:#c8d9ec;font-size:14px}.panel{padding:24px;background:#101b2e;border:1px solid #2a405f;border-radius:18px;margin-top:20px}.panel h2{margin:0 0 10px}.muted{color:#a7bad1;font-size:13px;line-height:1.7}.error{color:#ffb7a9}.tabs,.tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:20px 0}.tab,.action{background:#1a2b44;color:#c3d5e9;border:1px solid #345070;border-radius:9px;padding:10px 16px}.tab[aria-selected="true"],.action:hover{background:#2864a0;color:#fff;border-color:#5abaff}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:500px}th,td{padding:13px 12px;border-bottom:1px solid #293b56;text-align:right;font-size:14px}th:first-child,td:first-child{text-align:left}th{color:#9db6d1}td:first-child{font-weight:600}.team{display:flex;align-items:center;gap:10px}.team img{width:28px;height:28px;object-fit:contain}.team-button{display:inline-flex;align-items:center;gap:10px;border:0;background:transparent;color:inherit;padding:4px;text-align:left;font-weight:600}.team-button:hover,.team-button:focus-visible{color:#79c9ff;text-decoration:underline}.team-button:focus-visible{outline:2px solid #79c9ff}.team-button img{width:28px;height:28px;object-fit:contain}tbody tr:hover{background:#192c46}.detail{margin-top:22px;border-color:#42648b}.detail[hidden]{display:none}.detail-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}.detail-head h2{margin:0}.tools label{font-size:13px;color:#b7cbe3}.tools select,.tools input{background:#1b3554;color:#fff;border:1px solid #42648b;border-radius:8px;padding:9px;max-width:100%}.tools input{min-width:180px}.roster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:20px}.player-card{background:#16243a;border:1px solid #2c4464;border-radius:12px;padding:16px}.player-card img{width:76px;height:76px;object-fit:contain}.player-card h3{margin:8px 0}.player-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.player-stats div{background:#0d1a2d;border-radius:8px;padding:9px 5px;text-align:center}.player-stats strong{display:block;color:#79c9ff;font-size:17px}.player-stats small{font-size:11px;color:#a7bad3}.player-card p{color:#b6c9df;font-size:13px;line-height:1.7}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-top:50px}.section-head h2{font-size:24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:#121d31;border:1px solid #283a57;border-radius:18px;padding:24px}.card h3{font-size:19px}.card p{font-size:14px;line-height:1.7;color:#a8bad1}.chip{display:inline-block;margin-top:12px;font-size:12px;color:#7ecbff;background:#193451;border-radius:20px;padding:5px 10px}footer{border-top:1px solid #27344a;padding:28px 20px;text-align:center;color:#8091ab;font-size:13px}@media(max-width:600px){main{padding:36px 16px 60px}.bar{padding:16px}.brand{font-size:16px}.panel{padding:16px}.roster-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
 
@@ -68,13 +68,13 @@ a{color:#9bbddd}a:hover{color:#e1efff}section[id]{scroll-margin-top:112px}
 </style>
 </head>
 <body>
-<header class="site-header"><div class="topline"><div class="identity"><span class="nba-mark">NBA</span><span class="identity-name">ANALYTICS <b>PRO</b></span><span class="season">2026–27</span></div><div class="header-meta"><span class="live-dot"></span> NBA DATA / TW</div></div><nav class="site-nav" aria-label="主要導覽"><a class="nav-link current" href="#standings">聯盟戰績</a><a class="nav-link" href="#league">球員排行</a><a class="nav-link" href="#history">球隊分析</a><a class="nav-link" href="#player-compare">球員比較</a><a class="nav-link" href="#compare">球隊比較</a><a class="nav-link" href="#forecast">勝率模型</a></nav></header>
+<header class="site-header"><div class="topline"><div class="identity"><span class="nba-mark">NBA</span><span class="identity-name">ANALYTICS <b>PRO</b></span><span class="season">v3.0 · 2026–27</span></div><div class="header-meta"><span class="live-dot"></span> NBA 數據／台灣</div></div><nav class="site-nav" aria-label="主要導覽"><a class="nav-link current" href="#standings">聯盟戰績</a><a class="nav-link" href="#league">球員排行</a><a class="nav-link" href="#history">球隊分析</a><a class="nav-link" href="#player-compare">球員比較</a><a class="nav-link" href="#compare">球隊比較</a><a class="nav-link" href="#forecast">勝率模型</a></nav></header>
 <main>
-<div class="page-heading"><div><div class="page-kicker">LEAGUE OVERVIEW <span>/</span> 2026–27 REGULAR SEASON</div><h1>聯盟總覽</h1><p>戰績、球員數據與比賽分析</p></div><div class="refresh-note"><span>資料來源 ESPN</span><strong>每日 15:00 更新</strong><small>台灣時間 · 非即時比分</small></div></div>
-<div class="section-layout"><div class="section-index"><span>01</span> STANDINGS</div><div class="section-content">
+<div class="page-heading"><div><div class="page-kicker">聯盟數據 <span>/</span> 2026–27 例行賽</div><h1>聯盟總覽</h1><p>戰績、球員數據與比賽分析</p></div><div class="refresh-note"><span>資料來源 ESPN</span><strong>每日 15:00 更新</strong><small>台灣時間 · 非即時比分</small></div></div>
+<div class="section-layout"><div class="section-index"><span>01</span> 分區戰績</div><div class="section-content">
 <section class="panel" id="standings" aria-labelledby="standings-title"><h2 id="standings-title">東西區戰績</h2><div id="data-status" class="muted" role="status" aria-live="polite">正在讀取戰績資料…</div><div class="tabs" role="group" aria-label="分區"><button class="tab" data-conf="East" type="button" aria-selected="true">東區</button><button class="tab" data-conf="West" type="button" aria-selected="false">西區</button></div><div class="table-wrap"><table><thead><tr><th>排名 / 球隊（點擊查看球員）</th><th>勝</th><th>敗</th><th>勝率</th></tr></thead><tbody id="standings-body"><tr><td colspan="4">正在載入…</td></tr></tbody></table></div><p class="muted">資料來源：ESPN 公開資料（非官方合作）。排名按勝率及勝場排序，可能與官方同戰績排名規則不同。</p></section></div></div>
 <section class="panel detail" id="team-detail" hidden aria-live="polite"><div class="detail-head"><h2 id="team-title">球隊詳細資訊</h2><button class="action" id="close-team" type="button">← 返回戰績</button></div><p id="team-message" class="muted"></p><div class="tools"><label for="player-search">搜尋球員</label><input id="player-search" type="search" placeholder="輸入球員英文姓名" autocomplete="off"><label for="position-filter">位置</label><select id="position-filter"><option value="all">全部位置</option><option value="G">後衛 G</option><option value="F">前鋒 F</option><option value="C">中鋒 C</option></select><label for="player-sort">排序</label><select id="player-sort"><option value="pts">場均得分（高至低）</option><option value="reb">場均籃板（高至低）</option><option value="ast">場均助攻（高至低）</option><option value="stl">場均抄截（高至低）</option><option value="blk">場均阻攻（高至低）</option><option value="fg_pct">投籃命中率（高至低）</option><option value="name">姓名（A–Z）</option></select></div><p id="filter-count" class="muted"></p><div id="roster-grid" class="roster-grid"></div></section>
-<div class="section-layout"><div class="section-index"><span>02</span> PLAYER TOOLS</div><div class="section-content"><section class="panel" id="player-compare" aria-labelledby="player-compare-title">
+<div class="section-layout"><div class="section-index"><span>02</span> 球員與球隊比較</div><div class="section-content"><section class="panel" id="player-compare" aria-labelledby="player-compare-title">
 <h2 id="player-compare-title">球員比較</h2>
 <p class="muted">從 30 支 NBA 球隊選擇兩位球員，查看同一賽季的場均數據。比較只呈現統計差距，不代表球員綜合實力或未來勝率。</p>
 <div class="player-compare-controls">
@@ -83,23 +83,15 @@ a{color:#9bbddd}a:hover{color:#e1efff}section[id]{scroll-margin-top:112px}
 </div><div id="pc-output" class="muted" aria-live="polite">正在載入球員資料…</div>
 </section>
 <section class="panel" id="compare" aria-labelledby="compare-title"><h2 id="compare-title">球隊比較</h2><p class="muted">從 30 支球隊中挑選兩隊，查看戰績、勝率與主要球員數據。所有比較皆使用現有資料快照，不是比賽預測。</p><div class="compare-controls"><div><label for="compare-a">球隊 A</label><select id="compare-a" aria-label="選擇球隊 A"><option value="">載入球隊中…</option></select></div><div><label for="compare-b">球隊 B</label><select id="compare-b" aria-label="選擇球隊 B"><option value="">載入球隊中…</option></select></div></div><div id="compare-output" aria-live="polite" class="muted">等待戰績資料載入…</div></section>
-</div></div><div class="section-layout"><div class="section-index"><span>03</span> PLAYER LEADERS</div><div class="section-content"><section id="league" class="panel"><h2>聯盟球員排行榜</h2><div class="tools"><label>統計項目 <select id="rank-stat"><option value="pts">場均得分</option><option value="reb">場均籃板</option><option value="ast">場均助攻</option><option value="ts">真實命中率 TS%</option><option value="efg">有效命中率 eFG%</option></select></label><label>至少出賽 <input id="rank-min" type="number" value="1" min="1" max="82" style="width:5em"> 場</label></div><p id="rank-meta" class="muted" role="status"></p><div class="table-wrap" id="rank-table"></div><p class="muted">顯示前 50 名。TS% = 得分 ÷ [2 ×（投籃出手＋0.44 × 罰球出手）]。eFG% =（投籃命中＋0.5 × 三分命中）÷ 投籃出手。兩者皆以已四捨五入的場均數據估算，分母為零或缺值時排除。</p></section>
-</div></div><div class="section-layout"><div class="section-index"><span>04</span> TEAM TRENDS</div><div class="section-content"><section id="history" class="panel"><h2>球隊攻防與歷史趨勢</h2><div class="tools"><label>球隊 <select id="hist-team"></select></label><label>例行賽季 <select id="hist-year"></select></label><label>觀察範圍 <select id="hist-window"><option value="5">近 5 場</option><option value="10">近 10 場</option><option value="82">整季</option></select></label></div><p id="hist-meta" class="compare-summary" role="status">正在讀取比賽資料…</p><p class="muted">逐場比分（由早至晚） · <span style="color:#69bfff">藍線：得分</span> ／ <span style="color:#ffb077">橘線：失分</span>。表格可查看各場數值。</p><svg id="trend" viewBox="0 0 600 145" style="width:100%;max-height:200px" role="img" aria-label="所選球隊逐場得分與失分趨勢"></svg><div class="table-wrap" id="hist-table"></div><p id="game-source" class="muted"></p></section>
-</div></div><div class="section-layout"><div class="section-index"><span>05</span> GAME MODELS</div><div class="section-content"><section id="forecast" class="panel"><h2>勝率預測與歷史回測</h2><p class="muted">Elo 模型以 1500 分起算，主場加 65 分，更新係數為 20。跨季保留 75% 評分差。每個 UTC 比賽日先預測、再依當日完賽結果更新。雙方都有歷史賽果才計入評估。未來 15 場預測採最近一次完賽評分，未納入傷病及陣容異動。</p><p id="model-meta" class="compare-summary" role="status">正在讀取回測資料…</p><div class="table-wrap" id="pred-table"></div></section>
+</div></div><div class="section-layout"><div class="section-index"><span>03</span> 球員排行</div><div class="section-content"><section id="league" class="panel"><h2>聯盟球員排行榜</h2><div class="tools"><label>統計項目 <select id="rank-stat"><option value="pts">場均得分</option><option value="reb">場均籃板</option><option value="ast">場均助攻</option><option value="ts">真實命中率 TS%</option><option value="efg">有效命中率 eFG%</option></select></label><label>至少出賽 <input id="rank-min" type="number" value="1" min="1" max="82" style="width:5em"> 場</label></div><p id="rank-meta" class="muted" role="status"></p><div class="table-wrap" id="rank-table"></div><p class="muted">顯示前 50 名。TS% = 得分 ÷ [2 ×（投籃出手＋0.44 × 罰球出手）]。eFG% =（投籃命中＋0.5 × 三分命中）÷ 投籃出手。兩者皆以已四捨五入的場均數據估算，分母為零或缺值時排除。</p></section>
+</div></div><div class="section-layout"><div class="section-index"><span>04</span> 球隊趨勢</div><div class="section-content"><section id="history" class="panel"><h2>球隊攻防與歷史趨勢</h2><div class="tools"><label>球隊 <select id="hist-team"></select></label><label>例行賽季 <select id="hist-year"></select></label><label>觀察範圍 <select id="hist-window"><option value="5">近 5 場</option><option value="10">近 10 場</option><option value="82">整季</option></select></label></div><p id="hist-meta" class="compare-summary" role="status">正在讀取比賽資料…</p><p class="muted">逐場比分（由早至晚） · <span style="color:#69bfff">藍線：得分</span> ／ <span style="color:#ffb077">橘線：失分</span>。表格可查看各場數值。</p><svg id="trend" viewBox="0 0 600 145" style="width:100%;max-height:200px" role="img" aria-label="所選球隊逐場得分與失分趨勢"></svg><div class="table-wrap" id="hist-table"></div><p id="game-source" class="muted"></p></section>
+</div></div><div class="section-layout"><div class="section-index"><span>05</span> 勝率模型</div><div class="section-content"><section id="forecast" class="panel"><h2>基準 Elo 預測與回測</h2><p><a href="#trained-model">查看 v3.0 賽前傷兵模型 ↓</a></p><p class="muted">Elo 模型以 1500 分起算，主場加 65 分，更新係數為 20。跨季保留 75% 評分差。每個 UTC 比賽日先預測、再依當日完賽結果更新。雙方都有歷史賽果才計入評估。未來 15 場預測採最近一次完賽評分，未納入傷病及陣容異動。</p><p id="model-meta" class="compare-summary" role="status">正在讀取回測資料…</p><div class="table-wrap" id="pred-table"></div></section>
 
-<section id="trained-model" class="panel" aria-label="訓練模型預測"><h2>賽前機率模型</h2><p class="muted" id="trained-model-status">正在檢查模型資料…</p><div class="table-wrap"><table><thead><tr><th>對戰</th><th>比賽時間（台灣）</th><th>主隊勝率</th><th>客隊勝率</th></tr></thead><tbody id="trained-model-rows"></tbody></table></div><p class="muted">使用賽前戰績、休息天數及經驗證的進階模型。傷兵修正依兩隊官方報告啟用。若沒有通過驗證的模型，系統不會提供預測。</p></section></div></div>
-</main><div id="player-modal" class="player-modal" hidden><section class="player-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-title"><div class="player-dialog-head"><h2 id="profile-title">球員詳細資料</h2><button class="action" id="close-profile" type="button">✕ 關閉</button></div><div id="profile-body"></div></section></div><footer>NBA ANALYTICS PRO <span>／</span> DATA: ESPN <span>／</span> INDEPENDENT PROJECT</footer>
+<section id="trained-model" class="panel" aria-label="訓練模型預測"><h2>v3.0 賽前機率模型</h2><p class="muted" id="trained-model-status">正在檢查模型資料…</p><div class="table-wrap"><table><thead><tr><th>對戰</th><th>比賽時間（台灣）</th><th>主隊勝率</th><th>客隊勝率</th></tr></thead><tbody id="trained-model-rows"></tbody></table></div><p class="muted">使用賽前戰績、休息天數及經驗證的進階模型。傷兵修正依兩隊官方報告啟用。若沒有通過驗證的模型，系統不會提供預測。</p></section></div></div>
+</main><div id="player-modal" class="player-modal" hidden><section class="player-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-title"><div class="player-dialog-head"><h2 id="profile-title">球員詳細資料</h2><button class="action" id="close-profile" type="button">✕ 關閉</button></div><div id="profile-body"></div></section></div><footer>NBA ANALYTICS PRO <span>／</span> 資料來源：ESPN、NBA 官方報告 <span>／</span> 獨立分析專案</footer>
 <script src="analytics.js"></script>
 <script src="analytics-ui.js"></script>
 <script>
-(()=>{
-'use strict';
-const $=id=>document.getElementById(id);
-const body=$('standings-body'),status=$('data-status'),panel=$('team-detail'),grid=$('roster-grid'),search=$('player-search'),position=$('position-filter'),sort=$('player-sort');
-const escapeHTML=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let standings=[],selected='East',activeTeam=null,activeStats={},requestId=0,rosterPromise=null,statsPromise=null;
-const numeric=v=>v===null||v===undefined||v===''||v==='--'?null:(Number.isFinite(Number(v))?Number(v):null);
-const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'未知':d.toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false})};
 const teamNamesZh = {
   "Atlanta Hawks": "亞特蘭大老鷹",
   "Boston Celtics": "波士頓塞爾提克",
@@ -133,6 +125,14 @@ const teamNamesZh = {
   "Utah Jazz": "猶他爵士",
   "Washington Wizards": "華盛頓巫師"
 };
+(()=>{
+'use strict';
+const $=id=>document.getElementById(id);
+const body=$('standings-body'),status=$('data-status'),panel=$('team-detail'),grid=$('roster-grid'),search=$('player-search'),position=$('position-filter'),sort=$('player-sort');
+const escapeHTML=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let standings=[],selected='East',activeTeam=null,activeStats={},requestId=0,rosterPromise=null,statsPromise=null;
+const numeric=v=>v===null||v===undefined||v===''||v==='--'?null:(Number.isFinite(Number(v))?Number(v):null);
+const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'未知':d.toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false})};
 const displayTeamName=name=>teamNamesZh[name]?`${teamNamesZh[name]}（${name}）`:name;
 function renderStandings(){
  const teams=standings.filter(t=>t.conference===selected).sort((a,b)=>b.win_pct-a.win_pct||b.wins-a.wins||a.name.localeCompare(b.name));
@@ -306,7 +306,7 @@ startAnalytics({getRosters,getStats,teamNamesZh});
   if(!p.ok)throw Error('尚未產生通過驗證的訓練模型預測');
   const doc=await p.json();
   const standings=r.ok?await r.json():{teams:[]};
-  const names=new Map((standings.teams||[]).map(t=>[String(t.id),t.name]));
+  const names=new Map((standings.teams||[]).map(t=>[String(t.id),teamNamesZh[t.name]||t.name]));
   const games=(doc.predictions||[]).filter(g=>Number.isFinite(g.home_win_probability)&&Number.isFinite(g.away_win_probability)&&Date.parse(g.date)>Date.now()).slice(0,30);
   const fmtTime=value=>value?new Date(value).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false}):'未知';
   const modelNames=[...new Set(games.map(g=>g.model_name||'baseline'))];
@@ -314,12 +314,18 @@ startAnalytics({getRosters,getStats,teamNamesZh});
   status.textContent='目前使用：'+(modelText||'尚無預測')+'｜模型訓練：'+fmtTime(doc.model_trained_utc)+'｜預測更新：'+fmtTime(doc.generated_utc)+'（台灣時間）｜未來 '+games.length+' 場';
   const info=document.createElement('div');
   info.className='injury-model-note';
-  info.innerHTML='<strong>賽前傷兵觀察</strong><p>傷兵狀態來自 NBA 官方賽前報告。尚未提交或資料不足會顯示「未確認」。雙方報告均可核實且模型通過回測時，依兩隊各出賽狀態的人數差調整勝率。每位球員在同一狀態下權重相同。</p>';
+  info.innerHTML='<strong>賽前傷兵觀察</strong><p>傷兵狀態來自 NBA 官方賽前報告。尚未提交或資料不足會顯示「未確認」。雙方報告均可核實且模型通過回測時，依兩隊各出賽狀態的人數差調整勝率。球員角色依同隊、同季最近最多 10 次出賽的場均分鐘與得分估計，至少需 3 次出賽。角色模型通過回測且本場可配對球員時才啟用。</p>';
   const evaluation=doc.availability_evaluation;
   if(evaluation?.test){
     const note=document.createElement('p');
     note.textContent='歷史時間切分測試 '+evaluation.test+' 場。勝負命中（原模型 → 傷兵模型）：'+evaluation.baseline.correct+' → '+evaluation.adjusted.correct+' 場；機率誤差（布里爾分數，越低越好）：'+evaluation.baseline.brier.toFixed(3)+' → '+evaluation.adjusted.brier.toFixed(3)+'。';
     info.appendChild(note);
+    const role=evaluation.player_role;
+    if(role?.metrics){
+      const detail=document.createElement('p');
+      detail.textContent='球員角色模型｜'+(role.approved?'通過驗證':'持續觀察，正式預測沿用人數模型')+'。同批測試命中 '+role.metrics.correct+'／'+evaluation.test+' 場，布里爾分數 '+role.metrics.brier.toFixed(3)+'；有個人角色樣本 '+role.covered_test_games+' 場。';
+      info.appendChild(detail);
+    }
   }
   const previous=status.nextElementSibling;
   if(previous?.classList.contains('injury-model-note')) previous.replaceWith(info);
@@ -342,10 +348,10 @@ startAnalytics({getRosters,getStats,teamNamesZh});
      const item=injury[side]||{};
      if(item.status!=='verified')return label+'：傷兵報告未確認'+(item.observed_utc?'（'+fmtTime(item.observed_utc)+'）':'');
      const statusZh={Out:'缺席',Doubtful:'極可能缺席',Questionable:'出賽存疑',Probable:'預計出賽',Available:'可出賽'};
-     const players=(item.players||[]).map(p=>p.name+'（'+(statusZh[p.status]||p.status)+(p.reason?'，'+p.reason:'')+'）');
+     const players=(item.players||[]).map(p=>p.name+'（'+(statusZh[p.status]||p.status)+(p.role?'，近 '+p.role.games+' 場平均 '+p.role.minutes+' 分鐘、'+p.role.points+' 分':'')+(p.reason?'，'+p.reason:'')+'）');
      return label+'：'+(players.length?players.join('、'):'報告已提交，未列出傷兵')+'，報告時間 '+fmtTime(item.observed_utc);
    });
-   cell.textContent='傷兵｜'+sections.join('　｜　')+'。'+(g.injuries_in_model?'主勝率（調整前 → 後）：'+(100*g.baseline_home_probability).toFixed(1)+'% → '+(100*g.home_win_probability).toFixed(1)+'%':'本場沿用基礎預測，未套用傷兵調整');
+   cell.textContent='傷兵｜'+sections.join('　｜　')+'。'+(g.injuries_in_model?(g.player_roles_in_model?'依球員角色調整':'依出賽狀態人數調整')+'，主勝率（調整前 → 後）：'+(100*g.baseline_home_probability).toFixed(1)+'% → '+(100*g.home_win_probability).toFixed(1)+'%':'本場沿用基礎預測，未套用傷兵調整');
    detail.appendChild(cell);
    body.appendChild(detail);
   }

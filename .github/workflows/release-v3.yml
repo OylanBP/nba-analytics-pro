@@ -1,0 +1,27 @@
+name: 發布 NBA Analytics Pro v3.0
+on:
+  push:
+    branches: [main]
+    paths: ['docs/releases/v3.0.md']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 確認版本及驗證模型
+        run: |
+          grep -Fq '<title>NBA Analytics Pro｜v3.0</title>' index.html
+          python -m unittest discover -s tests
+          node --test tests/*.test.js
+          python -c "import json; m=json.load(open('data/model/availability.json')); assert m['test'] >= 40 and m['player_role']['covered_test_games'] >= 40"
+      - name: 建立 GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view v3.0 >/dev/null 2>&1; then
+            gh release create v3.0 --target "$GITHUB_SHA" --title 'NBA Analytics Pro v3.0' --notes-file docs/releases/v3.0.md
+          fi

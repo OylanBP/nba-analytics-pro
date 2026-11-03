@@ -7,6 +7,10 @@ on:
     # 台灣時間每天 15:00（UTC 07:00）
     - cron: '0 7 * * *'
 
+concurrency:
+  group: nba-injury-ingestion
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -17,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,6 +43,10 @@ jobs:
           node --test tests/*.test.js
           python scripts/update_games.py
 
+      - name: 更新已完賽球員紀錄（來源暫停時沿用上次驗證資料）
+        continue-on-error: true
+        run: python scripts/player_roles.py
+
       - name: Bootstrap first verified model when missing
         shell: bash
         run: |
@@ -52,7 +62,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/games.json data/standings.json data/rosters.json data/player_stats.json
+          git add data/model/player_box.json.gz data/games.json data/standings.json data/rosters.json data/player_stats.json
           if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
           if test -f data/model/evaluation.json; then git add data/model/evaluation.json; fi

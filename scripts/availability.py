@@ -37,7 +37,7 @@ def adjust(p, weights, counts):
 
 
 def fit_effect(samples):
-    weights=[0.0]*len(STATUSES)
+    weights=[0.0]*len(samples[0][1])
     for _ in range(350):
         grad=[0.0]*len(weights)
         for p,x,y in samples:
@@ -71,6 +71,25 @@ def train():
                         log_loss=-sum(math.log(r[k] if r[2] else 1-r[k]) for r in pairs)/n,
                         correct=sum((r[k]>=.5)==bool(r[2]) for r in pairs))
         before,after=metrics(0),metrics(1)
+        def role_sample(r):
+            p,counts,y=sample(r)
+            return p,counts+labels[r["id"]].get("roles",[0.]*8),y
+        role_weights=fit_effect(list(map(role_sample,train_rows)))
+        role_pairs=[]
+        count_approved=all(after[k]<before[k] for k in ("brier","log_loss"))
+        for row in test_rows:
+            p,x,y=role_sample(row)
+            if labels[row["id"]].get("matched_players",0):
+                corrected=adjust(p,role_weights,x)
+            else:
+                corrected=adjust(p,weights,x[:4]) if count_approved else p
+            role_pairs.append((p,corrected,y))
+        pairs=role_pairs
+        role_metrics=metrics(1)
+        covered=sum(labels[r["id"]].get("matched_players",0)>0 for r in test_rows)
+        role_approved=covered>=40 and all(role_metrics[k]<min(before[k],after[k]) for k in ("brier","log_loss"))
+        report.update(player_role=dict(approved=role_approved,weights=role_weights,
+                      metrics=role_metrics,covered_test_games=covered))
         report.update(train=len(train_rows),test=len(pairs),test_from=cutoff,baseline=before,
                       adjusted=after,weights=weights,approved=all(after[k]<before[k] for k in ('brier','log_loss')))
     MODEL.write_text(json.dumps(report,indent=2)+'\n')

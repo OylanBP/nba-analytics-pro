@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-03T10:14:33.554915+00:00",
+  "generated_utc": "2026-11-03T10:28:34.922691+00:00",
   "model_trained_utc": "2026-11-03T10:14:33.509767+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
@@ -26,6 +26,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -51,6 +52,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -76,6 +78,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -101,6 +104,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -126,6 +130,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -151,6 +156,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -176,6 +182,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -201,6 +208,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -226,6 +234,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -251,6 +260,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -276,6 +286,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -301,6 +312,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -326,6 +338,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -351,6 +364,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -374,6 +388,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -397,6 +412,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -420,6 +436,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -443,6 +460,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -466,6 +484,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -489,6 +508,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -512,6 +532,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -535,6 +556,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -558,6 +580,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -581,6 +604,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -604,6 +628,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -627,6 +652,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -650,6 +676,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -673,6 +700,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -696,6 +724,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -719,6 +748,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -742,6 +772,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -765,6 +796,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -788,6 +820,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -811,6 +844,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -834,6 +868,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -857,6 +892,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -880,6 +916,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -903,6 +940,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -926,6 +964,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -949,6 +988,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -972,6 +1012,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -995,6 +1036,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1018,6 +1060,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1041,6 +1084,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1064,6 +1108,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1087,6 +1132,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1110,6 +1156,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1133,6 +1180,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1156,6 +1204,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1179,6 +1228,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1202,6 +1252,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1225,6 +1276,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1248,6 +1300,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1271,6 +1324,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1294,6 +1348,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1317,6 +1372,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1340,6 +1396,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1363,6 +1420,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1386,6 +1444,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1409,6 +1468,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1432,6 +1492,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1455,6 +1516,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1478,6 +1540,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1501,6 +1564,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1524,6 +1588,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1547,6 +1612,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1570,6 +1636,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1593,6 +1660,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1616,6 +1684,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1639,6 +1708,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1662,6 +1732,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1685,6 +1756,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1708,6 +1780,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1731,6 +1804,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1754,6 +1828,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1777,6 +1852,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1800,6 +1876,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1823,6 +1900,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1846,6 +1924,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1869,6 +1948,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1892,6 +1972,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1915,6 +1996,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1938,6 +2020,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1961,6 +2044,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -1984,6 +2068,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2007,6 +2092,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2030,6 +2116,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2053,6 +2140,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2076,6 +2164,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2099,6 +2188,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2122,6 +2212,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2145,6 +2236,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2168,6 +2260,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2191,6 +2284,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2214,6 +2308,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2237,6 +2332,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2260,6 +2356,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2283,6 +2380,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2306,6 +2404,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2329,6 +2428,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2352,6 +2452,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2375,6 +2476,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2398,6 +2500,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2421,6 +2524,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2444,6 +2548,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2467,6 +2572,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2490,6 +2596,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2513,6 +2620,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2536,6 +2644,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2559,6 +2668,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2582,6 +2692,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2605,6 +2716,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2628,6 +2740,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2651,6 +2764,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2674,6 +2788,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2697,6 +2812,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2720,6 +2836,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2743,6 +2860,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2766,6 +2884,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -2789,6 +2908,7 @@
         }
       },
       "injuries_in_model": false,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     }
   ],
@@ -2808,6 +2928,29 @@
       "brier": 0.17435924812063808,
       "log_loss": 0.5224782184752321,
       "correct": 175
+    },
+    "player_role": {
+      "approved": true,
+      "weights": [
+        0.020847247384559203,
+        0.06813768252196292,
+        0.08476467064204754,
+        0.03459310408989291,
+        0.0673981849642616,
+        0.12144583243768443,
+        -0.010648818209111377,
+        0.01575231800398458,
+        0.11252191594377152,
+        0.1174675834580112,
+        -0.0890375180745288,
+        -0.000395136158730272
+      ],
+      "metrics": {
+        "brier": 0.17303893014500085,
+        "log_loss": 0.5164362822503191,
+        "correct": 174
+      },
+      "covered_test_games": 184
     }
   }
 }
