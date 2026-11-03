@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-03T07:59:56.113125+00:00",
+  "generated_utc": "2026-11-03T08:44:44.843009+00:00",
   "method": "expanding-window out-of-sample, baseline logistic regression",
   "folds": [
     {
