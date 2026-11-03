@@ -4,6 +4,7 @@ import datetime as dt
 import json
 import math
 import pathlib
+from injury_archive import injury_at
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 def main():
@@ -41,8 +42,8 @@ def main():
         ap,ar=features(g["away"])
         z=weights[0]+sum(a*b for a,b in zip(weights[1:],[hp,ap,hr/7,ar/7]))
         p=1/(1+math.exp(-max(-35,min(35,z))))
-        results.append({"id":g["id"],"date":g["date"],"home":g["home"],"away":g["away"],"home_win_probability":round(p,4),"away_win_probability":round(1-p,4)})
-    output={"generated_utc":now.isoformat(),"model_trained_utc":model["trained_utc"],"source":"approved model and archived ESPN games","predictions":results,"limitations":"Win percentage and rest only; no injuries or roster updates."}
+        results.append({"id":g["id"],"date":g["date"],"home":g["home"],"away":g["away"],"home_win_probability":round(p,4),"away_win_probability":round(1-p,4),"injuries":{"home":injury_at(now.isoformat(),g["home"]),"away":injury_at(now.isoformat(),g["away"])},"injuries_in_model":False})
+    output={"generated_utc":now.isoformat(),"model_trained_utc":model["trained_utc"],"source":"approved model and archived ESPN games","predictions":results,"limitations":"Baseline win percentage and rest only. Injury snapshots are informational and excluded from probabilities until verified historical pregame coverage and retraining exist."}
     dest=DATA/"model/predictions.json"
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(output,indent=2)+"\n")
