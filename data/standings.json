@@ -1,7 +1,7 @@
 {
   "source": "ESPN public standings endpoint (unofficial)",
   "source_url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?region=us&lang=en&contentorigin=espn",
-  "updated_at_utc": "2026-11-03T14:43:54+00:00",
+  "updated_at_utc": "2026-11-04T14:56:21+00:00",
   "teams": [
     {
       "id": "20",

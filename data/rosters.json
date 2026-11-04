@@ -1,6 +1,6 @@
 {
   "source": "ESPN public API (unofficial)",
-  "updated_at_utc": "2026-11-03T14:44:05+00:00",
+  "updated_at_utc": "2026-11-04T14:56:29+00:00",
   "teams": [
     {
       "id": "20",
@@ -3338,7 +3338,7 @@
           "position": "F",
           "height": "6' 7\"",
           "weight": "235 lbs",
-          "age": 24,
+          "age": 25,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png"
         },
         {
@@ -4076,16 +4076,6 @@
           "weight": "186 lbs",
           "age": 20,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061585.png"
-        },
-        {
-          "id": "4592699",
-          "name": "Enrique Freeman",
-          "number": "25",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "220 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592699.png"
         },
         {
           "id": "3032976",

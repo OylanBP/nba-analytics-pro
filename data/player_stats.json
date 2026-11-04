@@ -2,7 +2,7 @@
   "source": "ESPN unofficial public athlete statistics API",
   "season_year": 2027,
   "season_type": "regular",
-  "updated_at_utc": "2026-11-03T14:44:21+00:00",
+  "updated_at_utc": "2026-11-04T14:56:46+00:00",
   "players": {
     "5105637": {
       "gp": "8",
@@ -7779,7 +7779,7 @@
       "pts": "9.3"
     }
   },
-  "missing_current_season": 72,
+  "missing_current_season": 71,
   "fetch_errors": 1,
   "shooting_validation": "per-game makes/attempts parsed; rounded zero attempts shown as unavailable"
 }
