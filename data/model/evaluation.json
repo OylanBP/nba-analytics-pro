@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-11-03T10:30:53.494506+00:00",
+  "generated_utc": "2026-11-09T17:32:07.120189+00:00",
   "source": "real completed games with pregame features",
-  "train_games": 1058,
-  "holdout_games": 264,
+  "train_games": 1101,
+  "holdout_games": 275,
   "challenger": {
-    "brier": 0.20976,
-    "log_loss": 0.610734,
-    "accuracy": 0.757576,
-    "n": 264
+    "brier": 0.210882,
+    "log_loss": 0.61319,
+    "accuracy": 0.738182,
+    "n": 275
   },
   "champion": {
-    "brier": 0.20976,
-    "log_loss": 0.610734,
-    "accuracy": 0.757576,
-    "n": 264
+    "brier": 0.211387,
+    "log_loss": 0.614236,
+    "accuracy": 0.741818,
+    "n": 275
   },
   "challenger_passed_gate": false,
   "note": "Chronological holdout; rolling out-of-sample backtesting required before production predictions."
