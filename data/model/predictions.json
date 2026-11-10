@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-10T11:02:28.743081+00:00",
+  "generated_utc": "2026-11-10T12:41:36.086880+00:00",
   "model_trained_utc": "2026-11-09T17:33:22.549079+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
@@ -8,8 +8,8 @@
       "date": "2026-11-11T00:30Z",
       "home": "18",
       "away": "15",
-      "home_win_probability": 0.8422,
-      "away_win_probability": 0.1578,
+      "home_win_probability": 0.8496,
+      "away_win_probability": 0.1504,
       "baseline_home_probability": 0.8496,
       "injuries": {
         "home": {
@@ -54,7 +54,7 @@
         }
       },
       "injuries_in_model": true,
-      "player_roles_in_model": true,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -62,8 +62,8 @@
       "date": "2026-11-11T01:00Z",
       "home": "20",
       "away": "2",
-      "home_win_probability": 0.4879,
-      "away_win_probability": 0.5121,
+      "home_win_probability": 0.4644,
+      "away_win_probability": 0.5356,
       "baseline_home_probability": 0.4618,
       "injuries": {
         "home": {
@@ -143,7 +143,7 @@
         }
       },
       "injuries_in_model": true,
-      "player_roles_in_model": true,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -236,8 +236,8 @@
       "date": "2026-11-11T02:00Z",
       "home": "26",
       "away": "14",
-      "home_win_probability": 0.2642,
-      "away_win_probability": 0.7358,
+      "home_win_probability": 0.214,
+      "away_win_probability": 0.786,
       "baseline_home_probability": 0.3506,
       "injuries": {
         "home": {
@@ -340,7 +340,7 @@
         }
       },
       "injuries_in_model": true,
-      "player_roles_in_model": true,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -348,8 +348,8 @@
       "date": "2026-11-11T03:00Z",
       "home": "23",
       "away": "19",
-      "home_win_probability": 0.4339,
-      "away_win_probability": 0.5661,
+      "home_win_probability": 0.4196,
+      "away_win_probability": 0.5804,
       "baseline_home_probability": 0.4221,
       "injuries": {
         "home": {
@@ -476,7 +476,7 @@
         }
       },
       "injuries_in_model": true,
-      "player_roles_in_model": true,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -484,8 +484,8 @@
       "date": "2026-11-11T04:00Z",
       "home": "22",
       "away": "25",
-      "home_win_probability": 0.514,
-      "away_win_probability": 0.486,
+      "home_win_probability": 0.5038,
+      "away_win_probability": 0.4962,
       "baseline_home_probability": 0.4469,
       "injuries": {
         "home": {
@@ -614,7 +614,7 @@
         }
       },
       "injuries_in_model": true,
-      "player_roles_in_model": true,
+      "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
     {
@@ -3377,42 +3377,42 @@
   "limitations": "Uses rolling-validated Elo and recent form when approved, otherwise baseline. Availability adjustment requires verified reports for both teams and a successful chronological evaluation.",
   "availability_evaluation": {
     "approved": true,
-    "paired": 752,
-    "train": 524,
-    "test": 228,
-    "test_from": "2026-03-24",
+    "paired": 863,
+    "train": 598,
+    "test": 265,
+    "test_from": "2026-03-26",
     "baseline": {
-      "brier": 0.1862630037228012,
-      "log_loss": 0.5549297598718402,
-      "correct": 164
+      "brier": 0.1874783372338328,
+      "log_loss": 0.558184507785592,
+      "correct": 189
     },
     "adjusted": {
-      "brier": 0.17435924812063808,
-      "log_loss": 0.5224782184752321,
-      "correct": 175
+      "brier": 0.1778452585030077,
+      "log_loss": 0.5323690261726156,
+      "correct": 201
     },
     "player_role": {
-      "approved": true,
+      "approved": false,
       "weights": [
-        0.020847247384559203,
-        0.06813768252196292,
-        0.08476467064204754,
-        0.03459310408989291,
-        0.0673981849642616,
-        0.12144583243768443,
-        -0.010648818209111377,
-        0.01575231800398458,
-        0.11252191594377152,
-        0.1174675834580112,
-        -0.0890375180745288,
-        -0.000395136158730272
+        0.036889095643889445,
+        0.08195651859594329,
+        0.10478212690269224,
+        0.025419717976072963,
+        0.06435836794811696,
+        0.11410726530755322,
+        -0.028893176569332036,
+        0.03187740143683944,
+        0.10640529071078027,
+        0.1119782796809294,
+        -0.09984956566381764,
+        0.014096060834734534
       ],
       "metrics": {
-        "brier": 0.17303893014500085,
-        "log_loss": 0.5164362822503191,
-        "correct": 174
+        "brier": 0.17797305804289054,
+        "log_loss": 0.5293213822387158,
+        "correct": 199
       },
-      "covered_test_games": 184
+      "covered_test_games": 220
     }
   }
 }
