@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-10T03:06:44.346979+00:00",
+  "generated_utc": "2026-11-10T11:02:28.743081+00:00",
   "model_trained_utc": "2026-11-09T17:33:22.549079+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
@@ -29,8 +29,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -49,8 +49,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -99,8 +99,8 @@
               "reason": ""
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -138,8 +138,8 @@
               "reason": "G League - Two-Way"
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -158,8 +158,8 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -223,8 +223,8 @@
               "reason": "Injury/Illness - Right Lisfranc Surgery"
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -315,8 +315,8 @@
               "reason": ""
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -335,8 +335,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -419,8 +419,8 @@
               "reason": ""
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -447,7 +447,7 @@
               "team_id": "19",
               "name": "Nelson, Izaiyah",
               "status": "Out",
-              "reason": "Injury/Illness - Left Ankle Injury"
+              "reason": ""
             },
             {
               "game_date": "2026-11-10",
@@ -471,8 +471,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -534,8 +534,8 @@
               "reason": "G League - Two-Way"
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "verified",
@@ -609,8 +609,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-10T03:00:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-09_10_00PM.pdf"
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -629,12 +629,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -653,12 +655,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -677,12 +681,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -701,12 +707,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -725,12 +733,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -749,12 +759,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -773,12 +785,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -797,12 +811,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -821,12 +837,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
@@ -845,12 +863,14 @@
         "home": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         },
         "away": {
           "status": "unknown",
           "players": [],
-          "observed_utc": null
+          "observed_utc": "2026-11-10T10:45:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_05_45AM.pdf"
         }
       },
       "injuries_in_model": false,
