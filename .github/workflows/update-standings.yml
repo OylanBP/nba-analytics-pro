@@ -35,6 +35,11 @@ jobs:
       - name: Update rosters
         run: python scripts/update_rosters.py
 
+      - name: 更新球員背景（失敗時保留已驗證快照）
+        continue-on-error: true
+        timeout-minutes: 25
+        run: python scripts/update_biographies.py
+
       - name: Update player stats
         run: python scripts/update_player_stats.py
 
@@ -63,6 +68,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/model/player_box.json.gz data/games.json data/standings.json data/rosters.json data/player_stats.json
+          if test -f data/biographies.json; then git add data/biographies.json; fi
           if test -f data/model/predictions.json; then git add data/model/predictions.json; fi
           if test -f data/model/champion.json; then git add data/model/champion.json; fi
           if test -f data/model/evaluation.json; then git add data/model/evaluation.json; fi

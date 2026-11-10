@@ -85,3 +85,47 @@ test('v3 labels the role model and shows the player sample behind an adjustment'
   await expect(details).toContainText('依球員角色調整');
   await expect(details).toContainText('50.0% → 55.0%');
 });
+
+for (const width of [1440,390,320]) {
+ test(`sourced player backgrounds preserve stats at ${width}px`,async({page})=>{
+  await page.setViewportSize({width,height:844});
+  await page.goto(base);
+  await page.locator('#standings-body .team-button').first().click();
+  await page.locator('.player-open').first().click();
+  const bio=page.locator('.player-background');
+  await expect(bio).toContainText('出生日期');
+  await expect(bio.locator('a').last()).toHaveAttribute('href',/^https:\/\/www\.espn\.com\/nba\/player\/bio/);
+  await expect(page.locator('.profile-grid')).toContainText('得分');
+  expect(await page.locator('.player-dialog').evaluate(e=>e.scrollWidth<=e.clientWidth+2)).toBe(true);
+  await page.locator('#close-profile').click();
+  await expect(page.locator('.player-modal')).toBeHidden();
+ });
+}
+
+test('background failure can retry without hiding existing stats',async({page})=>{
+ let fail=true;
+ await page.route('**/data/biographies.json',route=>fail?route.fulfill({status:503,body:''}):route.continue());
+ await page.goto(base);
+ await page.locator('#standings-body .team-button').first().click();
+ await page.locator('.player-open').first().click();
+ await expect(page.locator('.player-background')).toContainText('暫時無法讀取');
+ await expect(page.locator('.profile-grid')).toContainText('得分');
+ fail=false;
+ await page.getByRole('button',{name:'重新讀取背景'}).click();
+ await expect(page.locator('.player-background')).toContainText('出生日期');
+});
+
+test('Curry story links to its checked source',async({page},testInfo)=>{
+ const rosters=require('../data/rosters.json');
+ const standings=require('../data/standings.json');
+ const team=rosters.teams.find(t=>t.players.some(p=>String(p.id)==='3975'));
+ const conf=standings.teams.find(t=>String(t.id)===String(team.id)).conference;
+ await page.setViewportSize({width:390,height:844});
+ await page.goto(base);
+ await page.locator(`.tab[data-conf="${conf}"]`).click();
+ await page.locator(`.team-button[data-id="${team.id}"]`).click();
+ await page.locator('.player-open[data-player-id="3975"]').click();
+ await expect(page.locator('.bio-story')).toContainText('Davidson');
+ await expect(page.locator('.bio-story a')).toHaveAttribute('href','https://jr.nba.com/player-profile-stephen-curry/');
+ await page.screenshot({path:testInfo.outputPath('player-background-mobile.png')});
+});
