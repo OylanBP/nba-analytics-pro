@@ -1,7 +1,186 @@
 {
   "source": "ESPN public API (unofficial)",
-  "updated_at_utc": "2026-11-10T15:18:27+00:00",
+  "updated_at_utc": "2026-11-11T14:48:32+00:00",
   "teams": [
+    {
+      "id": "2",
+      "name": "Boston Celtics",
+      "abbreviation": "BOS",
+      "conference": "East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+      "players": [
+        {
+          "id": "4433188",
+          "name": "Devin Carter",
+          "number": "99",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "188 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433188.png"
+        },
+        {
+          "id": "5142621",
+          "name": "Chris Cenac Jr.",
+          "number": "12",
+          "position": "F",
+          "height": "6' 11\"",
+          "weight": "240 lbs",
+          "age": 19,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png"
+        },
+        {
+          "id": "3195",
+          "name": "Mike Conley",
+          "number": "45",
+          "position": "G",
+          "height": "6' 1\"",
+          "weight": "175 lbs",
+          "age": 39,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3195.png"
+        },
+        {
+          "id": "4277951",
+          "name": "Luka Garza",
+          "number": "52",
+          "position": "C",
+          "height": "6' 10\"",
+          "weight": "243 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277951.png"
+        },
+        {
+          "id": "4251",
+          "name": "Paul George",
+          "number": "13",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "221 lbs",
+          "age": 36,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png"
+        },
+        {
+          "id": "5175647",
+          "name": "Hugo Gonzalez",
+          "number": "28",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "205 lbs",
+          "age": 20,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175647.png"
+        },
+        {
+          "id": "4397251",
+          "name": "Ron Harper Jr.",
+          "number": "8",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "233 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397251.png"
+        },
+        {
+          "id": "4065804",
+          "name": "Sam Hauser",
+          "number": "30",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "221 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065804.png"
+        },
+        {
+          "id": "5106283",
+          "name": "Dillon Mitchell",
+          "number": "20",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "210 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106283.png"
+        },
+        {
+          "id": "4066354",
+          "name": "Payton Pritchard",
+          "number": "11",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "211 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066354.png"
+        },
+        {
+          "id": "4397424",
+          "name": "Neemias Queta",
+          "number": "88",
+          "position": "C",
+          "height": "7' 0\"",
+          "weight": "260 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png"
+        },
+        {
+          "id": "4351852",
+          "name": "Mitchell Robinson",
+          "number": "4",
+          "position": "C",
+          "height": "7' 0\"",
+          "weight": "240 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351852.png"
+        },
+        {
+          "id": "4593841",
+          "name": "Baylor Scheierman",
+          "number": "55",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "213 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593841.png"
+        },
+        {
+          "id": "4065648",
+          "name": "Jayson Tatum",
+          "number": "0",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "224 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png"
+        },
+        {
+          "id": "4683689",
+          "name": "Jordan Walsh",
+          "number": "27",
+          "position": "G",
+          "height": "6' 7\"",
+          "weight": "208 lbs",
+          "age": 22,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683689.png"
+        },
+        {
+          "id": "3078576",
+          "name": "Derrick White",
+          "number": "9",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "200 lbs",
+          "age": 32,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png"
+        },
+        {
+          "id": "4702745",
+          "name": "Amari Williams",
+          "number": "77",
+          "position": "F",
+          "height": "7' 0\"",
+          "weight": "262 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702745.png"
+        }
+      ]
+    },
     {
       "id": "20",
       "name": "Philadelphia 76ers",
@@ -182,175 +361,6 @@
       ]
     },
     {
-      "id": "2",
-      "name": "Boston Celtics",
-      "abbreviation": "BOS",
-      "conference": "East",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-      "players": [
-        {
-          "id": "4433188",
-          "name": "Devin Carter",
-          "number": "99",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "188 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433188.png"
-        },
-        {
-          "id": "3195",
-          "name": "Mike Conley",
-          "number": "45",
-          "position": "G",
-          "height": "6' 1\"",
-          "weight": "175 lbs",
-          "age": 39,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3195.png"
-        },
-        {
-          "id": "4277951",
-          "name": "Luka Garza",
-          "number": "52",
-          "position": "C",
-          "height": "6' 10\"",
-          "weight": "243 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277951.png"
-        },
-        {
-          "id": "4251",
-          "name": "Paul George",
-          "number": "13",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "221 lbs",
-          "age": 36,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png"
-        },
-        {
-          "id": "5175647",
-          "name": "Hugo Gonzalez",
-          "number": "28",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "205 lbs",
-          "age": 20,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175647.png"
-        },
-        {
-          "id": "4397251",
-          "name": "Ron Harper Jr.",
-          "number": "8",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "233 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397251.png"
-        },
-        {
-          "id": "4065804",
-          "name": "Sam Hauser",
-          "number": "30",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "221 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065804.png"
-        },
-        {
-          "id": "5106283",
-          "name": "Dillon Mitchell",
-          "number": "20",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "210 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106283.png"
-        },
-        {
-          "id": "4066354",
-          "name": "Payton Pritchard",
-          "number": "11",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "211 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066354.png"
-        },
-        {
-          "id": "4397424",
-          "name": "Neemias Queta",
-          "number": "88",
-          "position": "C",
-          "height": "7' 0\"",
-          "weight": "260 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png"
-        },
-        {
-          "id": "4351852",
-          "name": "Mitchell Robinson",
-          "number": "4",
-          "position": "C",
-          "height": "7' 0\"",
-          "weight": "240 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351852.png"
-        },
-        {
-          "id": "4593841",
-          "name": "Baylor Scheierman",
-          "number": "55",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "213 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593841.png"
-        },
-        {
-          "id": "4065648",
-          "name": "Jayson Tatum",
-          "number": "0",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "224 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png"
-        },
-        {
-          "id": "4683689",
-          "name": "Jordan Walsh",
-          "number": "27",
-          "position": "G",
-          "height": "6' 7\"",
-          "weight": "208 lbs",
-          "age": 22,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683689.png"
-        },
-        {
-          "id": "3078576",
-          "name": "Derrick White",
-          "number": "9",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "200 lbs",
-          "age": 32,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png"
-        },
-        {
-          "id": "4702745",
-          "name": "Amari Williams",
-          "number": "77",
-          "position": "F",
-          "height": "7' 0\"",
-          "weight": "262 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702745.png"
-        }
-      ]
-    },
-    {
       "id": "8",
       "name": "Detroit Pistons",
       "abbreviation": "DET",
@@ -458,16 +468,6 @@
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png"
         },
         {
-          "id": "4700852",
-          "name": "Chaz Lanier",
-          "number": "8",
-          "position": "G",
-          "height": "6' 3\"",
-          "weight": "206 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png"
-        },
-        {
           "id": "5258459",
           "name": "Ebuka Okorie",
           "number": "23",
@@ -536,6 +536,185 @@
           "weight": "205 lbs",
           "age": 23,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "New York Knicks",
+      "abbreviation": "NY",
+      "conference": "East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "players": [
+        {
+          "id": "4683730",
+          "name": "Jaden Akins",
+          "number": "14",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "195 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683730.png"
+        },
+        {
+          "id": "4277869",
+          "name": "Jose Alvarado",
+          "number": "5",
+          "position": "G",
+          "height": "6' 0\"",
+          "weight": "179 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png"
+        },
+        {
+          "id": "3934719",
+          "name": "OG Anunoby",
+          "number": "8",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "240 lbs",
+          "age": 29,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png"
+        },
+        {
+          "id": "3147657",
+          "name": "Mikal Bridges",
+          "number": "25",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "209 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png"
+        },
+        {
+          "id": "3934672",
+          "name": "Jalen Brunson",
+          "number": "11",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "190 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png"
+        },
+        {
+          "id": "2528426",
+          "name": "Jordan Clarkson",
+          "number": "00",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "194 lbs",
+          "age": 34,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png"
+        },
+        {
+          "id": "5211983",
+          "name": "Pacome Dadiet",
+          "number": "4",
+          "position": "F",
+          "height": "6' 9\"",
+          "weight": "210 lbs",
+          "age": 21,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211983.png"
+        },
+        {
+          "id": "5289900",
+          "name": "Mohamed Diawara",
+          "number": "51",
+          "position": "F",
+          "height": "6' 9\"",
+          "weight": "225 lbs",
+          "age": 21,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5289900.png"
+        },
+        {
+          "id": "6585",
+          "name": "Andre Drummond",
+          "number": "0",
+          "position": "C",
+          "height": "6' 11\"",
+          "weight": "279 lbs",
+          "age": 33,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png"
+        },
+        {
+          "id": "3062679",
+          "name": "Josh Hart",
+          "number": "3",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "215 lbs",
+          "age": 31,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png"
+        },
+        {
+          "id": "4897943",
+          "name": "Dalton Knecht",
+          "number": "99",
+          "position": "F",
+          "height": "6' 6\"",
+          "weight": "215 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png"
+        },
+        {
+          "id": "4433225",
+          "name": "Tyler Kolek",
+          "number": "13",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "195 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433225.png"
+        },
+        {
+          "id": "4431823",
+          "name": "Miles McBride",
+          "number": "2",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "195 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png"
+        },
+        {
+          "id": "4838721",
+          "name": "Tyler Nickel",
+          "number": "55",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "217 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4838721.png"
+        },
+        {
+          "id": "3914044",
+          "name": "Landry Shamet",
+          "number": "44",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "190 lbs",
+          "age": 29,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png"
+        },
+        {
+          "id": "3136195",
+          "name": "Karl-Anthony Towns",
+          "number": "32",
+          "position": "C",
+          "height": "7' 0\"",
+          "weight": "248 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png"
+        },
+        {
+          "id": "4432808",
+          "name": "James Wiseman",
+          "number": "35",
+          "position": "C",
+          "height": "6' 11\"",
+          "weight": "240 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png"
         }
       ]
     },
@@ -725,185 +904,6 @@
           "weight": "220 lbs",
           "age": 26,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431714.png"
-        }
-      ]
-    },
-    {
-      "id": "18",
-      "name": "New York Knicks",
-      "abbreviation": "NY",
-      "conference": "East",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-      "players": [
-        {
-          "id": "4683730",
-          "name": "Jaden Akins",
-          "number": "14",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "195 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683730.png"
-        },
-        {
-          "id": "4277869",
-          "name": "Jose Alvarado",
-          "number": "5",
-          "position": "G",
-          "height": "6' 0\"",
-          "weight": "179 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png"
-        },
-        {
-          "id": "3934719",
-          "name": "OG Anunoby",
-          "number": "8",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "240 lbs",
-          "age": 29,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png"
-        },
-        {
-          "id": "3147657",
-          "name": "Mikal Bridges",
-          "number": "25",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "209 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png"
-        },
-        {
-          "id": "3934672",
-          "name": "Jalen Brunson",
-          "number": "11",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "190 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png"
-        },
-        {
-          "id": "2528426",
-          "name": "Jordan Clarkson",
-          "number": "00",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "194 lbs",
-          "age": 34,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png"
-        },
-        {
-          "id": "5211983",
-          "name": "Pacome Dadiet",
-          "number": "4",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "210 lbs",
-          "age": 21,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211983.png"
-        },
-        {
-          "id": "5289900",
-          "name": "Mohamed Diawara",
-          "number": "51",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "225 lbs",
-          "age": 21,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5289900.png"
-        },
-        {
-          "id": "6585",
-          "name": "Andre Drummond",
-          "number": "0",
-          "position": "C",
-          "height": "6' 11\"",
-          "weight": "279 lbs",
-          "age": 33,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png"
-        },
-        {
-          "id": "3062679",
-          "name": "Josh Hart",
-          "number": "3",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "215 lbs",
-          "age": 31,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png"
-        },
-        {
-          "id": "4897943",
-          "name": "Dalton Knecht",
-          "number": "99",
-          "position": "F",
-          "height": "6' 6\"",
-          "weight": "215 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png"
-        },
-        {
-          "id": "4433225",
-          "name": "Tyler Kolek",
-          "number": "13",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "195 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433225.png"
-        },
-        {
-          "id": "4431823",
-          "name": "Miles McBride",
-          "number": "2",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "195 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png"
-        },
-        {
-          "id": "4838721",
-          "name": "Tyler Nickel",
-          "number": "55",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "217 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4838721.png"
-        },
-        {
-          "id": "3914044",
-          "name": "Landry Shamet",
-          "number": "44",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "190 lbs",
-          "age": 29,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png"
-        },
-        {
-          "id": "3136195",
-          "name": "Karl-Anthony Towns",
-          "number": "32",
-          "position": "C",
-          "height": "7' 0\"",
-          "weight": "248 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png"
-        },
-        {
-          "id": "4432808",
-          "name": "James Wiseman",
-          "number": "35",
-          "position": "C",
-          "height": "6' 11\"",
-          "weight": "240 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png"
         }
       ]
     },
@@ -1803,185 +1803,6 @@
       ]
     },
     {
-      "id": "11",
-      "name": "Indiana Pacers",
-      "abbreviation": "IND",
-      "conference": "East",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-      "players": [
-        {
-          "id": "4431752",
-          "name": "Kobe Brown",
-          "number": "24",
-          "position": "G",
-          "height": "6' 7\"",
-          "weight": "250 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431752.png"
-        },
-        {
-          "id": "5157066",
-          "name": "Johnny Furphy",
-          "number": "12",
-          "position": "G",
-          "height": "6' 8\"",
-          "weight": "200 lbs",
-          "age": 21,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5157066.png"
-        },
-        {
-          "id": "4396993",
-          "name": "Tyrese Haliburton",
-          "number": "0",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "185 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png"
-        },
-        {
-          "id": "4065731",
-          "name": "Jay Huff",
-          "number": "32",
-          "position": "C",
-          "height": "7' 1\"",
-          "weight": "240 lbs",
-          "age": 29,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065731.png"
-        },
-        {
-          "id": "4592829",
-          "name": "Quenton Jackson",
-          "number": "29",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "173 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png"
-        },
-        {
-          "id": "2530530",
-          "name": "T.J. McConnell",
-          "number": "9",
-          "position": "G",
-          "height": "6' 1\"",
-          "weight": "190 lbs",
-          "age": 34,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2530530.png"
-        },
-        {
-          "id": "2580365",
-          "name": "Larry Nance Jr.",
-          "number": "22",
-          "position": "F",
-          "height": "6' 6\"",
-          "weight": "245 lbs",
-          "age": 33,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2580365.png"
-        },
-        {
-          "id": "4395712",
-          "name": "Andrew Nembhard",
-          "number": "2",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "191 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395712.png"
-        },
-        {
-          "id": "4396909",
-          "name": "Aaron Nesmith",
-          "number": "23",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "215 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396909.png"
-        },
-        {
-          "id": "3133603",
-          "name": "Kelly Oubre Jr.",
-          "number": "10",
-          "position": "G",
-          "height": "6' 8\"",
-          "weight": "203 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png"
-        },
-        {
-          "id": "4433076",
-          "name": "Ben Sheppard",
-          "number": "26",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "190 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433076.png"
-        },
-        {
-          "id": "3149673",
-          "name": "Pascal Siakam",
-          "number": "43",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "245 lbs",
-          "age": 32,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3149673.png"
-        },
-        {
-          "id": "4398207",
-          "name": "Jalen Slawson",
-          "number": "18",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "215 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4398207.png"
-        },
-        {
-          "id": "5105854",
-          "name": "Braden Smith",
-          "number": "3",
-          "position": "G",
-          "height": "5' 10\"",
-          "weight": "167 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105854.png"
-        },
-        {
-          "id": "4278355",
-          "name": "Obi Toppin",
-          "number": "1",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "220 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278355.png"
-        },
-        {
-          "id": "5106060",
-          "name": "Jarace Walker",
-          "number": "5",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "235 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106060.png"
-        },
-        {
-          "id": "4017837",
-          "name": "Ivica Zubac",
-          "number": "40",
-          "position": "C",
-          "height": "7' 0\"",
-          "weight": "240 lbs",
-          "age": 29,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png"
-        }
-      ]
-    },
-    {
       "id": "19",
       "name": "Orlando Magic",
       "abbreviation": "ORL",
@@ -2157,6 +1978,185 @@
           "weight": "220 lbs",
           "age": 25,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4566434.png"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Indiana Pacers",
+      "abbreviation": "IND",
+      "conference": "East",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+      "players": [
+        {
+          "id": "4431752",
+          "name": "Kobe Brown",
+          "number": "24",
+          "position": "G",
+          "height": "6' 7\"",
+          "weight": "250 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431752.png"
+        },
+        {
+          "id": "5157066",
+          "name": "Johnny Furphy",
+          "number": "12",
+          "position": "G",
+          "height": "6' 8\"",
+          "weight": "200 lbs",
+          "age": 21,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5157066.png"
+        },
+        {
+          "id": "4396993",
+          "name": "Tyrese Haliburton",
+          "number": "0",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "185 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png"
+        },
+        {
+          "id": "4065731",
+          "name": "Jay Huff",
+          "number": "32",
+          "position": "C",
+          "height": "7' 1\"",
+          "weight": "240 lbs",
+          "age": 29,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065731.png"
+        },
+        {
+          "id": "4592829",
+          "name": "Quenton Jackson",
+          "number": "29",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "173 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png"
+        },
+        {
+          "id": "2530530",
+          "name": "T.J. McConnell",
+          "number": "9",
+          "position": "G",
+          "height": "6' 1\"",
+          "weight": "190 lbs",
+          "age": 34,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2530530.png"
+        },
+        {
+          "id": "2580365",
+          "name": "Larry Nance Jr.",
+          "number": "22",
+          "position": "F",
+          "height": "6' 6\"",
+          "weight": "245 lbs",
+          "age": 33,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2580365.png"
+        },
+        {
+          "id": "4395712",
+          "name": "Andrew Nembhard",
+          "number": "2",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "191 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395712.png"
+        },
+        {
+          "id": "4396909",
+          "name": "Aaron Nesmith",
+          "number": "23",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "215 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396909.png"
+        },
+        {
+          "id": "3133603",
+          "name": "Kelly Oubre Jr.",
+          "number": "10",
+          "position": "G",
+          "height": "6' 8\"",
+          "weight": "203 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png"
+        },
+        {
+          "id": "4433076",
+          "name": "Ben Sheppard",
+          "number": "26",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "190 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433076.png"
+        },
+        {
+          "id": "3149673",
+          "name": "Pascal Siakam",
+          "number": "43",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "245 lbs",
+          "age": 32,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3149673.png"
+        },
+        {
+          "id": "4398207",
+          "name": "Jalen Slawson",
+          "number": "18",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "215 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4398207.png"
+        },
+        {
+          "id": "5105854",
+          "name": "Braden Smith",
+          "number": "3",
+          "position": "G",
+          "height": "5' 10\"",
+          "weight": "167 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105854.png"
+        },
+        {
+          "id": "4278355",
+          "name": "Obi Toppin",
+          "number": "1",
+          "position": "F",
+          "height": "6' 9\"",
+          "weight": "220 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278355.png"
+        },
+        {
+          "id": "5106060",
+          "name": "Jarace Walker",
+          "number": "5",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "235 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106060.png"
+        },
+        {
+          "id": "4017837",
+          "name": "Ivica Zubac",
+          "number": "40",
+          "position": "C",
+          "height": "7' 0\"",
+          "weight": "240 lbs",
+          "age": 29,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png"
         }
       ]
     },
@@ -2735,6 +2735,16 @@
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png"
         },
         {
+          "id": "5105817",
+          "name": "Carson Cooper",
+          "number": "",
+          "position": "C",
+          "height": "6' 11\"",
+          "weight": "245 lbs",
+          "age": 22,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png"
+        },
+        {
           "id": "3945274",
           "name": "Luka Doncic",
           "number": "77",
@@ -2813,16 +2823,6 @@
           "weight": "222 lbs",
           "age": 30,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155535.png"
-        },
-        {
-          "id": "4596528",
-          "name": "Lawson Lovering",
-          "number": "",
-          "position": "C",
-          "height": "7' 1\"",
-          "weight": "233 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4596528.png"
         },
         {
           "id": "4278580",
@@ -3092,195 +3092,6 @@
           "weight": "240 lbs",
           "age": 22,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png"
-        }
-      ]
-    },
-    {
-      "id": "25",
-      "name": "Oklahoma City Thunder",
-      "abbreviation": "OKC",
-      "conference": "West",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-      "players": [
-        {
-          "id": "4684208",
-          "name": "Brooks Barnhizer",
-          "number": "23",
-          "position": "F",
-          "height": "6' 6\"",
-          "weight": "226 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684208.png"
-        },
-        {
-          "id": "2991350",
-          "name": "Alex Caruso",
-          "number": "9",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "186 lbs",
-          "age": 32,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991350.png"
-        },
-        {
-          "id": "4702384",
-          "name": "Nique Clifford",
-          "number": "",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "175 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png"
-        },
-        {
-          "id": "5105800",
-          "name": "Josh Dix",
-          "number": "21",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "206 lbs",
-          "age": 22,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105800.png"
-        },
-        {
-          "id": "4278073",
-          "name": "Shai Gilgeous-Alexander",
-          "number": "2",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "195 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png"
-        },
-        {
-          "id": "4222252",
-          "name": "Isaiah Hartenstein",
-          "number": "55",
-          "position": "C",
-          "height": "7' 0\"",
-          "weight": "250 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png"
-        },
-        {
-          "id": "4433255",
-          "name": "Chet Holmgren",
-          "number": "7",
-          "position": "C",
-          "height": "7' 1\"",
-          "weight": "208 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png"
-        },
-        {
-          "id": "5174983",
-          "name": "Aday Mara",
-          "number": "15",
-          "position": "C",
-          "height": "7' 3\"",
-          "weight": "262 lbs",
-          "age": 21,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png"
-        },
-        {
-          "id": "4683778",
-          "name": "Jared McCain",
-          "number": "3",
-          "position": "G",
-          "height": "6' 3\"",
-          "weight": "195 lbs",
-          "age": 22,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683778.png"
-        },
-        {
-          "id": "4900671",
-          "name": "Ajay Mitchell",
-          "number": "25",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "190 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png"
-        },
-        {
-          "id": "4432185",
-          "name": "Micah Peavy",
-          "number": "",
-          "position": "G",
-          "height": "6' 7\"",
-          "weight": "220 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432185.png"
-        },
-        {
-          "id": "5061603",
-          "name": "Thomas Sorber",
-          "number": "12",
-          "position": "C",
-          "height": "6' 9\"",
-          "weight": "250 lbs",
-          "age": 20,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061603.png"
-        },
-        {
-          "id": "5241364",
-          "name": "Bennett Stirtz",
-          "number": "14",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "190 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png"
-        },
-        {
-          "id": "5159925",
-          "name": "Nikola Topic",
-          "number": "44",
-          "position": "G",
-          "height": "6' 6\"",
-          "weight": "200 lbs",
-          "age": 21,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5159925.png"
-        },
-        {
-          "id": "4683692",
-          "name": "Cason Wallace",
-          "number": "22",
-          "position": "G",
-          "height": "6' 3\"",
-          "weight": "195 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png"
-        },
-        {
-          "id": "4593803",
-          "name": "Jalen Williams",
-          "number": "8",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "211 lbs",
-          "age": 25,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593803.png"
-        },
-        {
-          "id": "4432823",
-          "name": "Jaylin Williams",
-          "number": "6",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "240 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png"
-        },
-        {
-          "id": "3133626",
-          "name": "Kenrich Williams",
-          "number": "34",
-          "position": "G",
-          "height": "6' 7\"",
-          "weight": "210 lbs",
-          "age": 31,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133626.png"
         }
       ]
     },
@@ -3676,7 +3487,7 @@
           "position": "F",
           "height": "6' 11\"",
           "weight": "230 lbs",
-          "age": 19,
+          "age": 20,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279133.png"
         },
         {
@@ -3718,16 +3529,6 @@
           "weight": "225 lbs",
           "age": 25,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png"
-        },
-        {
-          "id": "5061585",
-          "name": "Isaiah Evans",
-          "number": "33",
-          "position": "F",
-          "height": "6' 6\"",
-          "weight": "186 lbs",
-          "age": 20,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061585.png"
         },
         {
           "id": "3032976",
@@ -3822,6 +3623,195 @@
       ]
     },
     {
+      "id": "25",
+      "name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "conference": "West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+      "players": [
+        {
+          "id": "4684208",
+          "name": "Brooks Barnhizer",
+          "number": "23",
+          "position": "F",
+          "height": "6' 6\"",
+          "weight": "226 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684208.png"
+        },
+        {
+          "id": "2991350",
+          "name": "Alex Caruso",
+          "number": "9",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "186 lbs",
+          "age": 32,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991350.png"
+        },
+        {
+          "id": "4702384",
+          "name": "Nique Clifford",
+          "number": "",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "175 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png"
+        },
+        {
+          "id": "5105800",
+          "name": "Josh Dix",
+          "number": "21",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "206 lbs",
+          "age": 22,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105800.png"
+        },
+        {
+          "id": "4278073",
+          "name": "Shai Gilgeous-Alexander",
+          "number": "2",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "195 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png"
+        },
+        {
+          "id": "4222252",
+          "name": "Isaiah Hartenstein",
+          "number": "55",
+          "position": "C",
+          "height": "7' 0\"",
+          "weight": "250 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png"
+        },
+        {
+          "id": "4433255",
+          "name": "Chet Holmgren",
+          "number": "7",
+          "position": "C",
+          "height": "7' 1\"",
+          "weight": "208 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png"
+        },
+        {
+          "id": "5174983",
+          "name": "Aday Mara",
+          "number": "15",
+          "position": "C",
+          "height": "7' 3\"",
+          "weight": "262 lbs",
+          "age": 21,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png"
+        },
+        {
+          "id": "4683778",
+          "name": "Jared McCain",
+          "number": "3",
+          "position": "G",
+          "height": "6' 3\"",
+          "weight": "195 lbs",
+          "age": 22,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683778.png"
+        },
+        {
+          "id": "4900671",
+          "name": "Ajay Mitchell",
+          "number": "25",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "190 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png"
+        },
+        {
+          "id": "4432185",
+          "name": "Micah Peavy",
+          "number": "",
+          "position": "G",
+          "height": "6' 7\"",
+          "weight": "220 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432185.png"
+        },
+        {
+          "id": "5061603",
+          "name": "Thomas Sorber",
+          "number": "12",
+          "position": "C",
+          "height": "6' 9\"",
+          "weight": "250 lbs",
+          "age": 20,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061603.png"
+        },
+        {
+          "id": "5241364",
+          "name": "Bennett Stirtz",
+          "number": "14",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "190 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png"
+        },
+        {
+          "id": "5159925",
+          "name": "Nikola Topic",
+          "number": "44",
+          "position": "G",
+          "height": "6' 6\"",
+          "weight": "200 lbs",
+          "age": 21,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5159925.png"
+        },
+        {
+          "id": "4683692",
+          "name": "Cason Wallace",
+          "number": "22",
+          "position": "G",
+          "height": "6' 3\"",
+          "weight": "195 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png"
+        },
+        {
+          "id": "4593803",
+          "name": "Jalen Williams",
+          "number": "8",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "211 lbs",
+          "age": 25,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593803.png"
+        },
+        {
+          "id": "4432823",
+          "name": "Jaylin Williams",
+          "number": "6",
+          "position": "F",
+          "height": "6' 9\"",
+          "weight": "240 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png"
+        },
+        {
+          "id": "3133626",
+          "name": "Kenrich Williams",
+          "number": "34",
+          "position": "G",
+          "height": "6' 7\"",
+          "weight": "210 lbs",
+          "age": 31,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133626.png"
+        }
+      ]
+    },
+    {
       "id": "29",
       "name": "Memphis Grizzlies",
       "abbreviation": "MEM",
@@ -3837,16 +3827,6 @@
           "weight": "253 lbs",
           "age": 19,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png"
-        },
-        {
-          "id": "5105817",
-          "name": "Carson Cooper",
-          "number": "20",
-          "position": "C",
-          "height": "6' 11\"",
-          "weight": "245 lbs",
-          "age": 22,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png"
         },
         {
           "id": "4903027",
@@ -3945,7 +3925,7 @@
           "position": "G",
           "height": "6' 2\"",
           "weight": "170 lbs",
-          "age": 25,
+          "age": 26,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431785.png"
         },
         {
@@ -4568,6 +4548,185 @@
       ]
     },
     {
+      "id": "21",
+      "name": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "conference": "West",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+      "players": [
+        {
+          "id": "3136193",
+          "name": "Devin Booker",
+          "number": "15",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "206 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png"
+        },
+        {
+          "id": "4280245",
+          "name": "Jamaree Bouyea",
+          "number": "17",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "180 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4280245.png"
+        },
+        {
+          "id": "4066383",
+          "name": "Miles Bridges",
+          "number": "22",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "225 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066383.png"
+        },
+        {
+          "id": "3155526",
+          "name": "Dillon Brooks",
+          "number": "3",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "225 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155526.png"
+        },
+        {
+          "id": "4888725",
+          "name": "Ryan Dunn",
+          "number": "0",
+          "position": "F",
+          "height": "6' 7\"",
+          "weight": "216 lbs",
+          "age": 23,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4888725.png"
+        },
+        {
+          "id": "5105977",
+          "name": "Rasheer Fleming",
+          "number": "20",
+          "position": "F",
+          "height": "6' 9\"",
+          "weight": "240 lbs",
+          "age": 22,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105977.png"
+        },
+        {
+          "id": "4278585",
+          "name": "Collin Gillespie",
+          "number": "12",
+          "position": "G",
+          "height": "6' 1\"",
+          "weight": "195 lbs",
+          "age": 27,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278585.png"
+        },
+        {
+          "id": "4278402",
+          "name": "Jordan Goodwin",
+          "number": "23",
+          "position": "G",
+          "height": "6' 3\"",
+          "weight": "215 lbs",
+          "age": 28,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png"
+        },
+        {
+          "id": "4437244",
+          "name": "Jalen Green",
+          "number": "4",
+          "position": "G",
+          "height": "6' 4\"",
+          "weight": "186 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4437244.png"
+        },
+        {
+          "id": "4601023",
+          "name": "Oso Ighodaro",
+          "number": "11",
+          "position": "F",
+          "height": "6' 11\"",
+          "weight": "235 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4601023.png"
+        },
+        {
+          "id": "3913174",
+          "name": "Luke Kennard",
+          "number": "8",
+          "position": "G",
+          "height": "6' 5\"",
+          "weight": "206 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913174.png"
+        },
+        {
+          "id": "5203685",
+          "name": "Khaman Maluach",
+          "number": "10",
+          "position": "C",
+          "height": "7' 2\"",
+          "weight": "250 lbs",
+          "age": 20,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5203685.png"
+        },
+        {
+          "id": "5041953",
+          "name": "Koa Peat",
+          "number": "18",
+          "position": "F",
+          "height": "6' 8\"",
+          "weight": "245 lbs",
+          "age": 19,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041953.png"
+        },
+        {
+          "id": "4066268",
+          "name": "Duop Reath",
+          "number": "26",
+          "position": "C",
+          "height": "6' 9\"",
+          "weight": "245 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066268.png"
+        },
+        {
+          "id": "4592714",
+          "name": "Pat Spencer",
+          "number": "61",
+          "position": "G",
+          "height": "6' 2\"",
+          "weight": "205 lbs",
+          "age": 30,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592714.png"
+        },
+        {
+          "id": "4431695",
+          "name": "Drew Timme",
+          "number": "2",
+          "position": "F",
+          "height": "6' 10\"",
+          "weight": "235 lbs",
+          "age": 26,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431695.png"
+        },
+        {
+          "id": "4701232",
+          "name": "Mark Williams",
+          "number": "25",
+          "position": "C",
+          "height": "7' 1\"",
+          "weight": "240 lbs",
+          "age": 24,
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png"
+        }
+      ]
+    },
+    {
       "id": "3",
       "name": "New Orleans Pelicans",
       "abbreviation": "NO",
@@ -4753,185 +4912,6 @@
           "weight": "284 lbs",
           "age": 26,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395628.png"
-        }
-      ]
-    },
-    {
-      "id": "21",
-      "name": "Phoenix Suns",
-      "abbreviation": "PHX",
-      "conference": "West",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-      "players": [
-        {
-          "id": "3136193",
-          "name": "Devin Booker",
-          "number": "15",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "206 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136193.png"
-        },
-        {
-          "id": "4280245",
-          "name": "Jamaree Bouyea",
-          "number": "17",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "180 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4280245.png"
-        },
-        {
-          "id": "4066383",
-          "name": "Miles Bridges",
-          "number": "22",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "225 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066383.png"
-        },
-        {
-          "id": "3155526",
-          "name": "Dillon Brooks",
-          "number": "3",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "225 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155526.png"
-        },
-        {
-          "id": "4888725",
-          "name": "Ryan Dunn",
-          "number": "0",
-          "position": "F",
-          "height": "6' 7\"",
-          "weight": "216 lbs",
-          "age": 23,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4888725.png"
-        },
-        {
-          "id": "5105977",
-          "name": "Rasheer Fleming",
-          "number": "20",
-          "position": "F",
-          "height": "6' 9\"",
-          "weight": "240 lbs",
-          "age": 22,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105977.png"
-        },
-        {
-          "id": "4278585",
-          "name": "Collin Gillespie",
-          "number": "12",
-          "position": "G",
-          "height": "6' 1\"",
-          "weight": "195 lbs",
-          "age": 27,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278585.png"
-        },
-        {
-          "id": "4278402",
-          "name": "Jordan Goodwin",
-          "number": "23",
-          "position": "G",
-          "height": "6' 3\"",
-          "weight": "215 lbs",
-          "age": 28,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278402.png"
-        },
-        {
-          "id": "4437244",
-          "name": "Jalen Green",
-          "number": "4",
-          "position": "G",
-          "height": "6' 4\"",
-          "weight": "186 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4437244.png"
-        },
-        {
-          "id": "4601023",
-          "name": "Oso Ighodaro",
-          "number": "11",
-          "position": "F",
-          "height": "6' 11\"",
-          "weight": "235 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4601023.png"
-        },
-        {
-          "id": "3913174",
-          "name": "Luke Kennard",
-          "number": "8",
-          "position": "G",
-          "height": "6' 5\"",
-          "weight": "206 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3913174.png"
-        },
-        {
-          "id": "5203685",
-          "name": "Khaman Maluach",
-          "number": "10",
-          "position": "C",
-          "height": "7' 2\"",
-          "weight": "250 lbs",
-          "age": 20,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5203685.png"
-        },
-        {
-          "id": "5041953",
-          "name": "Koa Peat",
-          "number": "18",
-          "position": "F",
-          "height": "6' 8\"",
-          "weight": "245 lbs",
-          "age": 19,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041953.png"
-        },
-        {
-          "id": "4066268",
-          "name": "Duop Reath",
-          "number": "26",
-          "position": "C",
-          "height": "6' 9\"",
-          "weight": "245 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066268.png"
-        },
-        {
-          "id": "4592714",
-          "name": "Pat Spencer",
-          "number": "61",
-          "position": "G",
-          "height": "6' 2\"",
-          "weight": "205 lbs",
-          "age": 30,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592714.png"
-        },
-        {
-          "id": "4431695",
-          "name": "Drew Timme",
-          "number": "2",
-          "position": "F",
-          "height": "6' 10\"",
-          "weight": "235 lbs",
-          "age": 26,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431695.png"
-        },
-        {
-          "id": "4701232",
-          "name": "Mark Williams",
-          "number": "25",
-          "position": "C",
-          "height": "7' 1\"",
-          "weight": "240 lbs",
-          "age": 24,
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701232.png"
         }
       ]
     },
@@ -5198,7 +5178,7 @@
           "position": "F",
           "height": "6' 7\"",
           "weight": "225 lbs",
-          "age": 23,
+          "age": 24,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png"
         },
         {

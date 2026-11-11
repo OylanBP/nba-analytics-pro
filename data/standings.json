@@ -1,27 +1,27 @@
 {
   "source": "ESPN public standings endpoint (unofficial)",
   "source_url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?region=us&lang=en&contentorigin=espn",
-  "updated_at_utc": "2026-11-10T15:18:19+00:00",
+  "updated_at_utc": "2026-11-11T14:48:20+00:00",
   "teams": [
+    {
+      "id": "2",
+      "name": "Boston Celtics",
+      "abbreviation": "BOS",
+      "conference": "East",
+      "wins": 9,
+      "losses": 2,
+      "win_pct": 0.8182,
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+    },
     {
       "id": "20",
       "name": "Philadelphia 76ers",
       "abbreviation": "PHI",
       "conference": "East",
       "wins": 9,
-      "losses": 2,
-      "win_pct": 0.8182,
+      "losses": 3,
+      "win_pct": 0.75,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
-    },
-    {
-      "id": "2",
-      "name": "Boston Celtics",
-      "abbreviation": "BOS",
-      "conference": "East",
-      "wins": 8,
-      "losses": 2,
-      "win_pct": 0.8,
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
     },
     {
       "id": "8",
@@ -34,6 +34,16 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
     },
     {
+      "id": "18",
+      "name": "New York Knicks",
+      "abbreviation": "NY",
+      "conference": "East",
+      "wins": 6,
+      "losses": 4,
+      "win_pct": 0.6,
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
+    },
+    {
       "id": "1",
       "name": "Atlanta Hawks",
       "abbreviation": "ATL",
@@ -42,16 +52,6 @@
       "losses": 5,
       "win_pct": 0.5833,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
-    },
-    {
-      "id": "18",
-      "name": "New York Knicks",
-      "abbreviation": "NY",
-      "conference": "East",
-      "wins": 5,
-      "losses": 4,
-      "win_pct": 0.5556,
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png"
     },
     {
       "id": "28",
@@ -78,9 +78,9 @@
       "name": "Miami Heat",
       "abbreviation": "MIA",
       "conference": "East",
-      "wins": 4,
+      "wins": 5,
       "losses": 6,
-      "win_pct": 0.4,
+      "win_pct": 0.4545,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
     },
     {
@@ -104,6 +104,16 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
     },
     {
+      "id": "19",
+      "name": "Orlando Magic",
+      "abbreviation": "ORL",
+      "conference": "East",
+      "wins": 3,
+      "losses": 7,
+      "win_pct": 0.3,
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+    },
+    {
       "id": "11",
       "name": "Indiana Pacers",
       "abbreviation": "IND",
@@ -112,16 +122,6 @@
       "losses": 8,
       "win_pct": 0.2727,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
-    },
-    {
-      "id": "19",
-      "name": "Orlando Magic",
-      "abbreviation": "ORL",
-      "conference": "East",
-      "wins": 2,
-      "losses": 7,
-      "win_pct": 0.2222,
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
     },
     {
       "id": "17",
@@ -149,8 +149,8 @@
       "abbreviation": "MIL",
       "conference": "East",
       "wins": 1,
-      "losses": 9,
-      "win_pct": 0.1,
+      "losses": 10,
+      "win_pct": 0.0909,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
     },
     {
@@ -172,16 +172,6 @@
       "losses": 2,
       "win_pct": 0.8182,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
-    },
-    {
-      "id": "25",
-      "name": "Oklahoma City Thunder",
-      "abbreviation": "OKC",
-      "conference": "West",
-      "wins": 8,
-      "losses": 2,
-      "win_pct": 0.8,
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
     },
     {
       "id": "9",
@@ -214,6 +204,16 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
     },
     {
+      "id": "25",
+      "name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "conference": "West",
+      "wins": 8,
+      "losses": 3,
+      "win_pct": 0.7273,
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+    },
+    {
       "id": "29",
       "name": "Memphis Grizzlies",
       "abbreviation": "MEM",
@@ -228,9 +228,9 @@
       "name": "Portland Trail Blazers",
       "abbreviation": "POR",
       "conference": "West",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
-      "win_pct": 0.6667,
+      "win_pct": 0.7,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
     },
     {
@@ -254,6 +254,16 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
     },
     {
+      "id": "21",
+      "name": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "conference": "West",
+      "wins": 4,
+      "losses": 6,
+      "win_pct": 0.4,
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+    },
+    {
       "id": "3",
       "name": "New Orleans Pelicans",
       "abbreviation": "NO",
@@ -264,23 +274,13 @@
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
     },
     {
-      "id": "21",
-      "name": "Phoenix Suns",
-      "abbreviation": "PHX",
-      "conference": "West",
-      "wins": 3,
-      "losses": 6,
-      "win_pct": 0.3333,
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
-    },
-    {
       "id": "12",
       "name": "LA Clippers",
       "abbreviation": "LAC",
       "conference": "West",
       "wins": 2,
-      "losses": 7,
-      "win_pct": 0.2222,
+      "losses": 8,
+      "win_pct": 0.2,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
     },
     {
@@ -289,8 +289,8 @@
       "abbreviation": "SAC",
       "conference": "West",
       "wins": 1,
-      "losses": 9,
-      "win_pct": 0.1,
+      "losses": 10,
+      "win_pct": 0.0909,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
     },
     {
@@ -299,8 +299,8 @@
       "abbreviation": "UTAH",
       "conference": "West",
       "wins": 1,
-      "losses": 9,
-      "win_pct": 0.1,
+      "losses": 10,
+      "win_pct": 0.0909,
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
     }
   ]
