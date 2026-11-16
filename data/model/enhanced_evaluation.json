@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-09T17:33:19.205314+00:00",
+  "generated_utc": "2026-11-16T17:05:13.668312+00:00",
   "features": [
     "home_win_pct_before",
     "away_win_pct_before",
@@ -15,10 +15,10 @@
   "methods": "expanding window, pregame features only",
   "models": {
     "baseline": {
-      "n": 656,
-      "brier": 0.217492,
-      "log_loss": 0.62691,
-      "accuracy": 0.705793,
+      "n": 707,
+      "brier": 0.216367,
+      "log_loss": 0.624529,
+      "accuracy": 0.708628,
       "folds": [
         {
           "start": "2026-01-31",
@@ -52,47 +52,47 @@
         },
         {
           "start": "2026-11-02",
-          "end": "2026-11-09",
+          "end": "2026-11-16",
           "train_games": 1320,
-          "test_games": 56
+          "test_games": 107
         }
       ],
       "calibration": [
         {
           "range": "20-30%",
-          "n": 9,
-          "predicted": 0.2248,
-          "observed": 0.1111
+          "n": 11,
+          "predicted": 0.2342,
+          "observed": 0.0909
         },
         {
           "range": "30-40%",
-          "n": 24,
-          "predicted": 0.357,
-          "observed": 0.1667
+          "n": 32,
+          "predicted": 0.3576,
+          "observed": 0.1875
         },
         {
           "range": "40-50%",
-          "n": 153,
-          "predicted": 0.4608,
-          "observed": 0.2418
+          "n": 164,
+          "predicted": 0.46,
+          "observed": 0.2439
         },
         {
           "range": "50-60%",
-          "n": 294,
-          "predicted": 0.5522,
-          "observed": 0.5952
+          "n": 309,
+          "predicted": 0.5518,
+          "observed": 0.6019
         },
         {
           "range": "60-70%",
-          "n": 147,
-          "predicted": 0.6376,
-          "observed": 0.8435
+          "n": 159,
+          "predicted": 0.6383,
+          "observed": 0.8365
         },
         {
           "range": "70-80%",
-          "n": 26,
-          "predicted": 0.7336,
-          "observed": 0.6923
+          "n": 29,
+          "predicted": 0.7348,
+          "observed": 0.6897
         },
         {
           "range": "80-90%",
@@ -103,10 +103,10 @@
       ]
     },
     "enhanced": {
-      "n": 656,
-      "brier": 0.195588,
-      "log_loss": 0.576552,
-      "accuracy": 0.71189,
+      "n": 707,
+      "brier": 0.194625,
+      "log_loss": 0.574412,
+      "accuracy": 0.7157,
       "folds": [
         {
           "start": "2026-01-31",
@@ -140,65 +140,65 @@
         },
         {
           "start": "2026-11-02",
-          "end": "2026-11-09",
+          "end": "2026-11-16",
           "train_games": 1320,
-          "test_games": 56
+          "test_games": 107
         }
       ],
       "calibration": [
         {
           "range": "0-10%",
-          "n": 2,
-          "predicted": 0.0627,
+          "n": 3,
+          "predicted": 0.0722,
           "observed": 0.0
         },
         {
           "range": "10-20%",
-          "n": 24,
-          "predicted": 0.1645,
-          "observed": 0.0417
+          "n": 26,
+          "predicted": 0.162,
+          "observed": 0.0385
         },
         {
           "range": "20-30%",
-          "n": 46,
-          "predicted": 0.2515,
-          "observed": 0.1739
+          "n": 54,
+          "predicted": 0.2509,
+          "observed": 0.1667
         },
         {
           "range": "30-40%",
-          "n": 71,
-          "predicted": 0.3507,
-          "observed": 0.2535
+          "n": 81,
+          "predicted": 0.3515,
+          "observed": 0.2716
         },
         {
           "range": "40-50%",
-          "n": 111,
-          "predicted": 0.4535,
-          "observed": 0.4234
+          "n": 116,
+          "predicted": 0.4536,
+          "observed": 0.4224
         },
         {
           "range": "50-60%",
-          "n": 147,
-          "predicted": 0.5504,
-          "observed": 0.585
+          "n": 154,
+          "predicted": 0.5505,
+          "observed": 0.5974
         },
         {
           "range": "60-70%",
-          "n": 104,
-          "predicted": 0.65,
-          "observed": 0.7404
+          "n": 111,
+          "predicted": 0.6496,
+          "observed": 0.7297
         },
         {
           "range": "70-80%",
-          "n": 84,
-          "predicted": 0.7492,
-          "observed": 0.8571
+          "n": 90,
+          "predicted": 0.7482,
+          "observed": 0.8667
         },
         {
           "range": "80-90%",
-          "n": 61,
+          "n": 66,
           "predicted": 0.8453,
-          "observed": 0.7541
+          "observed": 0.7576
         },
         {
           "range": "90-100%",

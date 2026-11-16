@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-09T17:32:28.624029+00:00",
+  "generated_utc": "2026-11-16T17:04:21.564410+00:00",
   "method": "expanding-window out-of-sample, baseline logistic regression",
   "folds": [
     {
@@ -64,18 +64,18 @@
     },
     {
       "train_games": 1320,
-      "test_games": 56,
+      "test_games": 107,
       "test_start": "2026-11-02",
-      "test_end": "2026-11-09",
-      "brier": 0.208835,
-      "log_loss": 0.610064,
-      "accuracy": 0.714286,
-      "n": 56
+      "test_end": "2026-11-16",
+      "brier": 0.204777,
+      "log_loss": 0.600679,
+      "accuracy": 0.728972,
+      "n": 107
     }
   ],
-  "evaluated_games": 776,
-  "brier": 0.219449,
-  "accuracy": 0.688144,
+  "evaluated_games": 827,
+  "brier": 0.21827,
+  "accuracy": 0.691657,
   "calibration": [
     {
       "probability_bin": "10-20%",
@@ -85,39 +85,39 @@
     },
     {
       "probability_bin": "20-30%",
-      "games": 6,
-      "mean_prediction": 0.2839,
-      "actual_win_rate": 0.1667
+      "games": 9,
+      "mean_prediction": 0.28,
+      "actual_win_rate": 0.1111
     },
     {
       "probability_bin": "30-40%",
-      "games": 28,
-      "mean_prediction": 0.3686,
-      "actual_win_rate": 0.1786
+      "games": 36,
+      "mean_prediction": 0.3675,
+      "actual_win_rate": 0.1944
     },
     {
       "probability_bin": "40-50%",
-      "games": 175,
-      "mean_prediction": 0.4623,
-      "actual_win_rate": 0.2629
+      "games": 185,
+      "mean_prediction": 0.4614,
+      "actual_win_rate": 0.2649
     },
     {
       "probability_bin": "50-60%",
-      "games": 336,
-      "mean_prediction": 0.5526,
-      "actual_win_rate": 0.5714
+      "games": 350,
+      "mean_prediction": 0.5521,
+      "actual_win_rate": 0.5771
     },
     {
       "probability_bin": "60-70%",
-      "games": 189,
-      "mean_prediction": 0.6399,
-      "actual_win_rate": 0.8148
+      "games": 202,
+      "mean_prediction": 0.6405,
+      "actual_win_rate": 0.8119
     },
     {
       "probability_bin": "70-80%",
-      "games": 32,
-      "mean_prediction": 0.737,
-      "actual_win_rate": 0.7188
+      "games": 35,
+      "mean_prediction": 0.7385,
+      "actual_win_rate": 0.7143
     },
     {
       "probability_bin": "80-90%",
