@@ -129,3 +129,21 @@ test('Curry story links to its checked source',async({page},testInfo)=>{
  await expect(page.locator('.bio-story a')).toHaveAttribute('href','https://jr.nba.com/player-profile-stephen-curry/');
  await page.screenshot({path:testInfo.outputPath('player-background-mobile.png')});
 });
+
+test('VJ Edgecombe shows his sourced childhood story and existing stats',async({page})=>{
+ const id='5124612';
+ const rosters=require('../data/rosters.json');
+ const standings=require('../data/standings.json');
+ const team=rosters.teams.find(entry=>entry.players.some(player=>String(player.id)===id));
+ test.skip(!team,'The player is no longer on the active roster.');
+ const conf=standings.teams.find(entry=>String(entry.id)===String(team.id)).conference;
+ await page.setViewportSize({width:320,height:844});
+ await page.goto(base);
+ await page.locator(`.tab[data-conf="${conf}"]`).click();
+ await page.locator(`.team-button[data-id="${team.id}"]`).click();
+ await page.locator(`.player-open[data-player-id="${id}"]`).click();
+ const story=page.locator('.bio-story');
+ await expect(story).toContainText('比米尼島');
+ await expect(story.locator('a')).toHaveAttribute('href','https://www.theplayerstribune.com/vj-edgecombe-nba-philadelphia-76ers-basketball');
+ await expect(page.locator('.profile-grid')).toContainText('得分');
+});
