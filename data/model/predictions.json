@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T12:57:00.206860+00:00",
+  "generated_utc": "2026-11-20T15:50:12.805897+00:00",
   "model_trained_utc": "2026-11-16T17:05:17.187297+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
@@ -1295,9 +1295,9 @@
       "date": "2026-11-21T18:00Z",
       "home": "20",
       "away": "15",
-      "home_win_probability": 0.8848,
-      "away_win_probability": 0.1152,
-      "baseline_home_probability": 0.8848,
+      "home_win_probability": 0.8801,
+      "away_win_probability": 0.1199,
+      "baseline_home_probability": 0.8801,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1321,9 +1321,9 @@
       "date": "2026-11-22T00:30Z",
       "home": "18",
       "away": "22",
-      "home_win_probability": 0.6107,
-      "away_win_probability": 0.3893,
-      "baseline_home_probability": 0.6107,
+      "home_win_probability": 0.6158,
+      "away_win_probability": 0.3842,
+      "baseline_home_probability": 0.6158,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1347,9 +1347,9 @@
       "date": "2026-11-22T01:00Z",
       "home": "6",
       "away": "12",
-      "home_win_probability": 0.6471,
-      "away_win_probability": 0.3529,
-      "baseline_home_probability": 0.6471,
+      "home_win_probability": 0.6457,
+      "away_win_probability": 0.3543,
+      "baseline_home_probability": 0.6457,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1373,9 +1373,9 @@
       "date": "2026-11-22T01:00Z",
       "home": "16",
       "away": "29",
-      "home_win_probability": 0.6685,
-      "away_win_probability": 0.3315,
-      "baseline_home_probability": 0.6685,
+      "home_win_probability": 0.6148,
+      "away_win_probability": 0.3852,
+      "baseline_home_probability": 0.6148,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1399,9 +1399,9 @@
       "date": "2026-11-22T01:00Z",
       "home": "24",
       "away": "3",
-      "home_win_probability": 0.9095,
-      "away_win_probability": 0.0905,
-      "baseline_home_probability": 0.9095,
+      "home_win_probability": 0.9097,
+      "away_win_probability": 0.0903,
+      "baseline_home_probability": 0.9097,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1571,9 +1571,9 @@
       "date": "2026-11-23T01:00Z",
       "home": "18",
       "away": "11",
-      "home_win_probability": 0.8184,
-      "away_win_probability": 0.1816,
-      "baseline_home_probability": 0.8184,
+      "home_win_probability": 0.82,
+      "away_win_probability": 0.18,
+      "baseline_home_probability": 0.82,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1595,9 +1595,9 @@
       "date": "2026-11-23T01:30Z",
       "home": "9",
       "away": "2",
-      "home_win_probability": 0.3675,
-      "away_win_probability": 0.6325,
-      "baseline_home_probability": 0.3675,
+      "home_win_probability": 0.312,
+      "away_win_probability": 0.688,
+      "baseline_home_probability": 0.312,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1619,9 +1619,9 @@
       "date": "2026-11-24T00:00Z",
       "home": "30",
       "away": "29",
-      "home_win_probability": 0.3253,
-      "away_win_probability": 0.6747,
-      "baseline_home_probability": 0.3253,
+      "home_win_probability": 0.3205,
+      "away_win_probability": 0.6795,
+      "baseline_home_probability": 0.3205,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1643,9 +1643,9 @@
       "date": "2026-11-24T00:00Z",
       "home": "20",
       "away": "22",
-      "home_win_probability": 0.6098,
-      "away_win_probability": 0.3902,
-      "baseline_home_probability": 0.6098,
+      "home_win_probability": 0.6123,
+      "away_win_probability": 0.3877,
+      "baseline_home_probability": 0.6123,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1691,9 +1691,9 @@
       "date": "2026-11-24T00:30Z",
       "home": "28",
       "away": "15",
-      "home_win_probability": 0.7398,
-      "away_win_probability": 0.2602,
-      "baseline_home_probability": 0.7398,
+      "home_win_probability": 0.731,
+      "away_win_probability": 0.269,
+      "baseline_home_probability": 0.731,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1715,9 +1715,9 @@
       "date": "2026-11-24T00:30Z",
       "home": "16",
       "away": "17",
-      "home_win_probability": 0.87,
-      "away_win_probability": 0.13,
-      "baseline_home_probability": 0.87,
+      "home_win_probability": 0.844,
+      "away_win_probability": 0.156,
+      "baseline_home_probability": 0.844,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1787,9 +1787,9 @@
       "date": "2026-11-24T01:30Z",
       "home": "10",
       "away": "12",
-      "home_win_probability": 0.8197,
-      "away_win_probability": 0.1803,
-      "baseline_home_probability": 0.8197,
+      "home_win_probability": 0.8188,
+      "away_win_probability": 0.1812,
+      "baseline_home_probability": 0.8188,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1835,9 +1835,9 @@
       "date": "2026-11-24T03:00Z",
       "home": "23",
       "away": "24",
-      "home_win_probability": 0.1139,
-      "away_win_probability": 0.8861,
-      "baseline_home_probability": 0.1139,
+      "home_win_probability": 0.1107,
+      "away_win_probability": 0.8893,
+      "baseline_home_probability": 0.1107,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -1979,9 +1979,9 @@
       "date": "2026-11-26T00:30Z",
       "home": "18",
       "away": "5",
-      "home_win_probability": 0.6978,
-      "away_win_probability": 0.3022,
-      "baseline_home_probability": 0.6978,
+      "home_win_probability": 0.7001,
+      "away_win_probability": 0.2999,
+      "baseline_home_probability": 0.7001,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2003,9 +2003,9 @@
       "date": "2026-11-26T00:30Z",
       "home": "25",
       "away": "16",
-      "home_win_probability": 0.515,
-      "away_win_probability": 0.485,
-      "baseline_home_probability": 0.515,
+      "home_win_probability": 0.5595,
+      "away_win_probability": 0.4405,
+      "baseline_home_probability": 0.5595,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2027,9 +2027,9 @@
       "date": "2026-11-26T01:00Z",
       "home": "29",
       "away": "12",
-      "home_win_probability": 0.7674,
-      "away_win_probability": 0.2326,
-      "baseline_home_probability": 0.7674,
+      "home_win_probability": 0.7675,
+      "away_win_probability": 0.2325,
+      "baseline_home_probability": 0.7675,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2051,9 +2051,9 @@
       "date": "2026-11-26T01:00Z",
       "home": "15",
       "away": "17",
-      "home_win_probability": 0.4778,
-      "away_win_probability": 0.5222,
-      "baseline_home_probability": 0.4778,
+      "home_win_probability": 0.4852,
+      "away_win_probability": 0.5148,
+      "baseline_home_probability": 0.4852,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2099,9 +2099,9 @@
       "date": "2026-11-26T03:00Z",
       "home": "9",
       "away": "23",
-      "home_win_probability": 0.8286,
-      "away_win_probability": 0.1714,
-      "baseline_home_probability": 0.8286,
+      "home_win_probability": 0.7905,
+      "away_win_probability": 0.2095,
+      "baseline_home_probability": 0.7905,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2123,9 +2123,9 @@
       "date": "2026-11-26T03:00Z",
       "home": "22",
       "away": "24",
-      "home_win_probability": 0.4028,
-      "away_win_probability": 0.5972,
-      "baseline_home_probability": 0.4028,
+      "home_win_probability": 0.3857,
+      "away_win_probability": 0.6143,
+      "baseline_home_probability": 0.3857,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2147,9 +2147,9 @@
       "date": "2026-11-28T00:00Z",
       "home": "18",
       "away": "14",
-      "home_win_probability": 0.6341,
-      "away_win_probability": 0.3659,
-      "baseline_home_probability": 0.6341,
+      "home_win_probability": 0.6366,
+      "away_win_probability": 0.3634,
+      "baseline_home_probability": 0.6366,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2171,9 +2171,9 @@
       "date": "2026-11-28T00:30Z",
       "home": "8",
       "away": "15",
-      "home_win_probability": 0.908,
-      "away_win_probability": 0.092,
-      "baseline_home_probability": 0.908,
+      "home_win_probability": 0.9041,
+      "away_win_probability": 0.0959,
+      "baseline_home_probability": 0.9041,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2267,9 +2267,9 @@
       "date": "2026-11-28T01:30Z",
       "home": "16",
       "away": "29",
-      "home_win_probability": 0.6885,
-      "away_win_probability": 0.3115,
-      "baseline_home_probability": 0.6885,
+      "home_win_probability": 0.6362,
+      "away_win_probability": 0.3638,
+      "baseline_home_probability": 0.6362,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2315,9 +2315,9 @@
       "date": "2026-11-28T02:30Z",
       "home": "24",
       "away": "13",
-      "home_win_probability": 0.663,
-      "away_win_probability": 0.337,
-      "baseline_home_probability": 0.663,
+      "home_win_probability": 0.6634,
+      "away_win_probability": 0.3366,
+      "baseline_home_probability": 0.6634,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2363,9 +2363,9 @@
       "date": "2026-11-28T02:30Z",
       "home": "12",
       "away": "3",
-      "home_win_probability": 0.6697,
-      "away_win_probability": 0.3303,
-      "baseline_home_probability": 0.6697,
+      "home_win_probability": 0.664,
+      "away_win_probability": 0.336,
+      "baseline_home_probability": 0.664,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2387,9 +2387,9 @@
       "date": "2026-11-28T02:30Z",
       "home": "22",
       "away": "9",
-      "home_win_probability": 0.668,
-      "away_win_probability": 0.332,
-      "baseline_home_probability": 0.668,
+      "home_win_probability": 0.709,
+      "away_win_probability": 0.291,
+      "baseline_home_probability": 0.709,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2483,9 +2483,9 @@
       "date": "2026-11-29T01:00Z",
       "home": "15",
       "away": "25",
-      "home_win_probability": 0.1989,
-      "away_win_probability": 0.8011,
-      "baseline_home_probability": 0.1989,
+      "home_win_probability": 0.2036,
+      "away_win_probability": 0.7964,
+      "baseline_home_probability": 0.2036,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2527,13 +2527,37 @@
       "model_name": "elo_recent_form"
     },
     {
+      "id": "401910054",
+      "date": "2026-11-29T20:30Z",
+      "home": "5",
+      "away": "14",
+      "home_win_probability": 0.5081,
+      "away_win_probability": 0.4919,
+      "baseline_home_probability": 0.5081,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false,
+      "player_roles_in_model": false,
+      "model_name": "elo_recent_form"
+    },
+    {
       "id": "401910051",
       "date": "2026-11-29T21:00Z",
       "home": "29",
       "away": "13",
-      "home_win_probability": 0.4692,
-      "away_win_probability": 0.5308,
-      "baseline_home_probability": 0.4692,
+      "home_win_probability": 0.4709,
+      "away_win_probability": 0.5291,
+      "baseline_home_probability": 0.4709,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2555,9 +2579,9 @@
       "date": "2026-11-29T21:00Z",
       "home": "24",
       "away": "2",
-      "home_win_probability": 0.6515,
-      "away_win_probability": 0.3485,
-      "baseline_home_probability": 0.6515,
+      "home_win_probability": 0.6519,
+      "away_win_probability": 0.3481,
+      "baseline_home_probability": 0.6519,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2582,30 +2606,6 @@
       "home_win_probability": 0.3462,
       "away_win_probability": 0.6538,
       "baseline_home_probability": 0.3462,
-      "injuries": {
-        "home": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": null
-        },
-        "away": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": null
-        }
-      },
-      "injuries_in_model": false,
-      "player_roles_in_model": false,
-      "model_name": "elo_recent_form"
-    },
-    {
-      "id": "401910054",
-      "date": "2026-11-29T23:00Z",
-      "home": "5",
-      "away": "14",
-      "home_win_probability": 0.5081,
-      "away_win_probability": 0.4919,
-      "baseline_home_probability": 0.5081,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2651,9 +2651,9 @@
       "date": "2026-11-29T23:00Z",
       "home": "18",
       "away": "1",
-      "home_win_probability": 0.6726,
-      "away_win_probability": 0.3274,
-      "baseline_home_probability": 0.6726,
+      "home_win_probability": 0.675,
+      "away_win_probability": 0.325,
+      "baseline_home_probability": 0.675,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2699,9 +2699,9 @@
       "date": "2026-11-29T23:00Z",
       "home": "22",
       "away": "3",
-      "home_win_probability": 0.8436,
-      "away_win_probability": 0.1564,
-      "baseline_home_probability": 0.8436,
+      "home_win_probability": 0.8384,
+      "away_win_probability": 0.1616,
+      "baseline_home_probability": 0.8384,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2723,9 +2723,9 @@
       "date": "2026-11-30T01:30Z",
       "home": "9",
       "away": "12",
-      "home_win_probability": 0.7295,
-      "away_win_probability": 0.2705,
-      "baseline_home_probability": 0.7295,
+      "home_win_probability": 0.6766,
+      "away_win_probability": 0.3234,
+      "baseline_home_probability": 0.6766,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2747,9 +2747,9 @@
       "date": "2026-11-30T02:00Z",
       "home": "23",
       "away": "16",
-      "home_win_probability": 0.1722,
-      "away_win_probability": 0.8278,
-      "baseline_home_probability": 0.1722,
+      "home_win_probability": 0.1993,
+      "away_win_probability": 0.8007,
+      "baseline_home_probability": 0.1993,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2891,9 +2891,9 @@
       "date": "2026-12-01T01:00Z",
       "home": "15",
       "away": "24",
-      "home_win_probability": 0.1197,
-      "away_win_probability": 0.8803,
-      "baseline_home_probability": 0.1197,
+      "home_win_probability": 0.1194,
+      "away_win_probability": 0.8806,
+      "baseline_home_probability": 0.1194,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -2963,9 +2963,9 @@
       "date": "2026-12-02T00:00Z",
       "home": "20",
       "away": "29",
-      "home_win_probability": 0.6585,
-      "away_win_probability": 0.3415,
-      "baseline_home_probability": 0.6585,
+      "home_win_probability": 0.6536,
+      "away_win_probability": 0.3464,
+      "baseline_home_probability": 0.6536,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3011,9 +3011,9 @@
       "date": "2026-12-02T01:00Z",
       "home": "4",
       "away": "18",
-      "home_win_probability": 0.3259,
-      "away_win_probability": 0.6741,
-      "baseline_home_probability": 0.3259,
+      "home_win_probability": 0.3171,
+      "away_win_probability": 0.6829,
+      "baseline_home_probability": 0.3171,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3059,9 +3059,9 @@
       "date": "2026-12-02T02:00Z",
       "home": "21",
       "away": "12",
-      "home_win_probability": 0.7542,
-      "away_win_probability": 0.2458,
-      "baseline_home_probability": 0.7542,
+      "home_win_probability": 0.7531,
+      "away_win_probability": 0.2469,
+      "baseline_home_probability": 0.7531,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3083,9 +3083,9 @@
       "date": "2026-12-02T03:00Z",
       "home": "22",
       "away": "16",
-      "home_win_probability": 0.5219,
-      "away_win_probability": 0.4781,
-      "baseline_home_probability": 0.5219,
+      "home_win_probability": 0.5566,
+      "away_win_probability": 0.4434,
+      "baseline_home_probability": 0.5566,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3107,9 +3107,9 @@
       "date": "2026-12-02T04:00Z",
       "home": "9",
       "away": "26",
-      "home_win_probability": 0.784,
-      "away_win_probability": 0.216,
-      "baseline_home_probability": 0.784,
+      "home_win_probability": 0.7391,
+      "away_win_probability": 0.2609,
+      "baseline_home_probability": 0.7391,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3131,9 +3131,9 @@
       "date": "2026-12-03T00:00Z",
       "home": "8",
       "away": "29",
-      "home_win_probability": 0.6931,
-      "away_win_probability": 0.3069,
-      "baseline_home_probability": 0.6931,
+      "home_win_probability": 0.6885,
+      "away_win_probability": 0.3115,
+      "baseline_home_probability": 0.6885,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3227,9 +3227,9 @@
       "date": "2026-12-03T01:00Z",
       "home": "15",
       "away": "18",
-      "home_win_probability": 0.1938,
-      "away_win_probability": 0.8062,
-      "baseline_home_probability": 0.1938,
+      "home_win_probability": 0.1921,
+      "away_win_probability": 0.8079,
+      "baseline_home_probability": 0.1921,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3323,9 +3323,9 @@
       "date": "2026-12-03T03:30Z",
       "home": "12",
       "away": "16",
-      "home_win_probability": 0.2972,
-      "away_win_probability": 0.7028,
-      "baseline_home_probability": 0.2972,
+      "home_win_probability": 0.3302,
+      "away_win_probability": 0.6698,
+      "baseline_home_probability": 0.3302,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3419,9 +3419,9 @@
       "date": "2026-12-04T01:00Z",
       "home": "24",
       "away": "28",
-      "home_win_probability": 0.8843,
-      "away_win_probability": 0.1157,
-      "baseline_home_probability": 0.8843,
+      "home_win_probability": 0.8856,
+      "away_win_probability": 0.1144,
+      "baseline_home_probability": 0.8856,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3443,9 +3443,9 @@
       "date": "2026-12-04T03:00Z",
       "home": "22",
       "away": "26",
-      "home_win_probability": 0.84,
-      "away_win_probability": 0.16,
-      "baseline_home_probability": 0.84,
+      "home_win_probability": 0.836,
+      "away_win_probability": 0.164,
+      "baseline_home_probability": 0.836,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3467,9 +3467,9 @@
       "date": "2026-12-12T22:00Z",
       "home": "29",
       "away": "15",
-      "home_win_probability": 0.8814,
-      "away_win_probability": 0.1186,
-      "baseline_home_probability": 0.8814,
+      "home_win_probability": 0.8789,
+      "away_win_probability": 0.1211,
+      "baseline_home_probability": 0.8789,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3539,9 +3539,9 @@
       "date": "2026-12-13T01:00Z",
       "home": "5",
       "away": "9",
-      "home_win_probability": 0.6075,
-      "away_win_probability": 0.3925,
-      "baseline_home_probability": 0.6075,
+      "home_win_probability": 0.6621,
+      "away_win_probability": 0.3379,
+      "baseline_home_probability": 0.6621,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3563,9 +3563,9 @@
       "date": "2026-12-13T01:30Z",
       "home": "14",
       "away": "18",
-      "home_win_probability": 0.561,
-      "away_win_probability": 0.439,
-      "baseline_home_probability": 0.561,
+      "home_win_probability": 0.5535,
+      "away_win_probability": 0.4465,
+      "baseline_home_probability": 0.5535,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3587,9 +3587,9 @@
       "date": "2026-12-13T02:00Z",
       "home": "21",
       "away": "16",
-      "home_win_probability": 0.4659,
-      "away_win_probability": 0.5341,
-      "baseline_home_probability": 0.4659,
+      "home_win_probability": 0.513,
+      "away_win_probability": 0.487,
+      "baseline_home_probability": 0.513,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3635,9 +3635,9 @@
       "date": "2026-12-13T03:00Z",
       "home": "22",
       "away": "1",
-      "home_win_probability": 0.6471,
-      "away_win_probability": 0.3529,
-      "baseline_home_probability": 0.6471,
+      "home_win_probability": 0.6428,
+      "away_win_probability": 0.3572,
+      "baseline_home_probability": 0.6428,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3755,9 +3755,9 @@
       "date": "2026-12-14T00:00Z",
       "home": "24",
       "away": "12",
-      "home_win_probability": 0.8924,
-      "away_win_probability": 0.1076,
-      "baseline_home_probability": 0.8924,
+      "home_win_probability": 0.8949,
+      "away_win_probability": 0.1051,
+      "baseline_home_probability": 0.8949,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3923,9 +3923,9 @@
       "date": "2026-12-15T01:00Z",
       "home": "6",
       "away": "15",
-      "home_win_probability": 0.8145,
-      "away_win_probability": 0.1855,
-      "baseline_home_probability": 0.8145,
+      "home_win_probability": 0.8083,
+      "away_win_probability": 0.1917,
+      "baseline_home_probability": 0.8083,
       "injuries": {
         "home": {
           "status": "unknown",
@@ -3947,9 +3947,9 @@
       "date": "2026-12-15T01:00Z",
       "home": "29",
       "away": "9",
-      "home_win_probability": 0.6691,
-      "away_win_probability": 0.3309,
-      "baseline_home_probability": 0.6691,
+      "home_win_probability": 0.7225,
+      "away_win_probability": 0.2775,
+      "baseline_home_probability": 0.7225,
       "injuries": {
         "home": {
           "status": "unknown",

@@ -1,6 +1,6 @@
 {
   "source": "ESPN public API (unofficial)",
-  "updated_at_utc": "2026-11-19T16:09:07+00:00",
+  "updated_at_utc": "2026-11-20T15:49:46+00:00",
   "teams": [
     {
       "id": "20",
@@ -2244,7 +2244,7 @@
           "position": "F",
           "height": "6' 9\"",
           "weight": "250 lbs",
-          "age": 28,
+          "age": 29,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066650.png"
         },
         {
@@ -5019,7 +5019,7 @@
           "position": "G",
           "height": "6' 7\"",
           "weight": "200 lbs",
-          "age": 22,
+          "age": 23,
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106258.png"
         },
         {
