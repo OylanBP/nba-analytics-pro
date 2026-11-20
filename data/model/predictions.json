@@ -1,561 +1,8 @@
 {
-  "generated_utc": "2026-11-19T23:36:14.309009+00:00",
+  "generated_utc": "2026-11-20T04:14:45.095817+00:00",
   "model_trained_utc": "2026-11-16T17:05:17.187297+00:00",
   "source": "approved model and archived ESPN games",
   "predictions": [
-    {
-      "id": "401910019",
-      "date": "2026-11-20T01:00Z",
-      "home": "29",
-      "away": "9",
-      "home_win_probability": 0.6468,
-      "away_win_probability": 0.3532,
-      "baseline_home_probability": 0.6203,
-      "injuries": {
-        "home": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Edey, Zach",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 20.7,
-                "points": 9.6
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Jackson, GG",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 14.6,
-                "points": 6.6
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Jerome, Ty",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 30.5,
-                "points": 23.4
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Pippen Jr., Scotty",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 5,
-                "minutes": 16.2,
-                "points": 6.4
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Saunders, Richie",
-              "status": "Out",
-              "reason": "Injury/Illness - Right Knee Surgery"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "29",
-              "name": "Stewart, Isaiah",
-              "status": "Questionable",
-              "reason": "Injury/Illness - Illness",
-              "role": {
-                "games": 10,
-                "minutes": 18.1,
-                "points": 10.9
-              }
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        },
-        "away": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Butler III, Jimmy",
-              "status": "Out",
-              "reason": ""
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Cryer, LJ",
-              "status": "Questionable",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 12.6,
-                "points": 6.8
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Curry, Stephen",
-              "status": "Out",
-              "reason": "Injury/Illness - Right Oblique Tear",
-              "role": {
-                "games": 10,
-                "minutes": 26.5,
-                "points": 27.8
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Green, Draymond",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 25.4,
-                "points": 3.1
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Moody, Moses",
-              "status": "Out",
-              "reason": ""
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Porzingis, Kristaps",
-              "status": "Out",
-              "reason": "Not With Team"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "GSW@MEM",
-              "team_id": "9",
-              "name": "Williams, Brandon",
-              "status": "Out",
-              "reason": "Injury/Illness - Left Hamstring Strain",
-              "role": {
-                "games": 10,
-                "minutes": 16.2,
-                "points": 10.4
-              }
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        }
-      },
-      "injuries_in_model": true,
-      "player_roles_in_model": false,
-      "model_name": "elo_recent_form"
-    },
-    {
-      "id": "401910020",
-      "date": "2026-11-20T01:00Z",
-      "home": "15",
-      "away": "22",
-      "home_win_probability": 0.2526,
-      "away_win_probability": 0.7474,
-      "baseline_home_probability": 0.1919,
-      "injuries": {
-        "home": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "15",
-              "name": "Dieng, Ousmane",
-              "status": "Out",
-              "reason": "Injury/Illness - Left Finger Fracture",
-              "role": {
-                "games": 10,
-                "minutes": 12.3,
-                "points": 3.9
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "15",
-              "name": "Kuzma, Kyle",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 26.8,
-                "points": 13.0
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "15",
-              "name": "Turner, Myles",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 26.3,
-                "points": 7.1
-              }
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        },
-        "away": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Avdija, Deni",
-              "status": "Questionable",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 32.9,
-                "points": 24.7
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Camara, Toumani",
-              "status": "Questionable",
-              "reason": "Injury/Illness - Abdominal Soreness",
-              "role": {
-                "games": 10,
-                "minutes": 30.8,
-                "points": 10.9
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Carlson, Branden",
-              "status": "Available",
-              "reason": "Injury/Illness - Face Mask",
-              "role": {
-                "games": 9,
-                "minutes": 9.4,
-                "points": 2.9
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Krejci, Vit",
-              "status": "Out",
-              "reason": "Injury/Illness - Left Ankle Fracture",
-              "role": {
-                "games": 7,
-                "minutes": 10.3,
-                "points": 2.7
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Morant, Ja",
-              "status": "Out",
-              "reason": "Injury/Illness - Left Hamstring Strain",
-              "role": {
-                "games": 4,
-                "minutes": 26.0,
-                "points": 15.8
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Sharpe, Shaedon",
-              "status": "Out",
-              "reason": ""
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Williams III, Robert",
-              "status": "Out",
-              "reason": "Rest",
-              "role": {
-                "games": 10,
-                "minutes": 16.2,
-                "points": 6.3
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "POR@MIL",
-              "team_id": "22",
-              "name": "Youngblood, Chris",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 6,
-                "minutes": 13.5,
-                "points": 6.0
-              }
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        }
-      },
-      "injuries_in_model": true,
-      "player_roles_in_model": false,
-      "model_name": "elo_recent_form"
-    },
-    {
-      "id": "401910021",
-      "date": "2026-11-20T01:00Z",
-      "home": "16",
-      "away": "18",
-      "home_win_probability": 0.5979,
-      "away_win_probability": 0.4021,
-      "baseline_home_probability": 0.5979,
-      "injuries": {
-        "home": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "Beringer, Joan",
-              "status": "Available",
-              "reason": "Injury/Illness - Face Mask",
-              "role": {
-                "games": 10,
-                "minutes": 17.9,
-                "points": 4.6
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "Clark, Jaylen",
-              "status": "Out",
-              "reason": "Injury/Illness - Right Hamstring Strain",
-              "role": {
-                "games": 10,
-                "minutes": 15.7,
-                "points": 5.3
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "DiVincenzo, Donte",
-              "status": "Out",
-              "reason": ""
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "Edwards, Anthony",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 4,
-                "minutes": 33.8,
-                "points": 33.2
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "Kuminga, Jonathan",
-              "status": "Questionable",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 30.6,
-                "points": 12.7
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "NYK@MIN",
-              "team_id": "16",
-              "name": "Pullin, Zyon",
-              "status": "Available",
-              "reason": "Injury/Illness - Right Quadriceps",
-              "role": {
-                "games": 3,
-                "minutes": 3.7,
-                "points": 1.3
-              }
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        },
-        "away": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-18T18:45:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-18_01_45PM.pdf"
-        }
-      },
-      "injuries_in_model": false,
-      "player_roles_in_model": false,
-      "model_name": "elo_recent_form"
-    },
-    {
-      "id": "401910022",
-      "date": "2026-11-20T01:00Z",
-      "home": "24",
-      "away": "12",
-      "home_win_probability": 0.8585,
-      "away_win_probability": 0.1415,
-      "baseline_home_probability": 0.8718,
-      "injuries": {
-        "home": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "24",
-              "name": "Brown, Maliq",
-              "status": "Out",
-              "reason": "G League - Two-Way"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "24",
-              "name": "Gillespie, Ja'Kobi",
-              "status": "Out",
-              "reason": "G League - Two-Way"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "24",
-              "name": "Harper, Dylan",
-              "status": "Out",
-              "reason": "",
-              "role": {
-                "games": 10,
-                "minutes": 31.4,
-                "points": 19.0
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "24",
-              "name": "Harris, Tobias",
-              "status": "Out",
-              "reason": "Injury/Illness - Left Calf Strain"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "24",
-              "name": "Quaintance, Jayden",
-              "status": "Out",
-              "reason": "Injury/Illness - Right Knee Surgery"
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        },
-        "away": {
-          "status": "verified",
-          "players": [
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "12",
-              "name": "Beal, Bradley",
-              "status": "Out",
-              "reason": ""
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "12",
-              "name": "Ingram, Brandon",
-              "status": "Out",
-              "reason": "Injury/Illness - Right Heel Surgery"
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "12",
-              "name": "Martinelli, Nick",
-              "status": "Out",
-              "reason": "G League - Two-Way",
-              "role": {
-                "games": 6,
-                "minutes": 4.2,
-                "points": 2.8
-              }
-            },
-            {
-              "game_date": "2026-11-19",
-              "matchup": "LAC@SAS",
-              "team_id": "12",
-              "name": "Miller, Jordan",
-              "status": "Out",
-              "reason": ""
-            }
-          ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
-        }
-      },
-      "injuries_in_model": true,
-      "player_roles_in_model": false,
-      "model_name": "elo_recent_form"
-    },
     {
       "id": "401909305",
       "date": "2026-11-21T00:00Z",
@@ -666,8 +113,8 @@
               "reason": "G League - Two-Way"
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -736,8 +183,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -765,8 +212,8 @@
               "reason": "Injury/Illness - Right Ankle Sprain"
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -804,8 +251,8 @@
               "reason": ""
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -888,8 +335,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -963,8 +410,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -1065,8 +512,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -1135,8 +582,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -1229,8 +676,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -1286,8 +733,8 @@
               "reason": ""
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -1380,8 +827,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -1486,8 +933,8 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
       "injuries_in_model": true,
@@ -1499,24 +946,92 @@
       "date": "2026-11-21T02:30Z",
       "home": "26",
       "away": "21",
-      "home_win_probability": 0.3192,
-      "away_win_probability": 0.6808,
+      "home_win_probability": 0.2093,
+      "away_win_probability": 0.7907,
       "baseline_home_probability": 0.3192,
       "injuries": {
         "home": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "status": "verified",
+          "players": [
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Aidoo, Jonas",
+              "status": "Out",
+              "reason": "G League - Two-Way"
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Bufkin, Kobe",
+              "status": "Out",
+              "reason": "G League - Two-Way"
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Ingram, Harrison",
+              "status": "Out",
+              "reason": "G League - Two-Way"
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Jackson Jr., Jaren",
+              "status": "Out",
+              "reason": "Injury/Illness - Right MCL Tear",
+              "role": {
+                "games": 4,
+                "minutes": 26.0,
+                "points": 16.2
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Markkanen, Lauri",
+              "status": "Out",
+              "reason": "Injury/Illness - Right Hand Fracture",
+              "role": {
+                "games": 8,
+                "minutes": 30.9,
+                "points": 18.0
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "26",
+              "name": "Nurkic, Jusuf",
+              "status": "Out",
+              "reason": ""
+            }
+          ],
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "status": "verified",
+          "players": [
+            {
+              "game_date": "2026-11-20",
+              "matchup": "PHX@UTA",
+              "team_id": "21",
+              "name": "Williams, Mark",
+              "status": "Out",
+              "reason": "Injury/Illness - Left Shoulder Surgery"
+            }
+          ],
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
-      "injuries_in_model": false,
+      "injuries_in_model": true,
       "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
@@ -1525,15 +1040,58 @@
       "date": "2026-11-21T03:00Z",
       "home": "7",
       "away": "10",
-      "home_win_probability": 0.5047,
-      "away_win_probability": 0.4953,
+      "home_win_probability": 0.5358,
+      "away_win_probability": 0.4642,
       "baseline_home_probability": 0.5047,
       "injuries": {
         "home": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "status": "verified",
+          "players": [
+            {
+              "game_date": "2026-11-20",
+              "matchup": "HOU@DEN",
+              "team_id": "7",
+              "name": "Holmes II, DaRon",
+              "status": "Out",
+              "reason": "G League - On Assignment",
+              "role": {
+                "games": 4,
+                "minutes": 2.8,
+                "points": 0.8
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "HOU@DEN",
+              "team_id": "7",
+              "name": "Hopkins, Bryce",
+              "status": "Out",
+              "reason": "G League - Two-Way",
+              "role": {
+                "games": 8,
+                "minutes": 13.0,
+                "points": 4.8
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "HOU@DEN",
+              "team_id": "7",
+              "name": "Strawther, Julian",
+              "status": "Out",
+              "reason": "Injury/Illness - Left Knee Sprain"
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "HOU@DEN",
+              "team_id": "7",
+              "name": "Whitmore, Cam",
+              "status": "Out",
+              "reason": "G League - Two-Way"
+            }
+          ],
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
           "status": "verified",
@@ -1607,11 +1165,11 @@
               }
             }
           ],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
-      "injuries_in_model": false,
+      "injuries_in_model": true,
       "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
@@ -1620,24 +1178,115 @@
       "date": "2026-11-21T03:00Z",
       "home": "13",
       "away": "23",
-      "home_win_probability": 0.9055,
-      "away_win_probability": 0.0945,
+      "home_win_probability": 0.9424,
+      "away_win_probability": 0.0576,
       "baseline_home_probability": 0.9055,
       "injuries": {
         "home": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "status": "verified",
+          "players": [
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "13",
+              "name": "Grimes, Quentin",
+              "status": "Available",
+              "reason": "Injury/Illness - Right Finger Splint",
+              "role": {
+                "games": 10,
+                "minutes": 30.4,
+                "points": 14.9
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "13",
+              "name": "Reaves, Austin",
+              "status": "Out",
+              "reason": "",
+              "role": {
+                "games": 10,
+                "minutes": 35.3,
+                "points": 24.5
+              }
+            }
+          ],
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         },
         "away": {
-          "status": "unknown",
-          "players": [],
-          "observed_utc": "2026-11-19T23:30:00+00:00",
-          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_06_30PM.pdf"
+          "status": "verified",
+          "players": [
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Achiuwa, Precious",
+              "status": "Doubtful",
+              "reason": "",
+              "role": {
+                "games": 10,
+                "minutes": 24.3,
+                "points": 8.5
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Hunter, De'Andre",
+              "status": "Questionable",
+              "reason": "Injury/Illness - Left Hip Soreness /",
+              "role": {
+                "games": 10,
+                "minutes": 34.7,
+                "points": 15.4
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Mogbo, Jonathan",
+              "status": "Out",
+              "reason": "G League - Two-Way",
+              "role": {
+                "games": 5,
+                "minutes": 14.2,
+                "points": 3.0
+              }
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Pedulla, Sean",
+              "status": "Out",
+              "reason": "G League - Two-Way"
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Raynaud, Maxime",
+              "status": "Out",
+              "reason": ""
+            },
+            {
+              "game_date": "2026-11-20",
+              "matchup": "SAC@LAL",
+              "team_id": "23",
+              "name": "Simmons, Ben",
+              "status": "Out",
+              "reason": ""
+            }
+          ],
+          "observed_utc": "2026-11-20T04:00:00+00:00",
+          "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-19_11_00PM.pdf"
         }
       },
-      "injuries_in_model": false,
+      "injuries_in_model": true,
       "player_roles_in_model": false,
       "model_name": "elo_recent_form"
     },
@@ -4193,6 +3842,102 @@
       "home_win_probability": 0.4674,
       "away_win_probability": 0.5326,
       "baseline_home_probability": 0.4674,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false,
+      "player_roles_in_model": false,
+      "model_name": "elo_recent_form"
+    },
+    {
+      "id": "401910107",
+      "date": "2026-12-15T00:30Z",
+      "home": "2",
+      "away": "27",
+      "home_win_probability": 0.9087,
+      "away_win_probability": 0.0913,
+      "baseline_home_probability": 0.9087,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false,
+      "player_roles_in_model": false,
+      "model_name": "elo_recent_form"
+    },
+    {
+      "id": "401910108",
+      "date": "2026-12-15T01:00Z",
+      "home": "4",
+      "away": "14",
+      "home_win_probability": 0.3771,
+      "away_win_probability": 0.6229,
+      "baseline_home_probability": 0.3771,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false,
+      "player_roles_in_model": false,
+      "model_name": "elo_recent_form"
+    },
+    {
+      "id": "401910109",
+      "date": "2026-12-15T01:00Z",
+      "home": "6",
+      "away": "15",
+      "home_win_probability": 0.8145,
+      "away_win_probability": 0.1855,
+      "baseline_home_probability": 0.8145,
+      "injuries": {
+        "home": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        },
+        "away": {
+          "status": "unknown",
+          "players": [],
+          "observed_utc": null
+        }
+      },
+      "injuries_in_model": false,
+      "player_roles_in_model": false,
+      "model_name": "elo_recent_form"
+    },
+    {
+      "id": "401910110",
+      "date": "2026-12-15T01:00Z",
+      "home": "29",
+      "away": "9",
+      "home_win_probability": 0.6691,
+      "away_win_probability": 0.3309,
+      "baseline_home_probability": 0.6691,
       "injuries": {
         "home": {
           "status": "unknown",
