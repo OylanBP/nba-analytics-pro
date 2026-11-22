@@ -1,9 +1,9 @@
 {
-  "snapshots": 229,
-  "player_rows": 18739,
-  "historical_completed_games": 1465,
+  "snapshots": 232,
+  "player_rows": 18934,
+  "historical_completed_games": 1471,
   "matched_labeled_games": 863,
-  "invalid_post_tipoff_rows": 383,
+  "invalid_post_tipoff_rows": 407,
   "minimum_labeled_games": 200,
   "ready_to_train": true,
   "reason": "Paired historical labels from both teams in timestamp-verified official PDFs. Snapshot player_rows refers to the live archive only."
