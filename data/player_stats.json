@@ -2,7 +2,7 @@
   "source": "ESPN unofficial public athlete statistics API",
   "season_year": 2027,
   "season_type": "regular",
-  "updated_at_utc": "2026-11-26T17:25:43+00:00",
+  "updated_at_utc": "2026-11-27T17:04:29+00:00",
   "players": {
     "4870562": {
       "gp": "3",
